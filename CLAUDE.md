@@ -4,23 +4,200 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**mcp-fair-shake** is a Model Context Protocol (MCP) server built with **FastMCP** and Python 3.12+. The project uses `uv` for dependency management and follows a pragmatic, minimalist approach to development with an emphasis on working code over perfect code.
+**MCP Fair Shake** is a Model Context Protocol (MCP) server that provides authoritative, unbiased access to **Australian workplace legislation and support pathways**. Built with **FastMCP** and Python 3.12+.
+
+### Core Mission
+
+**Reduce the cost of having timely, grounded, and factual legislation and support pathways in the hands of employees via AI chat assistants and this MCP.**
+
+This is a warning to dodgy and unscrupulous employers: **employees are now more empowered than ever**, and employers will be held accountable via the right and legal pathways that exist and may be underutilized.
+
+### Project Vision
+
+**Goal**: Create a comprehensive, local-first legislation lookup system that:
+1. Provides authoritative access to Australian workplace law (federal and state)
+2. Maps support agencies and resolution pathways for employees
+3. Offers both technical legal text and plain language summaries
+4. Prioritizes employee needs while fairly representing both sides
+5. Maintains data integrity through local caching and checksums
+6. Enables fully offline operation after pre-caching
+
+### Scope & Coverage
+
+**Geographic Coverage:**
+- **Phase 1**: Victoria (state legislation)
+- **Phase 2-4**: Federal workplace legislation (Fair Work Act, etc.)
+- **Phase 5**: All Australian states and territories (NSW, QLD, SA, WA, TAS, NT, ACT)
+
+**Legislative Focus:**
+- Employment contracts and agreements
+- Workplace health and safety (WHS/OHS)
+- Fair Work Act and regulations
+- Modern Awards and Enterprise Agreements
+- Discrimination and equal opportunity
+- Workers' compensation
+- Superannuation and leave entitlements
+- Termination, redundancy, unfair dismissal
+- Workplace bullying and harassment
+- Wage theft and underpayment
+
+**Support Pathways:**
+- Fair Work Commission
+- Fair Work Ombudsman
+- State workplace tribunals (WorkSafe Victoria, etc.)
+- Legal aid and community legal centers
+- Union support services
+- Worker advocacy organizations
 
 ### Key Technologies
 
-- **FastMCP**: Fast, Pythonic way to build MCP servers with clean testing
-- **Python 3.12+**: Modern Python with full type hints
-- **pytest**: Testing with **80% minimum coverage requirement** (currently 83.33%)
-- **ruff**: Fast linting and formatting
-- **mypy**: Strict static type checking
+- **FastMCP**: Fast, Pythonic MCP server framework with in-memory testing
+- **Python 3.12+**: Modern Python with full type hints (mypy strict mode)
+- **pytest**: Testing with **80% minimum coverage requirement**
+- **ruff**: Fast linting and formatting (PEP 8 + project conventions)
 - **uv**: Fast Python package management
+- **DuckDB** (future): Efficient querying of large legislation datasets
+- **Vector embeddings** (future): Semantic search for natural language queries
 
 ### MCP Server Architecture
 
-The server provides tools via the Model Context Protocol for AI assistants like Claude Code and Claude Desktop.
+The server implements a **three-tool pattern** inspired by Context7 and arXiv MCPs:
 
-**Current Tools:**
-- `evaluate` - Fair assessment tool that evaluates a subject against criteria
+#### Planned Tools (Phase 1-3)
+
+**1. resolve-legislation**
+- Resolves natural language or citation queries to canonical legislation IDs
+- Handles fuzzy matching: "unfair dismissal" → `/au-federal/fwa/2009/s394`
+- Ranks results by citation accuracy, jurisdiction match, currency, authority level
+- Filters by jurisdiction (federal/state) and date (historical versions)
+
+**2. get-legislation-content**
+- Fetches legislation from local cache (auto-downloads if needed)
+- Supports three modes:
+  - `text`: Full statutory text with citations and cross-references
+  - `summary`: Plain language summaries for non-lawyers
+  - `metadata`: Enactment dates, amendments, related regulations
+- Section filtering and pagination for long statutes
+- Local-first caching (arXiv pattern) for fast, offline access
+
+**3. get-support**
+- Maps support agencies to relevant legislation
+- Provides step-by-step pathways for common workplace issues
+- Includes contact info, eligibility criteria, deadlines, costs
+- Jurisdiction-specific guidance (federal vs. state processes)
+
+#### Current Tools (Prototype Phase)
+
+**evaluate** (placeholder for testing)
+- Basic fair assessment tool
+- Will be removed in Phase 1 when legislation tools are implemented
+
+### Core Design Principles
+
+1. **Employee-First**: Prioritize the needs of employees who lack resources for legal research
+2. **Fair & Balanced**: Interpret legislation objectively, representing both employer and employee perspectives
+3. **Authoritative Sources**: Only official government websites (legislation.gov.au, state parliamentary sites)
+4. **Local-First Caching**: Download once, query many times (arXiv pattern)
+5. **Fail Loudly**: No silent failures; all errors logged and reported
+6. **Data Integrity**: Checksums and version control for all cached content
+7. **Explicit Triggering**: Require "use fair-shake" phrase (Phase 1)
+8. **Actionable Guidance**: Not just legal text, but next steps and support pathways
+
+### Data Architecture
+
+**Canonical ID Format**: `/{jurisdiction}/{code-type}/{code}/{section?}`
+
+Examples:
+- `/au-federal/fwa/2009/s394` - Fair Work Act 2009, Section 394
+- `/au-victoria/ohs/2004/s21` - OHS Act 2004 (VIC), Section 21
+- `/au-federal/fwr/2009/reg3.01` - Fair Work Regulations
+
+**Storage Structure**:
+```
+data/
+├── legislation/
+│   ├── cache/           # Raw legislation text (human-readable)
+│   │   ├── au-federal/
+│   │   │   ├── fwa-2009.txt
+│   │   │   ├── fwa-2009-metadata.json
+│   │   │   └── fwa-2009.checksum
+│   │   └── au-victoria/
+│   │       └── ohs-2004.txt
+│   ├── summaries/       # Plain language (Phase 2+)
+│   └── parquet/         # Compressed, queryable (Phase 2+)
+├── support-pathways/    # Support agency databases
+│   ├── federal/
+│   └── victoria/
+└── metadata/            # Cache index, update logs, sources
+```
+
+### Phased Implementation
+
+**Phase 1: MVP** (Weeks 1-2)
+- Victorian OHS Act 2004 (single statute)
+- `resolve-legislation` + `get-legislation-content` (text mode only)
+- Local caching, explicit trigger, 80% test coverage
+
+**Phase 2: Victorian Coverage** (Weeks 3-4)
+- All Victorian workplace legislation
+- Summary and metadata modes
+- Parquet storage
+
+**Phase 3: Support Pathways** (Weeks 5-6)
+- `get-support` tool
+- Victorian + federal support agencies
+- Common scenario pathways
+
+**Phase 4: Federal Coverage** (Weeks 7-9)
+- Fair Work Act 2009
+- Federal support pathways
+- Modern Awards (sample)
+
+**Phase 5: National** (Weeks 10-15)
+- All states/territories
+- Automated updates
+
+**Phase 6: Advanced** (Future)
+- DuckDB integration
+- Vector embeddings
+- Smart triggering
+
+### Key Documentation
+
+**CRITICAL**: Read these docs to understand the full project scope and requirements:
+
+- **[REQUIREMENTS.md](docs/REQUIREMENTS.md)**: Complete functional and non-functional requirements
+- **[SPECIFICATION.md](docs/SPECIFICATION.md)**: Technical specifications, tool APIs, data schemas
+- **[ROADMAP.md](docs/ROADMAP.md)**: **LIVE TRACKING DOCUMENT** - Implementation phases, tasks, and completion status
+- **[Context7 Analysis](docs/context7-analysis.md)**: Design patterns from Context7 MCP
+- **[arXiv MCP Analysis](docs/arxiv-mcp-analysis.md)**: Local-first caching patterns
+- **[TESTING.md](TESTING.md)**: Test approach, FastMCP patterns, one-off Claude Code testing
+
+**Don't make the user repeat themselves**: All requirements are documented. Reference these files.
+
+### Project Tracking
+
+**Use [docs/ROADMAP.md](docs/ROADMAP.md) as the single source of truth for tracking implementation progress.**
+
+**Why ROADMAP.md:**
+- Implementation intent and completion in one place
+- Agentic coding tools can read subsections as needed
+- Structured for easy context extraction
+- No need for separate tracking documents
+
+**Update workflow:**
+1. Mark tasks in ROADMAP.md as you complete them: `[ ]` → `[x]`
+2. Add completion dates: `[x] Task name (2025-12-24)`
+3. Update phase status emoji: ⚪ → 🟡 → 🟢
+4. Run `make check` (automatically updates Serena index after linting/type checking pass)
+5. Run `make test` (runs `make check` + pytest with coverage)
+
+**Status emoji:**
+- 🔵 Planning
+- 🟡 In Progress
+- 🟢 Complete
+- 🔴 Blocked
+- ⚪ Not Started
 
 ## Development Commands
 
