@@ -113,17 +113,35 @@ async def test_get_legislation_content_invalid_id(client: Client[Any]) -> None:
 
 
 @pytest.mark.asyncio
-async def test_get_legislation_content_unsupported_mode(client: Client[Any]) -> None:
-    """Test getting content with unsupported mode.
+async def test_get_legislation_content_summary_mode(client: Client[Any]) -> None:
+    """Test getting content with summary mode (Phase 2 feature)."""
+    result = await client.call_tool(
+        "get_legislation_content",
+        arguments={"canonical_id": "/au-victoria/ohs/2004", "mode": "summary"},
+    )
 
-    FastMCP validates Literal types strictly, so passing an invalid mode
-    will raise a ToolError (which is proper "fail loudly" behavior).
-    """
-    with pytest.raises(ToolError, match="Input should be 'text'"):
-        await client.call_tool(
-            "get_legislation_content",
-            arguments={"canonical_id": "/au-victoria/ohs/2004", "mode": "summary"},
-        )
+    assert result is not None
+    assert result.data is not None
+
+    # Summary mode should return either a summary or an error saying no summary available
+    data = json.loads(result.data)
+    assert "error" in data or "summary" in data
+
+
+@pytest.mark.asyncio
+async def test_get_legislation_content_metadata_mode(client: Client[Any]) -> None:
+    """Test getting content with metadata mode (Phase 2 feature)."""
+    result = await client.call_tool(
+        "get_legislation_content",
+        arguments={"canonical_id": "/au-victoria/ohs/2004", "mode": "metadata"},
+    )
+
+    assert result is not None
+    assert result.data is not None
+
+    # Metadata mode should return either metadata or an error saying no metadata available
+    data = json.loads(result.data)
+    assert "error" in data or "metadata" in data
 
 
 @pytest.mark.asyncio

@@ -119,14 +119,15 @@ def resolve_legislation(
 @mcp.tool()
 def get_legislation_content(
     canonical_id: str,
-    mode: Literal["text"] = "text",
+    mode: Literal["text", "summary", "metadata"] = "text",
     section: str | None = None,
 ) -> str:
     """Retrieve legislation content from cache or download if needed.
 
     Args:
         canonical_id: Canonical legislation ID (e.g., "/au-victoria/ohs/2004")
-        mode: Content mode - only "text" supported in Phase 1
+        mode: Content mode - "text" (full statutory text), "summary" (plain language),
+              or "metadata" (dates, amendments, related provisions)
         section: Optional section filter (e.g., "s21")
 
     Returns:
@@ -144,59 +145,92 @@ def get_legislation_content(
     if canonical is None:
         return json.dumps({"error": f"Invalid canonical ID: {canonical_id}"})
 
-    # Only text mode supported in Phase 1
-    if mode != "text":
-        return json.dumps(
-            {
-                "error": f"Mode '{mode}' not yet implemented. "
-                "Only 'text' mode is supported in Phase 1."
-            }
-        )
-
     try:
-        # Fetch content (checks cache first)
-        content = fetcher.fetch(canonical_id)
+        # Handle different modes
+        if mode == "metadata":
+            # Return metadata only
+            metadata = cache_manager.read_metadata(canonical)
+            if not metadata:
+                return json.dumps(
+                    {"error": f"No metadata found for {canonical_id}"}
+                )
 
-        # Filter by section if requested
-        if section:
-            # Simple section filtering (can be enhanced with proper parsing)
-            lines = content.split("\n")
-            section_content = []
-            in_section = False
+            return json.dumps(
+                {
+                    "canonical_id": canonical_id,
+                    "mode": mode,
+                    "metadata": metadata.to_dict(),
+                },
+                indent=2,
+            )
 
-            for line in lines:
-                # Simple pattern matching for sections
-                if (
-                    f"section {section}" in line.lower()
-                    or f"s.{section}" in line.lower()
-                    or f"s {section}" in line.lower()
-                ):
-                    in_section = True
-                elif in_section and line.strip() and line[0].isdigit():
-                    # Stop at next numbered section
-                    break
+        elif mode == "summary":
+            # Return plain language summary
+            from .summaries import get_summary
 
-                if in_section:
-                    section_content.append(line)
+            summary = get_summary(canonical_id, section)
+            if not summary:
+                return json.dumps(
+                    {
+                        "error": f"No summary available for {canonical_id}",
+                        "suggestion": "Use mode='text' to get the full statutory text",
+                    }
+                )
 
-            if section_content:
-                content = "\n".join(section_content)
-            else:
-                content = f"[Section {section} not found in content]\n\n{content[:1000]}..."
+            return json.dumps(
+                {
+                    "canonical_id": canonical_id,
+                    "mode": mode,
+                    "section": section,
+                    "summary": summary,
+                },
+                indent=2,
+            )
 
-        # Get metadata
-        metadata = cache_manager.read_metadata(canonical)
+        else:  # mode == "text"
+            # Fetch full text content (checks cache first)
+            content = fetcher.fetch(canonical_id)
 
-        return json.dumps(
-            {
-                "canonical_id": canonical_id,
-                "mode": mode,
-                "section": section,
-                "content": content,
-                "metadata": metadata.to_dict() if metadata else None,
-            },
-            indent=2,
-        )
+            # Filter by section if requested
+            if section:
+                # Simple section filtering (can be enhanced with proper parsing)
+                lines = content.split("\n")
+                section_content = []
+                in_section = False
+
+                for line in lines:
+                    # Simple pattern matching for sections
+                    if (
+                        f"section {section}" in line.lower()
+                        or f"s.{section}" in line.lower()
+                        or f"s {section}" in line.lower()
+                    ):
+                        in_section = True
+                    elif in_section and line.strip() and line[0].isdigit():
+                        # Stop at next numbered section
+                        break
+
+                    if in_section:
+                        section_content.append(line)
+
+                if section_content:
+                    content = "\n".join(section_content)
+                else:
+                    content = f"[Section {section} not found in content]\n\n{content[:1000]}..."
+
+            # Get metadata
+            metadata = cache_manager.read_metadata(canonical)
+
+            return json.dumps(
+                {
+                    "canonical_id": canonical_id,
+                    "mode": mode,
+                    "section": section,
+                    "content": content,
+                    "metadata": metadata.to_dict() if metadata else None,
+                },
+                indent=2,
+            )
 
     except Exception as e:
         logger.error(f"Error fetching legislation {canonical_id}: {e}")

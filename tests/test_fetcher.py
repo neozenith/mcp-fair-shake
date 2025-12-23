@@ -82,9 +82,9 @@ class TestLegislationFetcher:
 
     def test_fetch_unsupported_legislation(self, fetcher: LegislationFetcher) -> None:
         """Test fetching unsupported legislation."""
-        # Use a valid code type that's not configured in LEGISLATION_SOURCES
+        # Use a valid code type and year that's not configured in LEGISLATION_SOURCES
         with pytest.raises(LegislationFetchError, match="No source URL configured"):
-            fetcher.fetch("/au-victoria/lsl/2018")
+            fetcher.fetch("/au-victoria/lsl/2020")  # LSL exists but 2020 version is not configured
 
     def test_fetch_from_cache(
         self, fetcher: LegislationFetcher, cache_manager: CacheManager

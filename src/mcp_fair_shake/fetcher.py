@@ -31,6 +31,18 @@ LEGISLATION_SOURCES = {
         "url": "https://www.legislation.vic.gov.au/as-made/acts/equal-opportunity-act-2010",
         "title": "Equal Opportunity Act 2010",
     },
+    "/au-victoria/lsl/2018": {
+        "url": "https://www.legislation.vic.gov.au/as-made/acts/long-service-leave-act-2018",
+        "title": "Long Service Leave Act 2018",
+    },
+    "/au-victoria/wca/1958": {
+        "url": "https://www.legislation.vic.gov.au/as-made/acts/workers-compensation-act-1958",
+        "title": "Workers Compensation Act 1958",
+    },
+    "/au-victoria/aca/1985": {
+        "url": "https://www.legislation.vic.gov.au/as-made/acts/accident-compensation-act-1985",
+        "title": "Accident Compensation Act 1985",
+    },
 }
 
 
