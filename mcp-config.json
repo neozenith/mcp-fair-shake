@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mcp-fair-shake": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        ".",
+        "run",
+        "mcp-fair-shake"
+      ]
+    }
+  }
+}
