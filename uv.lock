@@ -824,6 +824,7 @@ version = "0.1.0"
 source = { editable = "." }
 dependencies = [
     { name = "fastmcp" },
+    { name = "httpx" },
 ]
 
 [package.optional-dependencies]
@@ -849,6 +850,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "fastmcp", specifier = ">=0.3.0" },
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "inline-snapshot", marker = "extra == 'dev'", specifier = ">=0.15.0" },
     { name = "mypy", marker = "extra == 'dev'", specifier = ">=1.13.0" },
     { name = "pytest", marker = "extra == 'dev'", specifier = ">=8.0.0" },

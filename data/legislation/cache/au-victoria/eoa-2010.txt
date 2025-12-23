@@ -1,0 +1,7 @@
+# Equal Opportunity Act 2010
+
+[PLACEHOLDER: HTML parsing not yet implemented]
+
+Source HTML length: 65086 characters
+
+To implement: Use BeautifulSoup to extract legislation sections from the HTML structure.

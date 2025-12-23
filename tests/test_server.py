@@ -19,31 +19,31 @@ async def test_list_tools(client: Client[Any]) -> None:
     tools = await client.list_tools()
 
     assert tools is not None
-    assert len(tools) > 0
+    assert len(tools) == 3  # resolve_legislation, get_legislation_content, get_cache_status
 
-    # Check that the evaluate tool is present
+    # Check that the legislation tools are present
     tool_names = [tool.name for tool in tools]
-    assert "evaluate" in tool_names
+    assert "resolve_legislation" in tool_names
+    assert "get_legislation_content" in tool_names
+    assert "get_cache_status" in tool_names
 
-    # Find and validate the evaluate tool
-    evaluate_tool = next(tool for tool in tools if tool.name == "evaluate")
-    assert evaluate_tool.description is not None
-    assert "evaluate" in evaluate_tool.description.lower()
-    assert evaluate_tool.inputSchema is not None
-    assert "properties" in evaluate_tool.inputSchema
-    assert "subject" in evaluate_tool.inputSchema["properties"]
-    assert "criteria" in evaluate_tool.inputSchema["properties"]
+    # Find and validate the resolve_legislation tool
+    resolve_tool = next(tool for tool in tools if tool.name == "resolve_legislation")
+    assert resolve_tool.description is not None
+    assert "resolve" in resolve_tool.description.lower()
+    assert resolve_tool.inputSchema is not None
+    assert "properties" in resolve_tool.inputSchema
+    assert "query" in resolve_tool.inputSchema["properties"]
 
 
 @pytest.mark.asyncio
 async def test_tool_call_basic(client: Client[Any]) -> None:
     """Test that the server can execute tool calls."""
-    # Test that we can call a tool successfully
+    # Test that we can call resolve_legislation successfully
     result = await client.call_tool(
-        "evaluate",
-        arguments={"subject": "test", "criteria": "basic functionality"},
+        "resolve_legislation",
+        arguments={"query": "fair work"},
     )
     assert result is not None
     assert result.data is not None
-    assert "test" in result.data
-    assert "basic functionality" in result.data
+    assert "matches" in result.data

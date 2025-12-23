@@ -1,5 +1,6 @@
 """Tests for MCP Fair Shake tools."""
 
+import json
 from typing import Any
 
 import pytest
@@ -8,69 +9,121 @@ from fastmcp.exceptions import ToolError
 
 
 @pytest.mark.asyncio
-async def test_evaluate_tool_basic(client: Client[Any]) -> None:
-    """Test the evaluate tool with basic inputs."""
+async def test_resolve_legislation_unfair_dismissal(client: Client[Any]) -> None:
+    """Test resolving 'unfair dismissal' query."""
     result = await client.call_tool(
-        "evaluate",
-        arguments={"subject": "Python code", "criteria": "readability"},
+        "resolve_legislation",
+        arguments={"query": "unfair dismissal"},
     )
 
     assert result is not None
     assert result.data is not None
-    assert "Python code" in result.data
-    assert "readability" in result.data
+
+    data = json.loads(result.data)
+    assert "matches" in data
+    assert data["total"] > 0
+
+    # Should match Fair Work Act
+    matches = data["matches"]
+    assert any("Fair Work Act" in m["title"] for m in matches)
 
 
 @pytest.mark.asyncio
-@pytest.mark.parametrize(
-    ("subject", "criteria"),
-    [
-        ("API design", "RESTful principles"),
-        ("Database schema", "normalization"),
-        ("User interface", "accessibility"),
-        ("Algorithm", "time complexity"),
-    ],
-)
-async def test_evaluate_tool_parametrized(client: Client[Any], subject: str, criteria: str) -> None:
-    """Test the evaluate tool with various inputs."""
+async def test_resolve_legislation_ohs(client: Client[Any]) -> None:
+    """Test resolving 'OHS' query."""
     result = await client.call_tool(
-        "evaluate",
-        arguments={"subject": subject, "criteria": criteria},
+        "resolve_legislation",
+        arguments={"query": "ohs"},
     )
 
     assert result is not None
     assert result.data is not None
-    assert subject in result.data
-    assert criteria in result.data
+
+    data = json.loads(result.data)
+    assert "matches" in data
+    assert data["total"] > 0
+
+    # Should match OHS Act
+    matches = data["matches"]
+    assert any("Occupational Health" in m["title"] for m in matches)
 
 
 @pytest.mark.asyncio
-async def test_evaluate_tool_missing_subject(client: Client[Any]) -> None:
-    """Test the evaluate tool with missing subject."""
-    # FastMCP validates required parameters and raises ToolError
-    with pytest.raises(ToolError, match="Missing required argument"):
-        await client.call_tool("evaluate", arguments={"criteria": "quality"})
-
-
-@pytest.mark.asyncio
-async def test_evaluate_tool_missing_criteria(client: Client[Any]) -> None:
-    """Test the evaluate tool with missing criteria."""
-    # FastMCP validates required parameters and raises ToolError
-    with pytest.raises(ToolError, match="Missing required argument"):
-        await client.call_tool("evaluate", arguments={"subject": "test"})
-
-
-@pytest.mark.asyncio
-async def test_evaluate_tool_empty_inputs(client: Client[Any]) -> None:
-    """Test the evaluate tool with empty inputs."""
+async def test_resolve_legislation_with_jurisdiction_filter(client: Client[Any]) -> None:
+    """Test resolving with jurisdiction filter."""
     result = await client.call_tool(
-        "evaluate",
-        arguments={"subject": "", "criteria": ""},
+        "resolve_legislation",
+        arguments={"query": "equal opportunity", "jurisdiction": "au-victoria"},
     )
 
     assert result is not None
     assert result.data is not None
-    assert "error" in result.data.lower() or "required" in result.data.lower()
+
+    data = json.loads(result.data)
+    assert "matches" in data
+
+    # All matches should be Victorian
+    for match in data["matches"]:
+        assert match["jurisdiction"] == "au-victoria"
+
+
+@pytest.mark.asyncio
+async def test_resolve_legislation_empty_query(client: Client[Any]) -> None:
+    """Test resolve with empty query."""
+    result = await client.call_tool(
+        "resolve_legislation",
+        arguments={"query": ""},
+    )
+
+    assert result is not None
+    assert result.data is not None
+
+    data = json.loads(result.data)
+    assert "error" in data
+
+
+@pytest.mark.asyncio
+async def test_get_cache_status(client: Client[Any]) -> None:
+    """Test getting cache status."""
+    result = await client.call_tool("get_cache_status", arguments={})
+
+    assert result is not None
+    assert result.data is not None
+
+    data = json.loads(result.data)
+    assert "total_cached" in data
+    assert "cache_size_mb" in data
+    assert "p0_coverage" in data
+    assert "supported_legislation" in data
+
+
+@pytest.mark.asyncio
+async def test_get_legislation_content_invalid_id(client: Client[Any]) -> None:
+    """Test getting content with invalid canonical ID."""
+    result = await client.call_tool(
+        "get_legislation_content",
+        arguments={"canonical_id": "/invalid/id"},
+    )
+
+    assert result is not None
+    assert result.data is not None
+
+    data = json.loads(result.data)
+    assert "error" in data
+
+
+@pytest.mark.asyncio
+async def test_get_legislation_content_unsupported_mode(client: Client[Any]) -> None:
+    """Test getting content with unsupported mode.
+
+    FastMCP validates Literal types strictly, so passing an invalid mode
+    will raise a ToolError (which is proper "fail loudly" behavior).
+    """
+    with pytest.raises(ToolError, match="Input should be 'text'"):
+        await client.call_tool(
+            "get_legislation_content",
+            arguments={"canonical_id": "/au-victoria/ohs/2004", "mode": "summary"},
+        )
 
 
 @pytest.mark.asyncio

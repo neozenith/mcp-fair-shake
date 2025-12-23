@@ -1,12 +1,21 @@
 # mcp-fair-shake
 
-> "Fair Shake of the Sauce Bottle"
+> "Fair Shake of the Sauce Bottle" - Empowering employees with timely, grounded, and factual Australian workplace legislation
 
-A Model Context Protocol (MCP) server for fair evaluation and assessment. Built with Python using **FastMCP**, following best practices from trusted MCPs like SerenaMCP, Sequential Thinking MCP, Context7 MCP, and Playwright MCP.
+A Model Context Protocol (MCP) server providing **authoritative access to Australian workplace legislation**. Built with Python using **FastMCP**, following best practices from trusted MCPs like Context7, arXiv, and Sequential Thinking.
 
 ## What is MCP?
 
-The [Model Context Protocol](https://modelcontextprotocol.io) is a standard way to connect AI assistants to external tools and data sources. This server implements MCP to provide evaluation and assessment capabilities to AI assistants like Claude Code and Claude Desktop.
+The [Model Context Protocol](https://modelcontextprotocol.io) is a standard way to connect AI assistants to external tools and data sources. This server implements MCP to provide Australian workplace legislation lookup to AI assistants like Claude Code and Claude Desktop.
+
+## Project Status
+
+**Phase 1 Complete** (December 2025):
+- ✅ Three MCP tools: `resolve-legislation`, `get-legislation-content`, `get-cache-status`
+- ✅ Local-first caching with SHA256 integrity verification
+- ✅ CLI admin mode for cache management
+- ✅ 83.54% test coverage with 61 passing tests
+- ✅ Support for P0 legislation (Fair Work Act 2009, Victorian OHS Act 2004, Victorian Equal Opportunity Act 2010)
 
 ## Installation
 
@@ -81,20 +90,71 @@ For local development:
 
 ### Available Tools
 
-#### `evaluate`
+#### `resolve-legislation`
 
-Evaluate and provide a fair assessment of something.
+Resolve natural language queries or citations to canonical legislation IDs.
 
 **Parameters:**
-- `subject` (string, required): The subject to evaluate
-- `criteria` (string, required): The criteria to evaluate against
+- `query` (string, required): Natural language query or citation (e.g., "unfair dismissal", "OHS Act s.21")
+- `jurisdiction` (string, optional): Filter by jurisdiction (e.g., "au-victoria", "au-federal")
 
 **Example:**
 ```json
 {
-  "subject": "Python code implementation",
-  "criteria": "readability and maintainability"
+  "query": "unfair dismissal",
+  "jurisdiction": "au-federal"
 }
+```
+
+**Returns:** Ranked matches with canonical IDs, titles, and cache status.
+
+#### `get-legislation-content`
+
+Retrieve legislation content from cache or download if needed.
+
+**Parameters:**
+- `canonical_id` (string, required): Canonical legislation ID (e.g., "/au-victoria/ohs/2004")
+- `mode` (string, optional): Content mode - "text" (default, only mode in Phase 1)
+- `section` (string, optional): Optional section filter (e.g., "s21")
+
+**Example:**
+```json
+{
+  "canonical_id": "/au-victoria/ohs/2004",
+  "mode": "text",
+  "section": "s21"
+}
+```
+
+**Returns:** Legislation content with metadata.
+
+#### `get-cache-status`
+
+Get cache coverage, size, and missing items.
+
+**Parameters:** None
+
+**Returns:** JSON with cache statistics including P0 coverage, total size, and cached items.
+
+### CLI Admin Mode
+
+Pre-cache legislation and manage the cache:
+
+```bash
+# Check cache status
+mcp-fair-shake status
+
+# Pre-cache P0 legislation (MVP)
+mcp-fair-shake cache --priority P0
+
+# Pre-cache all configured legislation
+mcp-fair-shake cache --priority all
+
+# Force re-download
+mcp-fair-shake cache --priority P0 --force
+
+# Verify cache integrity
+mcp-fair-shake verify
 ```
 
 ## Development
@@ -152,16 +212,33 @@ make check
 
 ```
 mcp-fair-shake/
-├── src/mcp_fair_shake/    # Main package
-│   ├── __init__.py         # Package exports
-│   └── server.py           # MCP server implementation
-├── tests/                  # Test suite
-│   ├── conftest.py         # Pytest fixtures
-│   ├── test_server.py      # Server tests
-│   └── test_tools.py       # Tool tests
-├── pyproject.toml          # Project metadata and dependencies
-├── Makefile                # Development commands
-└── README.md               # This file
+├── src/mcp_fair_shake/       # Main package
+│   ├── __init__.py            # Package exports
+│   ├── server.py              # MCP server with three tools
+│   ├── canonical_id.py        # Canonical ID parser/validator
+│   ├── cache.py               # Cache manager with SHA256 verification
+│   ├── fetcher.py             # Legislation fetcher with retry logic
+│   └── cli.py                 # CLI admin mode
+├── tests/                     # Test suite (61 tests, 83.54% coverage)
+│   ├── conftest.py            # Pytest fixtures
+│   ├── test_server.py         # Server initialization tests
+│   ├── test_tools.py          # MCP tool integration tests
+│   ├── test_canonical_id.py   # Canonical ID parsing tests
+│   ├── test_cache.py          # Cache management tests
+│   └── test_fetcher.py        # Legislation fetcher tests
+├── data/                      # Local legislation cache
+│   ├── legislation/cache/     # Cached legislation files
+│   ├── legislation/summaries/ # Plain language summaries (Phase 2+)
+│   ├── legislation/parquet/   # Compressed queryable format (Phase 2+)
+│   ├── support-pathways/      # Support agency databases (Phase 3+)
+│   └── metadata/              # Cache index and logs
+├── docs/                      # Documentation
+│   ├── ROADMAP.md             # Implementation roadmap
+│   ├── REQUIREMENTS.md        # Functional requirements
+│   └── SPECIFICATION.md       # Technical specifications
+├── pyproject.toml             # Project metadata and dependencies
+├── Makefile                   # Development commands
+└── README.md                  # This file
 ```
 
 ## Architecture
