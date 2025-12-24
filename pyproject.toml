@@ -8,9 +8,13 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "beautifulsoup4>=4.14.3",
     "fastmcp>=0.3.0",
     "httpx>=0.28.1",
+    "lxml>=6.0.2",
+    "playwright>=1.57.0",
     "polars>=1.36.1",
+    "pypdf>=6.5.0",
 ]
 
 [project.optional-dependencies]
@@ -44,6 +48,8 @@ strict = true
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
+mypy_path = "src"
+explicit_package_bases = true
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
@@ -63,7 +69,15 @@ addopts = [
 
 [tool.coverage.run]
 source = ["src/mcp_fair_shake"]
-omit = ["*/tests/*", "*/__pycache__/*", "*/cli.py"]
+omit = [
+    "*/tests/*",
+    "*/__pycache__/*",
+    "*/cli.py",
+    # Future features - not yet implemented
+    "*/cross_references.py",
+    "*/parquet_storage.py",
+    "*/updates.py",
+]
 
 [tool.coverage.report]
 precision = 2

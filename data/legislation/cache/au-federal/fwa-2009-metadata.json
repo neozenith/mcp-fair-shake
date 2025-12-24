@@ -1,12 +1,13 @@
 {
   "canonical_id": "/au-federal/fwa/2009",
   "source_url": "https://www.legislation.gov.au/C2009A00028/latest/text",
-  "fetch_timestamp": "2025-12-23T22:38:28.480821+00:00",
-  "content_hash": "acd1d5ccb6d18cb35ba01b31490dca5248b7c4bf5b5c99b07cce139e8a811d78",
-  "file_size": 199,
+  "fetch_timestamp": "2025-12-24T03:42:36.945699+00:00",
+  "content_hash": "23168696e6c6f3f903bc1940666d29942a2fafe70c216b5bc890ddd8fea44f00",
+  "file_size": 788992,
   "jurisdiction": "au-federal",
   "code_type": "fwa",
   "year": "2009",
   "section_count": null,
-  "title": "Fair Work Act 2009"
+  "title": "Fair Work Act 2009",
+  "document_info": null
 }

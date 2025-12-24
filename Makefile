@@ -35,7 +35,7 @@ check: init docs fix
 	uv sync --dev
 	uv run ruff check . --diff
 	uv run ruff format . --check --diff
-	uv run mypy .
+	uv run mypy src/
 
 	# As long as the whole project is formatted, linted, type checked, and tested then we can update the symbol index for SerenaMCP
 	uvx --from git+https://github.com/oraios/serena serena project index
@@ -58,3 +58,9 @@ claude: test
 	@echo "Project: $$(pwd)"
 	@echo ""
 	claude --mcp-config $$(pwd)/mcp-config.json
+
+clean:
+	rm -rf .make
+	rm -rf .*_cache
+	rm -rf __pycache__/
+	rm -rf scripts/

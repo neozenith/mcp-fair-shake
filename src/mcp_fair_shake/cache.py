@@ -27,6 +27,7 @@ class LegislationMetadata:
     year: str
     section_count: int | None = None
     title: str | None = None
+    document_info: dict[str, str] | None = None  # PDF metadata for audit trail
 
     @classmethod
     def from_dict(cls, data: dict[str, Any]) -> "LegislationMetadata":
@@ -129,6 +130,7 @@ class CacheManager:
         content: str,
         source_url: str,
         title: str | None = None,
+        document_info: dict[str, str] | None = None,
     ) -> None:
         """Write legislation content to cache.
 
@@ -137,6 +139,7 @@ class CacheManager:
             content: Legislation content
             source_url: URL where content was fetched from
             title: Optional title of the legislation
+            document_info: Optional PDF metadata (for audit trail)
         """
         # Ensure cache directory exists
         cache_dir = self.get_cache_path(canonical)
@@ -162,6 +165,7 @@ class CacheManager:
             code_type=canonical.code_type,
             year=canonical.year,
             title=title,
+            document_info=document_info,  # Include PDF metadata for audit trail
         )
         self.write_metadata(canonical, metadata)
 

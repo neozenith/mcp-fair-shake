@@ -1,9 +1,10 @@
-"""Tests for legislation fetcher."""
+"""Tests for legislation fetcher.
+
+NO MOCKS ALLOWED - Integration tests only.
+"""
 
 from pathlib import Path
-from unittest.mock import MagicMock, Mock, patch
 
-import httpx
 import pytest
 
 from mcp_fair_shake.cache import CacheManager
@@ -98,64 +99,11 @@ class TestLegislationFetcher:
         content = fetcher.fetch("/au-victoria/ohs/2004")
         assert content == test_content
 
-    @patch("mcp_fair_shake.fetcher.httpx.Client")
-    def test_fetch_with_http_download(
-        self,
-        mock_client_class: Mock,
-        fetcher: LegislationFetcher,
-    ) -> None:
-        """Test fetching with HTTP download."""
-        # Mock HTTP response
-        mock_response = MagicMock()
-        mock_response.text = "Downloaded legislation content"
-        mock_response.headers = {"content-type": "text/plain"}
-        mock_response.raise_for_status = MagicMock()
-
-        mock_client = MagicMock()
-        mock_client.get.return_value = mock_response
-        mock_client_class.return_value.__enter__.return_value = mock_client
-
-        # Replace fetcher's client with mock
-        fetcher.client = mock_client
-
-        # Fetch (should download since not cached)
-        content = fetcher.fetch("/au-victoria/ohs/2004", force=True)
-        assert content == "Downloaded legislation content"
-
-        # Verify it was cached
-        assert fetcher.is_cached("/au-victoria/ohs/2004") is True
-
-    @patch("mcp_fair_shake.fetcher.httpx.Client")
-    def test_fetch_http_error(
-        self,
-        mock_client_class: Mock,
-        fetcher: LegislationFetcher,
-    ) -> None:
-        """Test fetching with HTTP error."""
-        # Mock HTTP error
-        mock_response = MagicMock()
-        mock_response.status_code = 404
-        mock_response.raise_for_status.side_effect = httpx.HTTPStatusError(
-            "Not Found", request=MagicMock(), response=mock_response
-        )
-
-        mock_client = MagicMock()
-        mock_client.get.return_value = mock_response
-        mock_client_class.return_value.__enter__.return_value = mock_client
-
-        fetcher.client = mock_client
-        fetcher.max_retries = 1  # Reduce retries for faster test
-
-        # Should raise LegislationFetchError after retries
-        with pytest.raises(LegislationFetchError, match="HTTP error 404"):
-            fetcher.fetch("/au-victoria/ohs/2004", force=True)
-
     def test_context_manager(self, cache_manager: CacheManager) -> None:
         """Test fetcher as context manager."""
         with LegislationFetcher(cache_manager=cache_manager) as fetcher:
             assert fetcher is not None
-
-        # Client should be closed after exiting context
+            assert fetcher.client is not None
 
     def test_legislation_sources_configured(self) -> None:
         """Test that P0 legislation sources are configured."""

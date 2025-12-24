@@ -1,7 +1,1066 @@
 # Fair Work Regulations 2009
 
-[PLACEHOLDER: HTML parsing not yet implemented]
+HomeLegislative instrumentsIn force
 
-Source HTML length: 74751 characters
+- Home
+- Legislative instruments
+- In force
+TextDetailsAuthorisesDownloadsAll versionsInteractions
 
-To implement: Use BeautifulSoup to extract legislation sections from the HTML structure.
+- Text
+- Details
+- Authorises
+- Downloads
+- All versions
+- Interactions
+
+## Fair Work Regulations 2009
+
+- Department of Employment and Workplace Relations
+This item is authorised by the following title:
+
+- Fair Work Act 2009
+Save this title to My Account
+
+## Legislation text
+
+Legislative instrument
+
+Enter text to search the table of contents
+
+- CollapseChapter 1—IntroductionCollapsePart 1-1—IntroductionCollapseDivision 1—Preliminary1.01  Name of RegulationsCollapsePart 1-2—DefinitionsCollapseDivision 1—Introduction1.03  DefinitionsCollapseDivision 2—The Dictionary1.04  Meaning of designated outworker term1.05  Meaning of eligible State or Territory court1.06  Meaning of prescribed State industrial authority1.07  Meaning of serious misconduct1.08  Meaning of TCF awardCollapseDivision 3A—Definitions relating to regulated workers and persons in a road transport contractual chainCollapseSubdivision A—General1.08AA  Meaning of contractor high income thresholdCollapseSubdivision C—Road transport industry1.08A  Meaning of in a road transport contractual chain—exclusion of livestock industry1.08B  Meaning of road transport industry—exclusion of livestock industryCollapseDivision 4—Other definitions1.09  Meaning of base rate of pay—pieceworkers (national system employee)1.10  Meaning of base rate of pay—pieceworkers (enterprise agreement)1.11  Meaning of ordinary hours of work for award/agreement free employees1.12  Meaning of pieceworkerCollapsePart 1-3—Application of the ActCollapseDivision 2—Interaction with State and Territory laws1.13  State and Territory laws that are not excluded by section 26 of the Act—prescribed laws1.14  Act excludes prescribed State and Territory laws1.15  Interaction of modern awards and enterprise agreements with State and Territory lawsCollapseDivision 2A—Application of Act in a referring State1.15A  State public sector employerCollapseDivision 3—Geographical application of the Act1.15B  Definitions for Division 31.15C  Meanings of Australian employer and Australian-based employee1.15D  Modification of application of Act—ships engaged in innocent passage1.15DA  Modification of application of Act—Christmas Island and Cocos (Keeling) Islands1.15E  Extension of Act to the exclusive economic zone and the continental shelf—ships1.15F  Extension of Act beyond the exclusive economic zone and the continental shelf1.15G  Amendments made by Fair Work Amendment Regulation 2012 (No. 2)CollapseDivision 4—Miscellaneous1.16  Interaction between fair work instruments and public sector employment laws
+CollapseChapter 1—Introduction
+
+- CollapsePart 1-1—IntroductionCollapseDivision 1—Preliminary1.01  Name of Regulations
+CollapsePart 1-1—Introduction
+
+- CollapseDivision 1—Preliminary1.01  Name of Regulations
+CollapseDivision 1—Preliminary
+
+- 1.01  Name of Regulations
+1.01  Name of Regulations
+
+- CollapsePart 1-2—DefinitionsCollapseDivision 1—Introduction1.03  DefinitionsCollapseDivision 2—The Dictionary1.04  Meaning of designated outworker term1.05  Meaning of eligible State or Territory court1.06  Meaning of prescribed State industrial authority1.07  Meaning of serious misconduct1.08  Meaning of TCF awardCollapseDivision 3A—Definitions relating to regulated workers and persons in a road transport contractual chainCollapseSubdivision A—General1.08AA  Meaning of contractor high income thresholdCollapseSubdivision C—Road transport industry1.08A  Meaning of in a road transport contractual chain—exclusion of livestock industry1.08B  Meaning of road transport industry—exclusion of livestock industryCollapseDivision 4—Other definitions1.09  Meaning of base rate of pay—pieceworkers (national system employee)1.10  Meaning of base rate of pay—pieceworkers (enterprise agreement)1.11  Meaning of ordinary hours of work for award/agreement free employees1.12  Meaning of pieceworker
+CollapsePart 1-2—Definitions
+
+- CollapseDivision 1—Introduction1.03  Definitions
+CollapseDivision 1—Introduction
+
+- 1.03  Definitions
+- CollapseDivision 2—The Dictionary1.04  Meaning of designated outworker term1.05  Meaning of eligible State or Territory court1.06  Meaning of prescribed State industrial authority1.07  Meaning of serious misconduct1.08  Meaning of TCF award
+CollapseDivision 2—The Dictionary
+
+- 1.04  Meaning of designated outworker term
+1.04  Meaning of designated outworker term
+
+- 1.05  Meaning of eligible State or Territory court
+1.05  Meaning of eligible State or Territory court
+
+- 1.06  Meaning of prescribed State industrial authority
+1.06  Meaning of prescribed State industrial authority
+
+- 1.07  Meaning of serious misconduct
+1.07  Meaning of serious misconduct
+
+- 1.08  Meaning of TCF award
+1.08  Meaning of TCF award
+
+- CollapseDivision 3A—Definitions relating to regulated workers and persons in a road transport contractual chainCollapseSubdivision A—General1.08AA  Meaning of contractor high income thresholdCollapseSubdivision C—Road transport industry1.08A  Meaning of in a road transport contractual chain—exclusion of livestock industry1.08B  Meaning of road transport industry—exclusion of livestock industry
+CollapseDivision 3A—Definitions relating to regulated workers and persons in a road transport contractual chain
+
+- CollapseSubdivision A—General1.08AA  Meaning of contractor high income threshold
+CollapseSubdivision A—General
+
+- 1.08AA  Meaning of contractor high income threshold
+1.08AA  Meaning of contractor high income threshold
+
+- CollapseSubdivision C—Road transport industry1.08A  Meaning of in a road transport contractual chain—exclusion of livestock industry1.08B  Meaning of road transport industry—exclusion of livestock industry
+CollapseSubdivision C—Road transport industry
+
+- 1.08A  Meaning of in a road transport contractual chain—exclusion of livestock industry
+1.08A  Meaning of in a road transport contractual chain—exclusion of livestock industry
+
+- 1.08B  Meaning of road transport industry—exclusion of livestock industry
+1.08B  Meaning of road transport industry—exclusion of livestock industry
+
+- CollapseDivision 4—Other definitions1.09  Meaning of base rate of pay—pieceworkers (national system employee)1.10  Meaning of base rate of pay—pieceworkers (enterprise agreement)1.11  Meaning of ordinary hours of work for award/agreement free employees1.12  Meaning of pieceworker
+CollapseDivision 4—Other definitions
+
+- 1.09  Meaning of base rate of pay—pieceworkers (national system employee)
+1.09  Meaning of base rate of pay—pieceworkers (national system employee)
+
+- 1.10  Meaning of base rate of pay—pieceworkers (enterprise agreement)
+1.10  Meaning of base rate of pay—pieceworkers (enterprise agreement)
+
+- 1.11  Meaning of ordinary hours of work for award/agreement free employees
+1.11  Meaning of ordinary hours of work for award/agreement free employees
+
+- 1.12  Meaning of pieceworker
+1.12  Meaning of pieceworker
+
+- CollapsePart 1-3—Application of the ActCollapseDivision 2—Interaction with State and Territory laws1.13  State and Territory laws that are not excluded by section 26 of the Act—prescribed laws1.14  Act excludes prescribed State and Territory laws1.15  Interaction of modern awards and enterprise agreements with State and Territory lawsCollapseDivision 2A—Application of Act in a referring State1.15A  State public sector employerCollapseDivision 3—Geographical application of the Act1.15B  Definitions for Division 31.15C  Meanings of Australian employer and Australian-based employee1.15D  Modification of application of Act—ships engaged in innocent passage1.15DA  Modification of application of Act—Christmas Island and Cocos (Keeling) Islands1.15E  Extension of Act to the exclusive economic zone and the continental shelf—ships1.15F  Extension of Act beyond the exclusive economic zone and the continental shelf1.15G  Amendments made by Fair Work Amendment Regulation 2012 (No. 2)CollapseDivision 4—Miscellaneous1.16  Interaction between fair work instruments and public sector employment laws
+CollapsePart 1-3—Application of the Act
+
+- CollapseDivision 2—Interaction with State and Territory laws1.13  State and Territory laws that are not excluded by section 26 of the Act—prescribed laws1.14  Act excludes prescribed State and Territory laws1.15  Interaction of modern awards and enterprise agreements with State and Territory laws
+CollapseDivision 2—Interaction with State and Territory laws
+
+- 1.13  State and Territory laws that are not excluded by section 26 of the Act—prescribed laws
+1.13  State and Territory laws that are not excluded by section 26 of the Act—prescribed laws
+
+- 1.14  Act excludes prescribed State and Territory laws
+1.14  Act excludes prescribed State and Territory laws
+
+- 1.15  Interaction of modern awards and enterprise agreements with State and Territory laws
+1.15  Interaction of modern awards and enterprise agreements with State and Territory laws
+
+- CollapseDivision 2A—Application of Act in a referring State1.15A  State public sector employer
+CollapseDivision 2A—Application of Act in a referring State
+
+- 1.15A  State public sector employer
+1.15A  State public sector employer
+
+- CollapseDivision 3—Geographical application of the Act1.15B  Definitions for Division 31.15C  Meanings of Australian employer and Australian-based employee1.15D  Modification of application of Act—ships engaged in innocent passage1.15DA  Modification of application of Act—Christmas Island and Cocos (Keeling) Islands1.15E  Extension of Act to the exclusive economic zone and the continental shelf—ships1.15F  Extension of Act beyond the exclusive economic zone and the continental shelf1.15G  Amendments made by Fair Work Amendment Regulation 2012 (No. 2)
+CollapseDivision 3—Geographical application of the Act
+
+- 1.15B  Definitions for Division 3
+1.15B  Definitions for Division 3
+
+- 1.15C  Meanings of Australian employer and Australian-based employee
+1.15C  Meanings of Australian employer and Australian-based employee
+
+- 1.15D  Modification of application of Act—ships engaged in innocent passage
+1.15D  Modification of application of Act—ships engaged in innocent passage
+
+- 1.15DA  Modification of application of Act—Christmas Island and Cocos (Keeling) Islands
+1.15DA  Modification of application of Act—Christmas Island and Cocos (Keeling) Islands
+
+- 1.15E  Extension of Act to the exclusive economic zone and the continental shelf—ships
+1.15E  Extension of Act to the exclusive economic zone and the continental shelf—ships
+
+- 1.15F  Extension of Act beyond the exclusive economic zone and the continental shelf
+1.15F  Extension of Act beyond the exclusive economic zone and the continental shelf
+
+- 1.15G  Amendments made by Fair Work Amendment Regulation 2012 (No. 2)
+1.15G  Amendments made by Fair Work Amendment Regulation 2012 (No. 2)
+
+- CollapseDivision 4—Miscellaneous1.16  Interaction between fair work instruments and public sector employment laws
+CollapseDivision 4—Miscellaneous
+
+- 1.16  Interaction between fair work instruments and public sector employment laws
+1.16  Interaction between fair work instruments and public sector employment laws
+
+- CollapseChapter 2—Terms and conditions of employmentCollapsePart 2-2—The National Employment StandardsCollapseDivision 5—Parental leave and related entitlementsCollapseSubdivision B—Parental leave2.00  Flexible unpaid parental leaveCollapseDivision 12—Fair Work Ombudsman to prepare and publish statements2.01  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—content2.02  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—manner of giving Statement to employees2.02A  Fair Work Ombudsman to prepare and publish Casual Employment Information Statement—manner of giving Statement to casual employeesCollapseDivision 13—Miscellaneous2.03  What can be agreed to etc. in relation to award/agreement free employees2.03A  Claims to offset certain amountsCollapsePart 2-4—Enterprise agreementsCollapseDivision 3—Bargaining and representation during bargaining2.04  Notice of employee representational rights—how notice is given2.05  Notice of employee representational rights—prescribed form2.06  Appointment of bargaining representatives—independenceCollapseDivision 4—Approval of enterprise agreements2.06AA  Disclosure of benefits by organisations and employers—requirements for documents2.06A  Bargaining representative must apply for FWC approval of an enterprise agreement—requirements for signing agreement2.07  FWC may approve an enterprise agreement with undertakings—requirements for signing undertaking2.08  Model flexibility term for enterprise agreement2.09  Model consultation term for enterprise agreementCollapseDivision 7—Variation and termination of enterprise agreementsCollapseSubdivision A—Variation of enterprise agreements by employers and employees: general circumstances2.09A  Requirements for signing variation of enterprise agreement2.10  FWC may approve variation of enterprise agreement with undertaking—requirements for signing undertaking for variation2.10A  Approval of variations of enterprise agreements—modification of requirement to take into account statement of principles on genuine agreementCollapseSubdivision AA—Variation of supported bargaining agreement to add employer and employees (with consent)2.10B  Requirements for signing variations of supported bargaining agreements to add employer and employees (with consent)CollapseSubdivision AB—Variation of supported bargaining agreement to add employer and employees (without consent)2.10C  Requirements for signing variations of supported bargaining agreements to add employer and employees (without consent)CollapseSubdivision AC—Variation of cooperative workplace agreement to add employer and employees2.10D  Requirements for signing variations of cooperative workplace agreements to add employer and employeesCollapseSubdivision AD—Variation of single interest employer agreement to add employer and employees2.10E  Requirements for signing variations of single interest employer agreements to add employer and employees (with consent)2.10F  Requirements for signing variations of single interest employer agreements to add employer and employees (without consent)CollapseSubdivision AE—Variation of multi-enterprise agreement to remove employer and employees2.10G  Requirements for signing variations of multi-enterprise agreements to remove employer and employees (with consent)CollapseSubdivision D—Termination of enterprise agreements after nominal expiry date2.10H  Requirements for signing guarantee of termination entitlementsCollapseDivision 8—FWC’s general role in facilitating bargaining2.11  What a bargaining order must specify—bargaining order for reinstatement of employeeCollapsePart 2-9—Other terms and conditions of employmentCollapseDivision 2—Payment of wages2.12A  Employee authorised deductions—authorisation requirements2.12  Certain terms have no effect—reasonable and not reasonable deductionsCollapseDivision 3—Guarantee of annual earnings2.13  High Income thresholdCollapseDivision 5—Fixed term contracts2.14  Limitations on fixed term contracts—high income threshold exception2.15  Contracts to which limitations on fixed term contracts do not apply
+CollapseChapter 2—Terms and conditions of employment
+
+- CollapsePart 2-2—The National Employment StandardsCollapseDivision 5—Parental leave and related entitlementsCollapseSubdivision B—Parental leave2.00  Flexible unpaid parental leaveCollapseDivision 12—Fair Work Ombudsman to prepare and publish statements2.01  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—content2.02  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—manner of giving Statement to employees2.02A  Fair Work Ombudsman to prepare and publish Casual Employment Information Statement—manner of giving Statement to casual employeesCollapseDivision 13—Miscellaneous2.03  What can be agreed to etc. in relation to award/agreement free employees2.03A  Claims to offset certain amounts
+CollapsePart 2-2—The National Employment Standards
+
+- CollapseDivision 5—Parental leave and related entitlementsCollapseSubdivision B—Parental leave2.00  Flexible unpaid parental leave
+CollapseDivision 5—Parental leave and related entitlements
+
+- CollapseSubdivision B—Parental leave2.00  Flexible unpaid parental leave
+CollapseSubdivision B—Parental leave
+
+- 2.00  Flexible unpaid parental leave
+2.00  Flexible unpaid parental leave
+
+- CollapseDivision 12—Fair Work Ombudsman to prepare and publish statements2.01  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—content2.02  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—manner of giving Statement to employees2.02A  Fair Work Ombudsman to prepare and publish Casual Employment Information Statement—manner of giving Statement to casual employees
+CollapseDivision 12—Fair Work Ombudsman to prepare and publish statements
+
+- 2.01  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—content
+2.01  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—content
+
+- 2.02  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—manner of giving Statement to employees
+2.02  Fair Work Ombudsman to prepare and publish Fair Work Information Statement—manner of giving Statement to employees
+
+- 2.02A  Fair Work Ombudsman to prepare and publish Casual Employment Information Statement—manner of giving Statement to casual employees
+2.02A  Fair Work Ombudsman to prepare and publish Casual Employment Information Statement—manner of giving Statement to casual employees
+
+- CollapseDivision 13—Miscellaneous2.03  What can be agreed to etc. in relation to award/agreement free employees2.03A  Claims to offset certain amounts
+CollapseDivision 13—Miscellaneous
+
+- 2.03  What can be agreed to etc. in relation to award/agreement free employees
+2.03  What can be agreed to etc. in relation to award/agreement free employees
+
+- 2.03A  Claims to offset certain amounts
+2.03A  Claims to offset certain amounts
+
+- CollapsePart 2-4—Enterprise agreementsCollapseDivision 3—Bargaining and representation during bargaining2.04  Notice of employee representational rights—how notice is given2.05  Notice of employee representational rights—prescribed form2.06  Appointment of bargaining representatives—independenceCollapseDivision 4—Approval of enterprise agreements2.06AA  Disclosure of benefits by organisations and employers—requirements for documents2.06A  Bargaining representative must apply for FWC approval of an enterprise agreement—requirements for signing agreement2.07  FWC may approve an enterprise agreement with undertakings—requirements for signing undertaking2.08  Model flexibility term for enterprise agreement2.09  Model consultation term for enterprise agreementCollapseDivision 7—Variation and termination of enterprise agreementsCollapseSubdivision A—Variation of enterprise agreements by employers and employees: general circumstances2.09A  Requirements for signing variation of enterprise agreement2.10  FWC may approve variation of enterprise agreement with undertaking—requirements for signing undertaking for variation2.10A  Approval of variations of enterprise agreements—modification of requirement to take into account statement of principles on genuine agreementCollapseSubdivision AA—Variation of supported bargaining agreement to add employer and employees (with consent)2.10B  Requirements for signing variations of supported bargaining agreements to add employer and employees (with consent)CollapseSubdivision AB—Variation of supported bargaining agreement to add employer and employees (without consent)2.10C  Requirements for signing variations of supported bargaining agreements to add employer and employees (without consent)CollapseSubdivision AC—Variation of cooperative workplace agreement to add employer and employees2.10D  Requirements for signing variations of cooperative workplace agreements to add employer and employeesCollapseSubdivision AD—Variation of single interest employer agreement to add employer and employees2.10E  Requirements for signing variations of single interest employer agreements to add employer and employees (with consent)2.10F  Requirements for signing variations of single interest employer agreements to add employer and employees (without consent)CollapseSubdivision AE—Variation of multi-enterprise agreement to remove employer and employees2.10G  Requirements for signing variations of multi-enterprise agreements to remove employer and employees (with consent)CollapseSubdivision D—Termination of enterprise agreements after nominal expiry date2.10H  Requirements for signing guarantee of termination entitlementsCollapseDivision 8—FWC’s general role in facilitating bargaining2.11  What a bargaining order must specify—bargaining order for reinstatement of employee
+CollapsePart 2-4—Enterprise agreements
+
+- CollapseDivision 3—Bargaining and representation during bargaining2.04  Notice of employee representational rights—how notice is given2.05  Notice of employee representational rights—prescribed form2.06  Appointment of bargaining representatives—independence
+CollapseDivision 3—Bargaining and representation during bargaining
+
+- 2.04  Notice of employee representational rights—how notice is given
+2.04  Notice of employee representational rights—how notice is given
+
+- 2.05  Notice of employee representational rights—prescribed form
+2.05  Notice of employee representational rights—prescribed form
+
+- 2.06  Appointment of bargaining representatives—independence
+2.06  Appointment of bargaining representatives—independence
+
+- CollapseDivision 4—Approval of enterprise agreements2.06AA  Disclosure of benefits by organisations and employers—requirements for documents2.06A  Bargaining representative must apply for FWC approval of an enterprise agreement—requirements for signing agreement2.07  FWC may approve an enterprise agreement with undertakings—requirements for signing undertaking2.08  Model flexibility term for enterprise agreement2.09  Model consultation term for enterprise agreement
+CollapseDivision 4—Approval of enterprise agreements
+
+- 2.06AA  Disclosure of benefits by organisations and employers—requirements for documents
+2.06AA  Disclosure of benefits by organisations and employers—requirements for documents
+
+- 2.06A  Bargaining representative must apply for FWC approval of an enterprise agreement—requirements for signing agreement
+2.06A  Bargaining representative must apply for FWC approval of an enterprise agreement—requirements for signing agreement
+
+- 2.07  FWC may approve an enterprise agreement with undertakings—requirements for signing undertaking
+2.07  FWC may approve an enterprise agreement with undertakings—requirements for signing undertaking
+
+- 2.08  Model flexibility term for enterprise agreement
+2.08  Model flexibility term for enterprise agreement
+
+- 2.09  Model consultation term for enterprise agreement
+2.09  Model consultation term for enterprise agreement
+
+- CollapseDivision 7—Variation and termination of enterprise agreementsCollapseSubdivision A—Variation of enterprise agreements by employers and employees: general circumstances2.09A  Requirements for signing variation of enterprise agreement2.10  FWC may approve variation of enterprise agreement with undertaking—requirements for signing undertaking for variation2.10A  Approval of variations of enterprise agreements—modification of requirement to take into account statement of principles on genuine agreementCollapseSubdivision AA—Variation of supported bargaining agreement to add employer and employees (with consent)2.10B  Requirements for signing variations of supported bargaining agreements to add employer and employees (with consent)CollapseSubdivision AB—Variation of supported bargaining agreement to add employer and employees (without consent)2.10C  Requirements for signing variations of supported bargaining agreements to add employer and employees (without consent)CollapseSubdivision AC—Variation of cooperative workplace agreement to add employer and employees2.10D  Requirements for signing variations of cooperative workplace agreements to add employer and employeesCollapseSubdivision AD—Variation of single interest employer agreement to add employer and employees2.10E  Requirements for signing variations of single interest employer agreements to add employer and employees (with consent)2.10F  Requirements for signing variations of single interest employer agreements to add employer and employees (without consent)CollapseSubdivision AE—Variation of multi-enterprise agreement to remove employer and employees2.10G  Requirements for signing variations of multi-enterprise agreements to remove employer and employees (with consent)CollapseSubdivision D—Termination of enterprise agreements after nominal expiry date2.10H  Requirements for signing guarantee of termination entitlements
+CollapseDivision 7—Variation and termination of enterprise agreements
+
+- CollapseSubdivision A—Variation of enterprise agreements by employers and employees: general circumstances2.09A  Requirements for signing variation of enterprise agreement2.10  FWC may approve variation of enterprise agreement with undertaking—requirements for signing undertaking for variation2.10A  Approval of variations of enterprise agreements—modification of requirement to take into account statement of principles on genuine agreement
+CollapseSubdivision A—Variation of enterprise agreements by employers and employees: general circumstances
+
+- 2.09A  Requirements for signing variation of enterprise agreement
+2.09A  Requirements for signing variation of enterprise agreement
+
+- 2.10  FWC may approve variation of enterprise agreement with undertaking—requirements for signing undertaking for variation
+2.10  FWC may approve variation of enterprise agreement with undertaking—requirements for signing undertaking for variation
+
+- 2.10A  Approval of variations of enterprise agreements—modification of requirement to take into account statement of principles on genuine agreement
+2.10A  Approval of variations of enterprise agreements—modification of requirement to take into account statement of principles on genuine agreement
+
+- CollapseSubdivision AA—Variation of supported bargaining agreement to add employer and employees (with consent)2.10B  Requirements for signing variations of supported bargaining agreements to add employer and employees (with consent)
+CollapseSubdivision AA—Variation of supported bargaining agreement to add employer and employees (with consent)
+
+- 2.10B  Requirements for signing variations of supported bargaining agreements to add employer and employees (with consent)
+2.10B  Requirements for signing variations of supported bargaining agreements to add employer and employees (with consent)
+
+- CollapseSubdivision AB—Variation of supported bargaining agreement to add employer and employees (without consent)2.10C  Requirements for signing variations of supported bargaining agreements to add employer and employees (without consent)
+CollapseSubdivision AB—Variation of supported bargaining agreement to add employer and employees (without consent)
+
+- 2.10C  Requirements for signing variations of supported bargaining agreements to add employer and employees (without consent)
+2.10C  Requirements for signing variations of supported bargaining agreements to add employer and employees (without consent)
+
+- CollapseSubdivision AC—Variation of cooperative workplace agreement to add employer and employees2.10D  Requirements for signing variations of cooperative workplace agreements to add employer and employees
+CollapseSubdivision AC—Variation of cooperative workplace agreement to add employer and employees
+
+- 2.10D  Requirements for signing variations of cooperative workplace agreements to add employer and employees
+2.10D  Requirements for signing variations of cooperative workplace agreements to add employer and employees
+
+- CollapseSubdivision AD—Variation of single interest employer agreement to add employer and employees2.10E  Requirements for signing variations of single interest employer agreements to add employer and employees (with consent)2.10F  Requirements for signing variations of single interest employer agreements to add employer and employees (without consent)
+CollapseSubdivision AD—Variation of single interest employer agreement to add employer and employees
+
+- 2.10E  Requirements for signing variations of single interest employer agreements to add employer and employees (with consent)
+2.10E  Requirements for signing variations of single interest employer agreements to add employer and employees (with consent)
+
+- 2.10F  Requirements for signing variations of single interest employer agreements to add employer and employees (without consent)
+2.10F  Requirements for signing variations of single interest employer agreements to add employer and employees (without consent)
+
+- CollapseSubdivision AE—Variation of multi-enterprise agreement to remove employer and employees2.10G  Requirements for signing variations of multi-enterprise agreements to remove employer and employees (with consent)
+CollapseSubdivision AE—Variation of multi-enterprise agreement to remove employer and employees
+
+- 2.10G  Requirements for signing variations of multi-enterprise agreements to remove employer and employees (with consent)
+2.10G  Requirements for signing variations of multi-enterprise agreements to remove employer and employees (with consent)
+
+- CollapseSubdivision D—Termination of enterprise agreements after nominal expiry date2.10H  Requirements for signing guarantee of termination entitlements
+CollapseSubdivision D—Termination of enterprise agreements after nominal expiry date
+
+- 2.10H  Requirements for signing guarantee of termination entitlements
+2.10H  Requirements for signing guarantee of termination entitlements
+
+- CollapseDivision 8—FWC’s general role in facilitating bargaining2.11  What a bargaining order must specify—bargaining order for reinstatement of employee
+CollapseDivision 8—FWC’s general role in facilitating bargaining
+
+- 2.11  What a bargaining order must specify—bargaining order for reinstatement of employee
+2.11  What a bargaining order must specify—bargaining order for reinstatement of employee
+
+- CollapsePart 2-9—Other terms and conditions of employmentCollapseDivision 2—Payment of wages2.12A  Employee authorised deductions—authorisation requirements2.12  Certain terms have no effect—reasonable and not reasonable deductionsCollapseDivision 3—Guarantee of annual earnings2.13  High Income thresholdCollapseDivision 5—Fixed term contracts2.14  Limitations on fixed term contracts—high income threshold exception2.15  Contracts to which limitations on fixed term contracts do not apply
+CollapsePart 2-9—Other terms and conditions of employment
+
+- CollapseDivision 2—Payment of wages2.12A  Employee authorised deductions—authorisation requirements2.12  Certain terms have no effect—reasonable and not reasonable deductions
+CollapseDivision 2—Payment of wages
+
+- 2.12A  Employee authorised deductions—authorisation requirements
+2.12A  Employee authorised deductions—authorisation requirements
+
+- 2.12  Certain terms have no effect—reasonable and not reasonable deductions
+2.12  Certain terms have no effect—reasonable and not reasonable deductions
+
+- CollapseDivision 3—Guarantee of annual earnings2.13  High Income threshold
+CollapseDivision 3—Guarantee of annual earnings
+
+- 2.13  High Income threshold
+2.13  High Income threshold
+
+- CollapseDivision 5—Fixed term contracts2.14  Limitations on fixed term contracts—high income threshold exception2.15  Contracts to which limitations on fixed term contracts do not apply
+CollapseDivision 5—Fixed term contracts
+
+- 2.14  Limitations on fixed term contracts—high income threshold exception
+2.14  Limitations on fixed term contracts—high income threshold exception
+
+- 2.15  Contracts to which limitations on fixed term contracts do not apply
+2.15  Contracts to which limitations on fixed term contracts do not apply
+
+- CollapseChapter 3—Rights and responsibilities of employees, employers, organisations etc.CollapsePart 3-1—General protectionsCollapseDivision 5—Other protections3.01  Temporary absence—illness or injuryCollapseDivision 8—ComplianceCollapseSubdivision A—Contraventions involving dismissal3.02  Application feesCollapseSubdivision B—Other contraventions3.03  Application feesCollapseSubdivision C—Conference costs3.04  Schedule of costsCollapsePart 3-2—Unfair dismissalCollapseDivision 2—Protection from unfair dismissal3.05  When a person is protected from unfair dismissal—high income thresholdCollapseDivision 4—Remedies for unfair dismissal3.06  Remedy—compensation (amount taken to have been received by the employee)CollapseDivision 5—Procedural matters3.07  Application fees3.08  Schedule of costsCollapsePart 3-3—Industrial actionCollapseDivision 2—Protected industrial action3.09  Purposes prescribed for continuity of employment when employer response action occursCollapseDivision 6—Suspension or termination of protected industrial action by the FWC3.10  Persons who can apply for an order to suspend or terminate protected industrial actionCollapseDivision 8—Protected action ballots3.11  Requirements for protected action ballot agent3.12  Requirements for independent advisor3.13  Notice of protected action ballot order—notifying employees3.14  Conduct of protected action ballot—directions about ballot paper3.15  Compilation of roll of voters3.16  Protected action ballot papers—form3.16A  Conduct of protected action ballot by electronic voting3.17  Report about conduct of protected action ballot—independent advisorCollapseSubdivision G—Miscellaneous3.18  Conduct of protected action ballot—ballot papers3.19  Conduct of protected action ballot—scrutiny of ballot3.20  Conduct of protected action ballot—scrutineersCollapseDivision 9—Payments relating to periods of industrial action3.21  Payments relating to partial work bans—working out proportion of reduction of employee’s payments3.22  Payments relating to partial work bans—form of partial work ban notice3.23  Payments relating to partial work bans—content of partial work ban notice3.24  Manner of giving notice about partial work banCollapsePart 3-4—Right of entryCollapseDivision 2—Entry to investigate suspected contravention relating to TCF award workers3.24A  Prescribed accreditation bodyCollapseDivision 3—State or Territory OHS rights3.25  Meaning of State or Territory OHS lawCollapseDivision 6—Entry permits, entry notices and certificates3.26  Requirements for entry permits3.26A  Photographic identification to be produced with certain entry permits3.27  Form of entry notice3.28  Form of exemption certificate3.29  Form of affected member certificateCollapsePart 3-5A—Prohibiting sexual harassment connected with workCollapseDivision 3—Dealing with sexual harassment disputes3.29A  Applications for the FWC to deal with sexual harassment disputes—defence membersCollapsePart 3-6—Other rights and responsibilitiesCollapseDivision 2—Notification and consultation relating to certain dismissalsCollapseSubdivision A—Requirement to notify Centrelink3.30  Employer to notify Centrelink of certain proposed dismissals—form of noticeCollapseDivision 3—Employer obligations in relation to employee records and pay slipsCollapseSubdivision 1—Employee records3.31  Records—form3.32  Records—content3.33  Records—pay3.34  Records—overtime3.35  Records—averaging of hours3.36  Records—leave3.37  Records—superannuation contributions3.38  Records—individual flexibility arrangement3.39  Records—guarantee of annual earnings3.40  Records—termination of employment3.41  Records—transfer of business3.42  Records—inspection and copying of a record3.43  Records—information concerning a record3.44  Records—accuracyCollapseSubdivision 2—Pay slips3.45  Pay slips—form3.46  Pay slips—information to be included in pay slips3.47  Pay slips—information about paid family and domestic violence leave not to be included in pay slips3.48  Pay slips—requirements for reporting paid family and domestic violence leave
+CollapseChapter 3—Rights and responsibilities of employees, employers, organisations etc.
+
+- CollapsePart 3-1—General protectionsCollapseDivision 5—Other protections3.01  Temporary absence—illness or injuryCollapseDivision 8—ComplianceCollapseSubdivision A—Contraventions involving dismissal3.02  Application feesCollapseSubdivision B—Other contraventions3.03  Application feesCollapseSubdivision C—Conference costs3.04  Schedule of costs
+CollapsePart 3-1—General protections
+
+- CollapseDivision 5—Other protections3.01  Temporary absence—illness or injury
+CollapseDivision 5—Other protections
+
+- 3.01  Temporary absence—illness or injury
+3.01  Temporary absence—illness or injury
+
+- CollapseDivision 8—ComplianceCollapseSubdivision A—Contraventions involving dismissal3.02  Application feesCollapseSubdivision B—Other contraventions3.03  Application feesCollapseSubdivision C—Conference costs3.04  Schedule of costs
+CollapseDivision 8—Compliance
+
+- CollapseSubdivision A—Contraventions involving dismissal3.02  Application fees
+CollapseSubdivision A—Contraventions involving dismissal
+
+- 3.02  Application fees
+3.02  Application fees
+
+- CollapseSubdivision B—Other contraventions3.03  Application fees
+CollapseSubdivision B—Other contraventions
+
+- 3.03  Application fees
+3.03  Application fees
+
+- CollapseSubdivision C—Conference costs3.04  Schedule of costs
+CollapseSubdivision C—Conference costs
+
+- 3.04  Schedule of costs
+3.04  Schedule of costs
+
+- CollapsePart 3-2—Unfair dismissalCollapseDivision 2—Protection from unfair dismissal3.05  When a person is protected from unfair dismissal—high income thresholdCollapseDivision 4—Remedies for unfair dismissal3.06  Remedy—compensation (amount taken to have been received by the employee)CollapseDivision 5—Procedural matters3.07  Application fees3.08  Schedule of costs
+CollapsePart 3-2—Unfair dismissal
+
+- CollapseDivision 2—Protection from unfair dismissal3.05  When a person is protected from unfair dismissal—high income threshold
+CollapseDivision 2—Protection from unfair dismissal
+
+- 3.05  When a person is protected from unfair dismissal—high income threshold
+3.05  When a person is protected from unfair dismissal—high income threshold
+
+- CollapseDivision 4—Remedies for unfair dismissal3.06  Remedy—compensation (amount taken to have been received by the employee)
+CollapseDivision 4—Remedies for unfair dismissal
+
+- 3.06  Remedy—compensation (amount taken to have been received by the employee)
+3.06  Remedy—compensation (amount taken to have been received by the employee)
+
+- CollapseDivision 5—Procedural matters3.07  Application fees3.08  Schedule of costs
+CollapseDivision 5—Procedural matters
+
+- 3.07  Application fees
+3.07  Application fees
+
+- 3.08  Schedule of costs
+3.08  Schedule of costs
+
+- CollapsePart 3-3—Industrial actionCollapseDivision 2—Protected industrial action3.09  Purposes prescribed for continuity of employment when employer response action occursCollapseDivision 6—Suspension or termination of protected industrial action by the FWC3.10  Persons who can apply for an order to suspend or terminate protected industrial actionCollapseDivision 8—Protected action ballots3.11  Requirements for protected action ballot agent3.12  Requirements for independent advisor3.13  Notice of protected action ballot order—notifying employees3.14  Conduct of protected action ballot—directions about ballot paper3.15  Compilation of roll of voters3.16  Protected action ballot papers—form3.16A  Conduct of protected action ballot by electronic voting3.17  Report about conduct of protected action ballot—independent advisorCollapseSubdivision G—Miscellaneous3.18  Conduct of protected action ballot—ballot papers3.19  Conduct of protected action ballot—scrutiny of ballot3.20  Conduct of protected action ballot—scrutineersCollapseDivision 9—Payments relating to periods of industrial action3.21  Payments relating to partial work bans—working out proportion of reduction of employee’s payments3.22  Payments relating to partial work bans—form of partial work ban notice3.23  Payments relating to partial work bans—content of partial work ban notice3.24  Manner of giving notice about partial work ban
+CollapsePart 3-3—Industrial action
+
+- CollapseDivision 2—Protected industrial action3.09  Purposes prescribed for continuity of employment when employer response action occurs
+CollapseDivision 2—Protected industrial action
+
+- 3.09  Purposes prescribed for continuity of employment when employer response action occurs
+3.09  Purposes prescribed for continuity of employment when employer response action occurs
+
+- CollapseDivision 6—Suspension or termination of protected industrial action by the FWC3.10  Persons who can apply for an order to suspend or terminate protected industrial action
+CollapseDivision 6—Suspension or termination of protected industrial action by the FWC
+
+- 3.10  Persons who can apply for an order to suspend or terminate protected industrial action
+3.10  Persons who can apply for an order to suspend or terminate protected industrial action
+
+- CollapseDivision 8—Protected action ballots3.11  Requirements for protected action ballot agent3.12  Requirements for independent advisor3.13  Notice of protected action ballot order—notifying employees3.14  Conduct of protected action ballot—directions about ballot paper3.15  Compilation of roll of voters3.16  Protected action ballot papers—form3.16A  Conduct of protected action ballot by electronic voting3.17  Report about conduct of protected action ballot—independent advisorCollapseSubdivision G—Miscellaneous3.18  Conduct of protected action ballot—ballot papers3.19  Conduct of protected action ballot—scrutiny of ballot3.20  Conduct of protected action ballot—scrutineers
+CollapseDivision 8—Protected action ballots
+
+- 3.11  Requirements for protected action ballot agent
+3.11  Requirements for protected action ballot agent
+
+- 3.12  Requirements for independent advisor
+3.12  Requirements for independent advisor
+
+- 3.13  Notice of protected action ballot order—notifying employees
+3.13  Notice of protected action ballot order—notifying employees
+
+- 3.14  Conduct of protected action ballot—directions about ballot paper
+3.14  Conduct of protected action ballot—directions about ballot paper
+
+- 3.15  Compilation of roll of voters
+3.15  Compilation of roll of voters
+
+- 3.16  Protected action ballot papers—form
+3.16  Protected action ballot papers—form
+
+- 3.16A  Conduct of protected action ballot by electronic voting
+3.16A  Conduct of protected action ballot by electronic voting
+
+- 3.17  Report about conduct of protected action ballot—independent advisor
+3.17  Report about conduct of protected action ballot—independent advisor
+
+- CollapseSubdivision G—Miscellaneous3.18  Conduct of protected action ballot—ballot papers3.19  Conduct of protected action ballot—scrutiny of ballot3.20  Conduct of protected action ballot—scrutineers
+CollapseSubdivision G—Miscellaneous
+
+- 3.18  Conduct of protected action ballot—ballot papers
+3.18  Conduct of protected action ballot—ballot papers
+
+- 3.19  Conduct of protected action ballot—scrutiny of ballot
+3.19  Conduct of protected action ballot—scrutiny of ballot
+
+- 3.20  Conduct of protected action ballot—scrutineers
+3.20  Conduct of protected action ballot—scrutineers
+
+- CollapseDivision 9—Payments relating to periods of industrial action3.21  Payments relating to partial work bans—working out proportion of reduction of employee’s payments3.22  Payments relating to partial work bans—form of partial work ban notice3.23  Payments relating to partial work bans—content of partial work ban notice3.24  Manner of giving notice about partial work ban
+CollapseDivision 9—Payments relating to periods of industrial action
+
+- 3.21  Payments relating to partial work bans—working out proportion of reduction of employee’s payments
+3.21  Payments relating to partial work bans—working out proportion of reduction of employee’s payments
+
+- 3.22  Payments relating to partial work bans—form of partial work ban notice
+3.22  Payments relating to partial work bans—form of partial work ban notice
+
+- 3.23  Payments relating to partial work bans—content of partial work ban notice
+3.23  Payments relating to partial work bans—content of partial work ban notice
+
+- 3.24  Manner of giving notice about partial work ban
+3.24  Manner of giving notice about partial work ban
+
+- CollapsePart 3-4—Right of entryCollapseDivision 2—Entry to investigate suspected contravention relating to TCF award workers3.24A  Prescribed accreditation bodyCollapseDivision 3—State or Territory OHS rights3.25  Meaning of State or Territory OHS lawCollapseDivision 6—Entry permits, entry notices and certificates3.26  Requirements for entry permits3.26A  Photographic identification to be produced with certain entry permits3.27  Form of entry notice3.28  Form of exemption certificate3.29  Form of affected member certificate
+CollapsePart 3-4—Right of entry
+
+- CollapseDivision 2—Entry to investigate suspected contravention relating to TCF award workers3.24A  Prescribed accreditation body
+CollapseDivision 2—Entry to investigate suspected contravention relating to TCF award workers
+
+- 3.24A  Prescribed accreditation body
+3.24A  Prescribed accreditation body
+
+- CollapseDivision 3—State or Territory OHS rights3.25  Meaning of State or Territory OHS law
+CollapseDivision 3—State or Territory OHS rights
+
+- 3.25  Meaning of State or Territory OHS law
+3.25  Meaning of State or Territory OHS law
+
+- CollapseDivision 6—Entry permits, entry notices and certificates3.26  Requirements for entry permits3.26A  Photographic identification to be produced with certain entry permits3.27  Form of entry notice3.28  Form of exemption certificate3.29  Form of affected member certificate
+CollapseDivision 6—Entry permits, entry notices and certificates
+
+- 3.26  Requirements for entry permits
+3.26  Requirements for entry permits
+
+- 3.26A  Photographic identification to be produced with certain entry permits
+3.26A  Photographic identification to be produced with certain entry permits
+
+- 3.27  Form of entry notice
+3.27  Form of entry notice
+
+- 3.28  Form of exemption certificate
+3.28  Form of exemption certificate
+
+- 3.29  Form of affected member certificate
+3.29  Form of affected member certificate
+
+- CollapsePart 3-5A—Prohibiting sexual harassment connected with workCollapseDivision 3—Dealing with sexual harassment disputes3.29A  Applications for the FWC to deal with sexual harassment disputes—defence members
+CollapsePart 3-5A—Prohibiting sexual harassment connected with work
+
+- CollapseDivision 3—Dealing with sexual harassment disputes3.29A  Applications for the FWC to deal with sexual harassment disputes—defence members
+CollapseDivision 3—Dealing with sexual harassment disputes
+
+- 3.29A  Applications for the FWC to deal with sexual harassment disputes—defence members
+3.29A  Applications for the FWC to deal with sexual harassment disputes—defence members
+
+- CollapsePart 3-6—Other rights and responsibilitiesCollapseDivision 2—Notification and consultation relating to certain dismissalsCollapseSubdivision A—Requirement to notify Centrelink3.30  Employer to notify Centrelink of certain proposed dismissals—form of noticeCollapseDivision 3—Employer obligations in relation to employee records and pay slipsCollapseSubdivision 1—Employee records3.31  Records—form3.32  Records—content3.33  Records—pay3.34  Records—overtime3.35  Records—averaging of hours3.36  Records—leave3.37  Records—superannuation contributions3.38  Records—individual flexibility arrangement3.39  Records—guarantee of annual earnings3.40  Records—termination of employment3.41  Records—transfer of business3.42  Records—inspection and copying of a record3.43  Records—information concerning a record3.44  Records—accuracyCollapseSubdivision 2—Pay slips3.45  Pay slips—form3.46  Pay slips—information to be included in pay slips3.47  Pay slips—information about paid family and domestic violence leave not to be included in pay slips3.48  Pay slips—requirements for reporting paid family and domestic violence leave
+CollapsePart 3-6—Other rights and responsibilities
+
+- CollapseDivision 2—Notification and consultation relating to certain dismissalsCollapseSubdivision A—Requirement to notify Centrelink3.30  Employer to notify Centrelink of certain proposed dismissals—form of notice
+CollapseDivision 2—Notification and consultation relating to certain dismissals
+
+- CollapseSubdivision A—Requirement to notify Centrelink3.30  Employer to notify Centrelink of certain proposed dismissals—form of notice
+CollapseSubdivision A—Requirement to notify Centrelink
+
+- 3.30  Employer to notify Centrelink of certain proposed dismissals—form of notice
+3.30  Employer to notify Centrelink of certain proposed dismissals—form of notice
+
+- CollapseDivision 3—Employer obligations in relation to employee records and pay slipsCollapseSubdivision 1—Employee records3.31  Records—form3.32  Records—content3.33  Records—pay3.34  Records—overtime3.35  Records—averaging of hours3.36  Records—leave3.37  Records—superannuation contributions3.38  Records—individual flexibility arrangement3.39  Records—guarantee of annual earnings3.40  Records—termination of employment3.41  Records—transfer of business3.42  Records—inspection and copying of a record3.43  Records—information concerning a record3.44  Records—accuracyCollapseSubdivision 2—Pay slips3.45  Pay slips—form3.46  Pay slips—information to be included in pay slips3.47  Pay slips—information about paid family and domestic violence leave not to be included in pay slips3.48  Pay slips—requirements for reporting paid family and domestic violence leave
+CollapseDivision 3—Employer obligations in relation to employee records and pay slips
+
+- CollapseSubdivision 1—Employee records3.31  Records—form3.32  Records—content3.33  Records—pay3.34  Records—overtime3.35  Records—averaging of hours3.36  Records—leave3.37  Records—superannuation contributions3.38  Records—individual flexibility arrangement3.39  Records—guarantee of annual earnings3.40  Records—termination of employment3.41  Records—transfer of business3.42  Records—inspection and copying of a record3.43  Records—information concerning a record3.44  Records—accuracy
+CollapseSubdivision 1—Employee records
+
+- 3.31  Records—form
+- 3.32  Records—content
+3.32  Records—content
+
+- 3.33  Records—pay
+- 3.34  Records—overtime
+3.34  Records—overtime
+
+- 3.35  Records—averaging of hours
+3.35  Records—averaging of hours
+
+- 3.36  Records—leave
+- 3.37  Records—superannuation contributions
+3.37  Records—superannuation contributions
+
+- 3.38  Records—individual flexibility arrangement
+3.38  Records—individual flexibility arrangement
+
+- 3.39  Records—guarantee of annual earnings
+3.39  Records—guarantee of annual earnings
+
+- 3.40  Records—termination of employment
+3.40  Records—termination of employment
+
+- 3.41  Records—transfer of business
+3.41  Records—transfer of business
+
+- 3.42  Records—inspection and copying of a record
+3.42  Records—inspection and copying of a record
+
+- 3.43  Records—information concerning a record
+3.43  Records—information concerning a record
+
+- 3.44  Records—accuracy
+3.44  Records—accuracy
+
+- CollapseSubdivision 2—Pay slips3.45  Pay slips—form3.46  Pay slips—information to be included in pay slips3.47  Pay slips—information about paid family and domestic violence leave not to be included in pay slips3.48  Pay slips—requirements for reporting paid family and domestic violence leave
+CollapseSubdivision 2—Pay slips
+
+- 3.45  Pay slips—form
+- 3.46  Pay slips—information to be included in pay slips
+3.46  Pay slips—information to be included in pay slips
+
+- 3.47  Pay slips—information about paid family and domestic violence leave not to be included in pay slips
+3.47  Pay slips—information about paid family and domestic violence leave not to be included in pay slips
+
+- 3.48  Pay slips—requirements for reporting paid family and domestic violence leave
+3.48  Pay slips—requirements for reporting paid family and domestic violence leave
+
+- CollapseChapter 3A—Minimum standards for regulated workersCollapsePart 3A-1—Core provisions for this ChapterCollapseDivision 3—Exclusion of certain State and Territory laws3A.01  Exclusion of certain State and Territory lawsCollapsePart 3A-2—Minimum standards for regulated workersCollapseDivision 3—Minimum standards ordersCollapseSubdivision E—Decisions on minimum standards orders3A.02  Further terms that must not be included in a road transport minimum standards orderCollapsePart 3A-3—Unfair deactivation or unfair termination of regulated workersCollapseDivision 5—Procedural matters3A.03  Application fees3A.04  Schedule of costsCollapsePart 3A-5—Unfair contract terms of services contractsCollapseDivision 4—Procedural matters3A.05  Application fees
+CollapseChapter 3A—Minimum standards for regulated workers
+
+- CollapsePart 3A-1—Core provisions for this ChapterCollapseDivision 3—Exclusion of certain State and Territory laws3A.01  Exclusion of certain State and Territory laws
+CollapsePart 3A-1—Core provisions for this Chapter
+
+- CollapseDivision 3—Exclusion of certain State and Territory laws3A.01  Exclusion of certain State and Territory laws
+CollapseDivision 3—Exclusion of certain State and Territory laws
+
+- 3A.01  Exclusion of certain State and Territory laws
+3A.01  Exclusion of certain State and Territory laws
+
+- CollapsePart 3A-2—Minimum standards for regulated workersCollapseDivision 3—Minimum standards ordersCollapseSubdivision E—Decisions on minimum standards orders3A.02  Further terms that must not be included in a road transport minimum standards order
+CollapsePart 3A-2—Minimum standards for regulated workers
+
+- CollapseDivision 3—Minimum standards ordersCollapseSubdivision E—Decisions on minimum standards orders3A.02  Further terms that must not be included in a road transport minimum standards order
+CollapseDivision 3—Minimum standards orders
+
+- CollapseSubdivision E—Decisions on minimum standards orders3A.02  Further terms that must not be included in a road transport minimum standards order
+CollapseSubdivision E—Decisions on minimum standards orders
+
+- 3A.02  Further terms that must not be included in a road transport minimum standards order
+3A.02  Further terms that must not be included in a road transport minimum standards order
+
+- CollapsePart 3A-3—Unfair deactivation or unfair termination of regulated workersCollapseDivision 5—Procedural matters3A.03  Application fees3A.04  Schedule of costs
+CollapsePart 3A-3—Unfair deactivation or unfair termination of regulated workers
+
+- CollapseDivision 5—Procedural matters3A.03  Application fees3A.04  Schedule of costs
+CollapseDivision 5—Procedural matters
+
+- 3A.03  Application fees
+3A.03  Application fees
+
+- 3A.04  Schedule of costs
+3A.04  Schedule of costs
+
+- CollapsePart 3A-5—Unfair contract terms of services contractsCollapseDivision 4—Procedural matters3A.05  Application fees
+CollapsePart 3A-5—Unfair contract terms of services contracts
+
+- CollapseDivision 4—Procedural matters3A.05  Application fees
+CollapseDivision 4—Procedural matters
+
+- 3A.05  Application fees
+3A.05  Application fees
+
+- CollapseChapter 3B—Minimum standards for persons in a road transport contractual chainCollapsePart 3B-1—Core provisions for this ChapterCollapseDivision 3—Exclusion of certain State and Territory laws3B.01  Exclusion of certain State and Territory lawsCollapsePart 3B-2—Minimum standards for persons in a road transport contractual chainCollapseDivision 2—Road transport contractual chain ordersCollapseSubdivision D—Decisions on road transport contractual chain orders and related matters3B.02  Terms that must not be included in a road transport contractual chain order
+CollapseChapter 3B—Minimum standards for persons in a road transport contractual chain
+
+- CollapsePart 3B-1—Core provisions for this ChapterCollapseDivision 3—Exclusion of certain State and Territory laws3B.01  Exclusion of certain State and Territory laws
+CollapsePart 3B-1—Core provisions for this Chapter
+
+- CollapseDivision 3—Exclusion of certain State and Territory laws3B.01  Exclusion of certain State and Territory laws
+CollapseDivision 3—Exclusion of certain State and Territory laws
+
+- 3B.01  Exclusion of certain State and Territory laws
+3B.01  Exclusion of certain State and Territory laws
+
+- CollapsePart 3B-2—Minimum standards for persons in a road transport contractual chainCollapseDivision 2—Road transport contractual chain ordersCollapseSubdivision D—Decisions on road transport contractual chain orders and related matters3B.02  Terms that must not be included in a road transport contractual chain order
+CollapsePart 3B-2—Minimum standards for persons in a road transport contractual chain
+
+- CollapseDivision 2—Road transport contractual chain ordersCollapseSubdivision D—Decisions on road transport contractual chain orders and related matters3B.02  Terms that must not be included in a road transport contractual chain order
+CollapseDivision 2—Road transport contractual chain orders
+
+- CollapseSubdivision D—Decisions on road transport contractual chain orders and related matters3B.02  Terms that must not be included in a road transport contractual chain order
+CollapseSubdivision D—Decisions on road transport contractual chain orders and related matters
+
+- 3B.02  Terms that must not be included in a road transport contractual chain order
+3B.02  Terms that must not be included in a road transport contractual chain order
+
+- CollapseChapter 4—Compliance and enforcementCollapsePart 4-1—Civil remediesCollapseDivision 2—Orders4.01A  Applications for orders in relation to contraventions of civil remedy provisionsCollapseDivision 3—Small claims procedure4.01  Plaintiffs may choose small claims procedureCollapseDivision 4—General provisions relating to civil remedies and infringement notices4.02  General4.03  Definitions for Division 44.03A  Course of conduct4.04  When an infringement notice can be given4.05  Content of infringement notice4.06  Time for payment of penalty4.07  Extension of time to pay penalty4.08  Withdrawal of infringement notice4.09  Effect of payment of penalty4.10  Refund of penaltyCollapseDivision 5—Unclaimed money4.11  Unclaimed money
+CollapseChapter 4—Compliance and enforcement
+
+- CollapsePart 4-1—Civil remediesCollapseDivision 2—Orders4.01A  Applications for orders in relation to contraventions of civil remedy provisionsCollapseDivision 3—Small claims procedure4.01  Plaintiffs may choose small claims procedureCollapseDivision 4—General provisions relating to civil remedies and infringement notices4.02  General4.03  Definitions for Division 44.03A  Course of conduct4.04  When an infringement notice can be given4.05  Content of infringement notice4.06  Time for payment of penalty4.07  Extension of time to pay penalty4.08  Withdrawal of infringement notice4.09  Effect of payment of penalty4.10  Refund of penaltyCollapseDivision 5—Unclaimed money4.11  Unclaimed money
+CollapsePart 4-1—Civil remedies
+
+- CollapseDivision 2—Orders4.01A  Applications for orders in relation to contraventions of civil remedy provisions
+CollapseDivision 2—Orders
+
+- 4.01A  Applications for orders in relation to contraventions of civil remedy provisions
+4.01A  Applications for orders in relation to contraventions of civil remedy provisions
+
+- CollapseDivision 3—Small claims procedure4.01  Plaintiffs may choose small claims procedure
+CollapseDivision 3—Small claims procedure
+
+- 4.01  Plaintiffs may choose small claims procedure
+4.01  Plaintiffs may choose small claims procedure
+
+- CollapseDivision 4—General provisions relating to civil remedies and infringement notices4.02  General4.03  Definitions for Division 44.03A  Course of conduct4.04  When an infringement notice can be given4.05  Content of infringement notice4.06  Time for payment of penalty4.07  Extension of time to pay penalty4.08  Withdrawal of infringement notice4.09  Effect of payment of penalty4.10  Refund of penalty
+CollapseDivision 4—General provisions relating to civil remedies and infringement notices
+
+- 4.02  General
+- 4.03  Definitions for Division 4
+4.03  Definitions for Division 4
+
+- 4.03A  Course of conduct
+4.03A  Course of conduct
+
+- 4.04  When an infringement notice can be given
+4.04  When an infringement notice can be given
+
+- 4.05  Content of infringement notice
+4.05  Content of infringement notice
+
+- 4.06  Time for payment of penalty
+4.06  Time for payment of penalty
+
+- 4.07  Extension of time to pay penalty
+4.07  Extension of time to pay penalty
+
+- 4.08  Withdrawal of infringement notice
+4.08  Withdrawal of infringement notice
+
+- 4.09  Effect of payment of penalty
+4.09  Effect of payment of penalty
+
+- 4.10  Refund of penalty
+4.10  Refund of penalty
+
+- CollapseDivision 5—Unclaimed money4.11  Unclaimed money
+CollapseDivision 5—Unclaimed money
+
+- 4.11  Unclaimed money
+4.11  Unclaimed money
+
+- CollapseChapter 5—AdministrationCollapsePart 5-1—Fair Work CommissionCollapseDivision 5—FWC members5.01  Delegation by President of functions and powers of FWC5.01A  Delegation by the President of functions or powers of FWC—prescribed class of employees5.01B  Appointment of Vice President5.02  Dual federal and Territory appointments of Deputy Presidents or Commissioners5.03  Oath and affirmation of officeCollapseDivision 7—Seals and additional powers of the President and the General Manager5.04  President must provide certain information etc. to the Minister and Fair Work Ombudsman5.04A  Delegation by General Manager to staffCollapsePart 5-2—Office of the Fair Work OmbudsmanCollapseDivision 3—Office of the Fair Work OmbudsmanCollapseSubdivision D—Functions and powers of Fair Work Inspectors—general5.05  Powers and functions of inspectors—notification of failure to observe requirementsCollapseSubdivision DA—Power to enter premises5.06  Powers of inspectors while on premises—taking samples of goods and substancesCollapseSubdivision DB—Powers to ask questions and require records and documents5.07  Definitions for Subdivision DB5.08  Form of FWO notice5.09  Expenses incurred in attending as required by an FWO notice5.10  Travelling allowance5.11  Accommodation allowance5.12  Attendance allowance5.13  Legal allowance
+CollapseChapter 5—Administration
+
+- CollapsePart 5-1—Fair Work CommissionCollapseDivision 5—FWC members5.01  Delegation by President of functions and powers of FWC5.01A  Delegation by the President of functions or powers of FWC—prescribed class of employees5.01B  Appointment of Vice President5.02  Dual federal and Territory appointments of Deputy Presidents or Commissioners5.03  Oath and affirmation of officeCollapseDivision 7—Seals and additional powers of the President and the General Manager5.04  President must provide certain information etc. to the Minister and Fair Work Ombudsman5.04A  Delegation by General Manager to staff
+CollapsePart 5-1—Fair Work Commission
+
+- CollapseDivision 5—FWC members5.01  Delegation by President of functions and powers of FWC5.01A  Delegation by the President of functions or powers of FWC—prescribed class of employees5.01B  Appointment of Vice President5.02  Dual federal and Territory appointments of Deputy Presidents or Commissioners5.03  Oath and affirmation of office
+CollapseDivision 5—FWC members
+
+- 5.01  Delegation by President of functions and powers of FWC
+5.01  Delegation by President of functions and powers of FWC
+
+- 5.01A  Delegation by the President of functions or powers of FWC—prescribed class of employees
+5.01A  Delegation by the President of functions or powers of FWC—prescribed class of employees
+
+- 5.01B  Appointment of Vice President
+5.01B  Appointment of Vice President
+
+- 5.02  Dual federal and Territory appointments of Deputy Presidents or Commissioners
+5.02  Dual federal and Territory appointments of Deputy Presidents or Commissioners
+
+- 5.03  Oath and affirmation of office
+5.03  Oath and affirmation of office
+
+- CollapseDivision 7—Seals and additional powers of the President and the General Manager5.04  President must provide certain information etc. to the Minister and Fair Work Ombudsman5.04A  Delegation by General Manager to staff
+CollapseDivision 7—Seals and additional powers of the President and the General Manager
+
+- 5.04  President must provide certain information etc. to the Minister and Fair Work Ombudsman
+5.04  President must provide certain information etc. to the Minister and Fair Work Ombudsman
+
+- 5.04A  Delegation by General Manager to staff
+5.04A  Delegation by General Manager to staff
+
+- CollapsePart 5-2—Office of the Fair Work OmbudsmanCollapseDivision 3—Office of the Fair Work OmbudsmanCollapseSubdivision D—Functions and powers of Fair Work Inspectors—general5.05  Powers and functions of inspectors—notification of failure to observe requirementsCollapseSubdivision DA—Power to enter premises5.06  Powers of inspectors while on premises—taking samples of goods and substancesCollapseSubdivision DB—Powers to ask questions and require records and documents5.07  Definitions for Subdivision DB5.08  Form of FWO notice5.09  Expenses incurred in attending as required by an FWO notice5.10  Travelling allowance5.11  Accommodation allowance5.12  Attendance allowance5.13  Legal allowance
+CollapsePart 5-2—Office of the Fair Work Ombudsman
+
+- CollapseDivision 3—Office of the Fair Work OmbudsmanCollapseSubdivision D—Functions and powers of Fair Work Inspectors—general5.05  Powers and functions of inspectors—notification of failure to observe requirementsCollapseSubdivision DA—Power to enter premises5.06  Powers of inspectors while on premises—taking samples of goods and substancesCollapseSubdivision DB—Powers to ask questions and require records and documents5.07  Definitions for Subdivision DB5.08  Form of FWO notice5.09  Expenses incurred in attending as required by an FWO notice5.10  Travelling allowance5.11  Accommodation allowance5.12  Attendance allowance5.13  Legal allowance
+CollapseDivision 3—Office of the Fair Work Ombudsman
+
+- CollapseSubdivision D—Functions and powers of Fair Work Inspectors—general5.05  Powers and functions of inspectors—notification of failure to observe requirements
+CollapseSubdivision D—Functions and powers of Fair Work Inspectors—general
+
+- 5.05  Powers and functions of inspectors—notification of failure to observe requirements
+5.05  Powers and functions of inspectors—notification of failure to observe requirements
+
+- CollapseSubdivision DA—Power to enter premises5.06  Powers of inspectors while on premises—taking samples of goods and substances
+CollapseSubdivision DA—Power to enter premises
+
+- 5.06  Powers of inspectors while on premises—taking samples of goods and substances
+5.06  Powers of inspectors while on premises—taking samples of goods and substances
+
+- CollapseSubdivision DB—Powers to ask questions and require records and documents5.07  Definitions for Subdivision DB5.08  Form of FWO notice5.09  Expenses incurred in attending as required by an FWO notice5.10  Travelling allowance5.11  Accommodation allowance5.12  Attendance allowance5.13  Legal allowance
+CollapseSubdivision DB—Powers to ask questions and require records and documents
+
+- 5.07  Definitions for Subdivision DB
+5.07  Definitions for Subdivision DB
+
+- 5.08  Form of FWO notice
+5.08  Form of FWO notice
+
+- 5.09  Expenses incurred in attending as required by an FWO notice
+5.09  Expenses incurred in attending as required by an FWO notice
+
+- 5.10  Travelling allowance
+5.10  Travelling allowance
+
+- 5.11  Accommodation allowance
+5.11  Accommodation allowance
+
+- 5.12  Attendance allowance
+5.12  Attendance allowance
+
+- 5.13  Legal allowance
+5.13  Legal allowance
+
+- CollapseChapter 6—MiscellaneousCollapsePart 6-1—Multiple actionsCollapseDivision 3—Preventing multiple actionsCollapseSubdivision DA—Actions relating to unfair deactivation or unfair termination6.01A  Limitation on applications for remedy for unfair deactivation—other proceedings in progress6.01B  Limitation on applications for remedy for unfair termination—other proceedings in progressCollapseSubdivision E—Services contract actions6.01C  Limitation on applications for review of services contracts—other proceedings in progressCollapsePart 6-2—Dealing with disputesCollapseDivision 2—Dealing with disputesCollapseSubdivision A—Model term about dealing with disputes6.01  Model term about dealing with disputesCollapsePart 6-3—Extension of National Employment Standards entitlementsCollapseDivision 2—Extension of entitlement to unpaid parental leave and related entitlements6.02  Modification of meaning of base rate of pay for pieceworkers (non-national system employees)6.03  Meaning of pieceworkerCollapsePart 6-3A—Transfer of business from State public sector employer6.03A  FWC orders about coverage for employee organisations6.03B  Model term for dealing with disputes about matters arising under a copied State instrumentCollapsePart 6-4—Additional provisions relating to termination of employmentCollapseDivision 2—Termination of employment6.04  Temporary absence—illness or injury6.05  Application fees6.06  Schedule of costsCollapseDivision 3—Notification and consultation requirements relating to certain terminations of employmentCollapseSubdivision B—Requirement to notify Centrelink6.07  Employer to notify Centrelink of certain proposed terminations—form of noticeCollapsePart 6-4B—Workers bullied at workCollapseDivision 2—Stopping workers being bullied at work6.07A  Application feesCollapsePart 6-4C—Coronavirus economic responseCollapseDivision 1—Introduction6.07B  10% decline in turnover test—modificationCollapseDivision 5A—Flexibility provisions relating to employers previously entitled to jobkeeper payment6.07C  Jobkeeper enabling stand down—employer previously entitled to jobkeeper payment for employeeCollapsePart 6-4D—The National Construction Industry Forum6.07CA  Travel allowances—prescribed ratesCollapsePart 6-4DA—Transitional matters relating to employers etc. ceasing to be national system employers etc.CollapseDivision 1—Western Australian local government employers etc.6.07D  Definitions6.07E  Purpose of this Division6.07F  Transitional—FWC matters6.07G  Transitional—court proceedingsCollapsePart 6-5—MiscellaneousCollapseDivision 2—MiscellaneousCollapseSubdivision 1—Employment matters6.08  Public sector employer to act through employing authority—meaning of public sector employment6.09  Public sector employer to act through employing authority—meaning of employing authority6.10  No action for defamation in certain cases
+CollapseChapter 6—Miscellaneous
+
+- CollapsePart 6-1—Multiple actionsCollapseDivision 3—Preventing multiple actionsCollapseSubdivision DA—Actions relating to unfair deactivation or unfair termination6.01A  Limitation on applications for remedy for unfair deactivation—other proceedings in progress6.01B  Limitation on applications for remedy for unfair termination—other proceedings in progressCollapseSubdivision E—Services contract actions6.01C  Limitation on applications for review of services contracts—other proceedings in progress
+CollapsePart 6-1—Multiple actions
+
+- CollapseDivision 3—Preventing multiple actionsCollapseSubdivision DA—Actions relating to unfair deactivation or unfair termination6.01A  Limitation on applications for remedy for unfair deactivation—other proceedings in progress6.01B  Limitation on applications for remedy for unfair termination—other proceedings in progressCollapseSubdivision E—Services contract actions6.01C  Limitation on applications for review of services contracts—other proceedings in progress
+CollapseDivision 3—Preventing multiple actions
+
+- CollapseSubdivision DA—Actions relating to unfair deactivation or unfair termination6.01A  Limitation on applications for remedy for unfair deactivation—other proceedings in progress6.01B  Limitation on applications for remedy for unfair termination—other proceedings in progress
+CollapseSubdivision DA—Actions relating to unfair deactivation or unfair termination
+
+- 6.01A  Limitation on applications for remedy for unfair deactivation—other proceedings in progress
+6.01A  Limitation on applications for remedy for unfair deactivation—other proceedings in progress
+
+- 6.01B  Limitation on applications for remedy for unfair termination—other proceedings in progress
+6.01B  Limitation on applications for remedy for unfair termination—other proceedings in progress
+
+- CollapseSubdivision E—Services contract actions6.01C  Limitation on applications for review of services contracts—other proceedings in progress
+CollapseSubdivision E—Services contract actions
+
+- 6.01C  Limitation on applications for review of services contracts—other proceedings in progress
+6.01C  Limitation on applications for review of services contracts—other proceedings in progress
+
+- CollapsePart 6-2—Dealing with disputesCollapseDivision 2—Dealing with disputesCollapseSubdivision A—Model term about dealing with disputes6.01  Model term about dealing with disputes
+CollapsePart 6-2—Dealing with disputes
+
+- CollapseDivision 2—Dealing with disputesCollapseSubdivision A—Model term about dealing with disputes6.01  Model term about dealing with disputes
+CollapseDivision 2—Dealing with disputes
+
+- CollapseSubdivision A—Model term about dealing with disputes6.01  Model term about dealing with disputes
+CollapseSubdivision A—Model term about dealing with disputes
+
+- 6.01  Model term about dealing with disputes
+6.01  Model term about dealing with disputes
+
+- CollapsePart 6-3—Extension of National Employment Standards entitlementsCollapseDivision 2—Extension of entitlement to unpaid parental leave and related entitlements6.02  Modification of meaning of base rate of pay for pieceworkers (non-national system employees)6.03  Meaning of pieceworker
+CollapsePart 6-3—Extension of National Employment Standards entitlements
+
+- CollapseDivision 2—Extension of entitlement to unpaid parental leave and related entitlements6.02  Modification of meaning of base rate of pay for pieceworkers (non-national system employees)6.03  Meaning of pieceworker
+CollapseDivision 2—Extension of entitlement to unpaid parental leave and related entitlements
+
+- 6.02  Modification of meaning of base rate of pay for pieceworkers (non-national system employees)
+6.02  Modification of meaning of base rate of pay for pieceworkers (non-national system employees)
+
+- 6.03  Meaning of pieceworker
+6.03  Meaning of pieceworker
+
+- CollapsePart 6-3A—Transfer of business from State public sector employer6.03A  FWC orders about coverage for employee organisations6.03B  Model term for dealing with disputes about matters arising under a copied State instrument
+CollapsePart 6-3A—Transfer of business from State public sector employer
+
+- 6.03A  FWC orders about coverage for employee organisations
+6.03A  FWC orders about coverage for employee organisations
+
+- 6.03B  Model term for dealing with disputes about matters arising under a copied State instrument
+6.03B  Model term for dealing with disputes about matters arising under a copied State instrument
+
+- CollapsePart 6-4—Additional provisions relating to termination of employmentCollapseDivision 2—Termination of employment6.04  Temporary absence—illness or injury6.05  Application fees6.06  Schedule of costsCollapseDivision 3—Notification and consultation requirements relating to certain terminations of employmentCollapseSubdivision B—Requirement to notify Centrelink6.07  Employer to notify Centrelink of certain proposed terminations—form of notice
+CollapsePart 6-4—Additional provisions relating to termination of employment
+
+- CollapseDivision 2—Termination of employment6.04  Temporary absence—illness or injury6.05  Application fees6.06  Schedule of costs
+CollapseDivision 2—Termination of employment
+
+- 6.04  Temporary absence—illness or injury
+6.04  Temporary absence—illness or injury
+
+- 6.05  Application fees
+6.05  Application fees
+
+- 6.06  Schedule of costs
+6.06  Schedule of costs
+
+- CollapseDivision 3—Notification and consultation requirements relating to certain terminations of employmentCollapseSubdivision B—Requirement to notify Centrelink6.07  Employer to notify Centrelink of certain proposed terminations—form of notice
+CollapseDivision 3—Notification and consultation requirements relating to certain terminations of employment
+
+- CollapseSubdivision B—Requirement to notify Centrelink6.07  Employer to notify Centrelink of certain proposed terminations—form of notice
+CollapseSubdivision B—Requirement to notify Centrelink
+
+- 6.07  Employer to notify Centrelink of certain proposed terminations—form of notice
+6.07  Employer to notify Centrelink of certain proposed terminations—form of notice
+
+- CollapsePart 6-4B—Workers bullied at workCollapseDivision 2—Stopping workers being bullied at work6.07A  Application fees
+CollapsePart 6-4B—Workers bullied at work
+
+- CollapseDivision 2—Stopping workers being bullied at work6.07A  Application fees
+CollapseDivision 2—Stopping workers being bullied at work
+
+- 6.07A  Application fees
+6.07A  Application fees
+
+- CollapsePart 6-4C—Coronavirus economic responseCollapseDivision 1—Introduction6.07B  10% decline in turnover test—modificationCollapseDivision 5A—Flexibility provisions relating to employers previously entitled to jobkeeper payment6.07C  Jobkeeper enabling stand down—employer previously entitled to jobkeeper payment for employee
+CollapsePart 6-4C—Coronavirus economic response
+
+- CollapseDivision 1—Introduction6.07B  10% decline in turnover test—modification
+CollapseDivision 1—Introduction
+
+- 6.07B  10% decline in turnover test—modification
+6.07B  10% decline in turnover test—modification
+
+- CollapseDivision 5A—Flexibility provisions relating to employers previously entitled to jobkeeper payment6.07C  Jobkeeper enabling stand down—employer previously entitled to jobkeeper payment for employee
+CollapseDivision 5A—Flexibility provisions relating to employers previously entitled to jobkeeper payment
+
+- 6.07C  Jobkeeper enabling stand down—employer previously entitled to jobkeeper payment for employee
+6.07C  Jobkeeper enabling stand down—employer previously entitled to jobkeeper payment for employee
+
+- CollapsePart 6-4D—The National Construction Industry Forum6.07CA  Travel allowances—prescribed rates
+CollapsePart 6-4D—The National Construction Industry Forum
+
+- 6.07CA  Travel allowances—prescribed rates
+6.07CA  Travel allowances—prescribed rates
+
+- CollapsePart 6-4DA—Transitional matters relating to employers etc. ceasing to be national system employers etc.CollapseDivision 1—Western Australian local government employers etc.6.07D  Definitions6.07E  Purpose of this Division6.07F  Transitional—FWC matters6.07G  Transitional—court proceedings
+CollapsePart 6-4DA—Transitional matters relating to employers etc. ceasing to be national system employers etc.
+
+- CollapseDivision 1—Western Australian local government employers etc.6.07D  Definitions6.07E  Purpose of this Division6.07F  Transitional—FWC matters6.07G  Transitional—court proceedings
+CollapseDivision 1—Western Australian local government employers etc.
+
+- 6.07D  Definitions
+- 6.07E  Purpose of this Division
+6.07E  Purpose of this Division
+
+- 6.07F  Transitional—FWC matters
+6.07F  Transitional—FWC matters
+
+- 6.07G  Transitional—court proceedings
+6.07G  Transitional—court proceedings
+
+- CollapsePart 6-5—MiscellaneousCollapseDivision 2—MiscellaneousCollapseSubdivision 1—Employment matters6.08  Public sector employer to act through employing authority—meaning of public sector employment6.09  Public sector employer to act through employing authority—meaning of employing authority6.10  No action for defamation in certain cases
+CollapsePart 6-5—Miscellaneous
+
+- CollapseDivision 2—MiscellaneousCollapseSubdivision 1—Employment matters6.08  Public sector employer to act through employing authority—meaning of public sector employment6.09  Public sector employer to act through employing authority—meaning of employing authority6.10  No action for defamation in certain cases
+CollapseDivision 2—Miscellaneous
+
+- CollapseSubdivision 1—Employment matters6.08  Public sector employer to act through employing authority—meaning of public sector employment6.09  Public sector employer to act through employing authority—meaning of employing authority6.10  No action for defamation in certain cases
+CollapseSubdivision 1—Employment matters
+
+- 6.08  Public sector employer to act through employing authority—meaning of public sector employment
+6.08  Public sector employer to act through employing authority—meaning of public sector employment
+
+- 6.09  Public sector employer to act through employing authority—meaning of employing authority
+6.09  Public sector employer to act through employing authority—meaning of employing authority
+
+- 6.10  No action for defamation in certain cases
+6.10  No action for defamation in certain cases
+
+- CollapseChapter 7—Transitional provisionsCollapsePart 7-1—Amendments made by the Fair Work Amendment (Notice of Employee Representational Rights) Regulations 20177.01  Application of amendments—notice of employee representational rightsCollapsePart 7-2—Amendments made by the Fair Work Amendment (Corrupting Benefits) Regulations 20177.02  Application of amendments—disclosure of benefits by organisations and employersCollapsePart 7-3—Amendments made by the Fair Work Amendment (Casual Loading Offset) Regulations 20187.03  Application of amendments—claims to offset certain amountsCollapsePart 7-4—Amendments made by the Fair Work Amendment (Paid Family and Domestic Violence Leave) Regulations 20237.04  Definitions for this Part7.05  Application of amendments7.06  Requirements during grace periodCollapsePart 7-5—Amendments made by the Fair Work and Other Legislation Amendment (Secure Jobs, Better Pay) Regulations 20237.07  Definitions for this Part7.08  Application of amendments—requirements for President to provide information to Minister7.09  Application of amendments—notice of employee representational rightsCollapsePart 7-6—Amendments made by the Fair Work Amendment (Minor and Technical Measures) Regulations 20247.10  Definitions for this Part7.11  Application of amendments—small claims proceedingsCollapsePart 7-7—Amendments made by the Fair Work Amendment (Fixed Term Contracts) Regulations 20257.12  Application of amendments
+CollapseChapter 7—Transitional provisions
+
+- CollapsePart 7-1—Amendments made by the Fair Work Amendment (Notice of Employee Representational Rights) Regulations 20177.01  Application of amendments—notice of employee representational rights
+CollapsePart 7-1—Amendments made by the Fair Work Amendment (Notice of Employee Representational Rights) Regulations 2017
+
+- 7.01  Application of amendments—notice of employee representational rights
+7.01  Application of amendments—notice of employee representational rights
+
+- CollapsePart 7-2—Amendments made by the Fair Work Amendment (Corrupting Benefits) Regulations 20177.02  Application of amendments—disclosure of benefits by organisations and employers
+CollapsePart 7-2—Amendments made by the Fair Work Amendment (Corrupting Benefits) Regulations 2017
+
+- 7.02  Application of amendments—disclosure of benefits by organisations and employers
+7.02  Application of amendments—disclosure of benefits by organisations and employers
+
+- CollapsePart 7-3—Amendments made by the Fair Work Amendment (Casual Loading Offset) Regulations 20187.03  Application of amendments—claims to offset certain amounts
+CollapsePart 7-3—Amendments made by the Fair Work Amendment (Casual Loading Offset) Regulations 2018
+
+- 7.03  Application of amendments—claims to offset certain amounts
+7.03  Application of amendments—claims to offset certain amounts
+
+- CollapsePart 7-4—Amendments made by the Fair Work Amendment (Paid Family and Domestic Violence Leave) Regulations 20237.04  Definitions for this Part7.05  Application of amendments7.06  Requirements during grace period
+CollapsePart 7-4—Amendments made by the Fair Work Amendment (Paid Family and Domestic Violence Leave) Regulations 2023
+
+- 7.04  Definitions for this Part
+7.04  Definitions for this Part
+
+- 7.05  Application of amendments
+7.05  Application of amendments
+
+- 7.06  Requirements during grace period
+7.06  Requirements during grace period
+
+- CollapsePart 7-5—Amendments made by the Fair Work and Other Legislation Amendment (Secure Jobs, Better Pay) Regulations 20237.07  Definitions for this Part7.08  Application of amendments—requirements for President to provide information to Minister7.09  Application of amendments—notice of employee representational rights
+CollapsePart 7-5—Amendments made by the Fair Work and Other Legislation Amendment (Secure Jobs, Better Pay) Regulations 2023
+
+- 7.07  Definitions for this Part
+7.07  Definitions for this Part
+
+- 7.08  Application of amendments—requirements for President to provide information to Minister
+7.08  Application of amendments—requirements for President to provide information to Minister
+
+- 7.09  Application of amendments—notice of employee representational rights
+7.09  Application of amendments—notice of employee representational rights
+
+- CollapsePart 7-6—Amendments made by the Fair Work Amendment (Minor and Technical Measures) Regulations 20247.10  Definitions for this Part7.11  Application of amendments—small claims proceedings
+CollapsePart 7-6—Amendments made by the Fair Work Amendment (Minor and Technical Measures) Regulations 2024
+
+- 7.10  Definitions for this Part
+7.10  Definitions for this Part
+
+- 7.11  Application of amendments—small claims proceedings
+7.11  Application of amendments—small claims proceedings
+
+- CollapsePart 7-7—Amendments made by the Fair Work Amendment (Fixed Term Contracts) Regulations 20257.12  Application of amendments
+CollapsePart 7-7—Amendments made by the Fair Work Amendment (Fixed Term Contracts) Regulations 2025
+
+- 7.12  Application of amendments
+7.12  Application of amendments
+
+- Schedule 2.1—Notice of employee representational rights
+Schedule 2.1—Notice of employee representational rights
+
+- Schedule 2.1A—Document for disclosure of benefits
+Schedule 2.1A—Document for disclosure of benefits
+
+- Schedule 2.2—Model flexibility term
+Schedule 2.2—Model flexibility term
+
+- Schedule 2.3—Model consultation term
+Schedule 2.3—Model consultation term
+
+- CollapseSchedule 3.1—Schedule of costsPart 1—InstructionsPart 2—DocumentsPart 3—DrawingPart 4—Writing or typing legal lettersPart 5—CopiesPart 6—Perusal and scanningPart 7—ExaminationPart 8—LettersPart 9—ServicePart 10—Preparation of appeal booksPart 11—AttendancesPart 12—General care and conductPart 13—Fees for Counsel for solicitor appearing as CounselPart 14—Witnesses’ expensesPart 15—Disbursements
+CollapseSchedule 3.1—Schedule of costs
+
+- Part 1—Instructions
+- Part 2—Documents
+- Part 3—Drawing
+- Part 4—Writing or typing legal letters
+Part 4—Writing or typing legal letters
+
+- Part 5—Copies
+- Part 6—Perusal and scanning
+Part 6—Perusal and scanning
+
+- Part 7—Examination
+- Part 8—Letters
+- Part 9—Service
+- Part 10—Preparation of appeal books
+Part 10—Preparation of appeal books
+
+- Part 11—Attendances
+- Part 12—General care and conduct
+Part 12—General care and conduct
+
+- Part 13—Fees for Counsel for solicitor appearing as Counsel
+Part 13—Fees for Counsel for solicitor appearing as Counsel
+
+- Part 14—Witnesses’ expenses
+Part 14—Witnesses’ expenses
+
+- Part 15—Disbursements
+Part 15—Disbursements
+
+- CollapseSchedule 3.2—Ballot papersForm 1—Ballot paper under Part 3 of Chapter 3
+CollapseSchedule 3.2—Ballot papers
+
+- Form 1—Ballot paper under Part 3 of Chapter 3
+Form 1—Ballot paper under Part 3 of Chapter 3
+
+- CollapseSchedule 3.3—Forms relating to entry to premisesForm 2—Entry noticeForm 3—Exemption certificatesForm 4—Affected member certificate
+CollapseSchedule 3.3—Forms relating to entry to premises
+
+- Form 2—Entry notice
+- Form 3—Exemption certificates
+Form 3—Exemption certificates
+
+- Form 4—Affected member certificate
+Form 4—Affected member certificate
+
+- CollapseSchedule 3.4—Forms for certain dismissalsForm 1—Notice to Centrelink of proposed dismissals
+CollapseSchedule 3.4—Forms for certain dismissals
+
+- Form 1—Notice to Centrelink of proposed dismissals
+Form 1—Notice to Centrelink of proposed dismissals
+
+- Schedule 4.1—Form of claim for unclaimed money
+Schedule 4.1—Form of claim for unclaimed money
+
+- Schedule 5.1—Oath and affirmation of office
+Schedule 5.1—Oath and affirmation of office
+
+- CollapseSchedule 5.2—Information and copies of documents to be provided to the Minister and the Fair Work OmbudsmanPart 1—Information and copies of documents to be provided to the MinisterPart 2—Information and copies of documents to be provided to the Fair Work Ombudsman
+CollapseSchedule 5.2—Information and copies of documents to be provided to the Minister and the Fair Work Ombudsman
+
+- Part 1—Information and copies of documents to be provided to the Minister
+Part 1—Information and copies of documents to be provided to the Minister
+
+- Part 2—Information and copies of documents to be provided to the Fair Work Ombudsman
+Part 2—Information and copies of documents to be provided to the Fair Work Ombudsman
+
+- CollapseSchedule 5.3—Forms for FWO NoticesForm 1—FWO notice to give informationForm 2—FWO notice to produce documentsForm 3—FWO notice to attend and answer questions
+CollapseSchedule 5.3—Forms for FWO Notices
+
+- Form 1—FWO notice to give information
+Form 1—FWO notice to give information
+
+- Form 2—FWO notice to produce documents
+Form 2—FWO notice to produce documents
+
+- Form 3—FWO notice to attend and answer questions
+Form 3—FWO notice to attend and answer questions
+
+- Schedule 6.1—Model term for dealing with disputes for enterprise agreements
+Schedule 6.1—Model term for dealing with disputes for enterprise agreements
+
+- Schedule 6.1A—Model term for dealing with disputes about matters arising under copied State instrument
+Schedule 6.1A—Model term for dealing with disputes about matters arising under copied State instrument
+
+- CollapseSchedule 6.2—Forms for certain terminationsForm 1—Notice to Centrelink of proposed terminations
+CollapseSchedule 6.2—Forms for certain terminations
+
+- Form 1—Notice to Centrelink of proposed terminations
+Form 1—Notice to Centrelink of proposed terminations
+
+- Schedule 6.3—Public sector employment—employing authorities
+Schedule 6.3—Public sector employment—employing authorities
+
+- CollapseEndnotesEndnote 1—About the endnotesEndnote 2—Abbreviation keyEndnote 3—Legislation historyEndnote 4—Amendment history
+- Endnote 1—About the endnotes
+Endnote 1—About the endnotes
+
+- Endnote 2—Abbreviation key
+Endnote 2—Abbreviation key
+
+- Endnote 3—Legislation history
+Endnote 3—Legislation history
+
+- Endnote 4—Amendment history
+Endnote 4—Amendment history

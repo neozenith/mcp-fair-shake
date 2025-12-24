@@ -1,12 +1,22 @@
 {
   "canonical_id": "/au-victoria/eoa/2010",
-  "source_url": "https://www.legislation.vic.gov.au/as-made/acts/equal-opportunity-act-2010",
-  "fetch_timestamp": "2025-12-23T22:38:28.746193+00:00",
-  "content_hash": "4c6bb62f16e1da22752e6454e8e408010d28c2b1f879e933e1a1ca18d050d3f7",
-  "file_size": 205,
+  "source_url": "https://content.legislation.vic.gov.au/sites/default/files/2025-09/10-16aa031-authorised.pdf",
+  "fetch_timestamp": "2025-12-24T03:43:00.294724+00:00",
+  "content_hash": "dad81f8404f98388056a04f3e6112ff8b8bcf59f9c96263b8f0889f87ff0cf0d",
+  "file_size": 241665,
   "jurisdiction": "au-victoria",
   "code_type": "eoa",
   "year": "2010",
   "section_count": null,
-  "title": "Equal Opportunity Act 2010"
+  "title": "Equal Opportunity Act 2010",
+  "document_info": {
+    "source_url": "https://content.legislation.vic.gov.au/sites/default/files/2025-09/10-16aa031-authorised.pdf",
+    "page_count": "167",
+    "title": "Equal Opportunity Act 2010",
+    "author": "74",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creation_date": "2025-09-16 15:43:17+10:00",
+    "modification_date": "2025-09-16 15:44:41+10:00"
+  }
 }

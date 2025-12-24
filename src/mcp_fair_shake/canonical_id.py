@@ -26,6 +26,7 @@ VALID_JURISDICTIONS = {
 VALID_CODE_TYPES = {
     "fwa": "Fair Work Act",
     "fwr": "Fair Work Regulations",
+    "ma": "Modern Award",
     "ohs": "Occupational Health and Safety Act",
     "eoa": "Equal Opportunity Act",
     "lsl": "Long Service Leave Act",
@@ -96,8 +97,9 @@ def parse_canonical_id(canonical_id: str) -> CanonicalID | None:
         >>> parse_canonical_id("/au-federal/fwa/2009")
         CanonicalID(jurisdiction='au-federal', code_type='fwa', year='2009', section=None)
     """
-    # Pattern: /{jurisdiction}/{code-type}/{year}/{section?}
-    pattern = r"^/([a-z-]+)/([a-z]+)/(\d{4})(?:/([a-z0-9.]+))?$"
+    # Pattern: /{jurisdiction}/{code-type}/{year-or-code}/{section?}
+    # Accepts 4-digit years (2009) or 6-digit codes (000004 for Modern Awards)
+    pattern = r"^/([a-z-]+)/([a-z]+)/(\d{4,6})(?:/([a-z0-9.]+))?$"
     match = re.match(pattern, canonical_id.lower())
 
     if not match:

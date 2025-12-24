@@ -209,3 +209,5 @@ __marimo__/
 
 # Temporary test files
 tmp/
+scripts/
+.make/

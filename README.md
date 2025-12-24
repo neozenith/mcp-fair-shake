@@ -10,12 +10,33 @@ The [Model Context Protocol](https://modelcontextprotocol.io) is a standard way 
 
 ## Project Status
 
-**Phase 1 Complete** (December 2025):
-- ✅ Three MCP tools: `resolve-legislation`, `get-legislation-content`, `get-cache-status`
-- ✅ Local-first caching with SHA256 integrity verification
-- ✅ CLI admin mode for cache management
-- ✅ 83.54% test coverage with 61 passing tests
-- ✅ Support for P0 legislation (Fair Work Act 2009, Victorian OHS Act 2004, Victorian Equal Opportunity Act 2010)
+**Current Status** (December 2025):
+
+**✅ Phase 1 Complete** - Core Infrastructure
+- Three MCP tools: `resolve-legislation`, `get-legislation-content`, `get-cache-status`
+- Local-first caching with SHA256 integrity verification
+- CLI admin mode for cache management
+
+**✅ Phase 3 Complete** - Support Pathways
+- `get-support` tool for employee support agency lookup
+- Deadline tracking with urgency indicators
+- Victorian and federal support pathways
+
+**✅ Phase 4 Complete** - Federal Coverage
+- Fair Work Act 2009 (complete)
+- Fair Work Regulations 2009
+- Top 10 Modern Awards by employee coverage
+- Federal/state jurisdiction filtering
+
+**Testing & Quality:**
+- ✅ 111 passing tests, 82.75% coverage
+- ✅ Zero mocks - all integration tests with real HTTP requests
+- ✅ PDF parsing for Victorian legislation and Modern Awards
+- ✅ Full type safety with mypy strict mode
+
+**Supported Legislation:**
+- **Federal:** Fair Work Act 2009, Fair Work Regulations 2009, 10 Modern Awards
+- **Victorian:** OHS Act 2004, Equal Opportunity Act 2010, Long Service Leave Act 2018, Workers Compensation Act 1958, Accident Compensation Act 1985
 
 ## Installation
 
@@ -110,23 +131,43 @@ Resolve natural language queries or citations to canonical legislation IDs.
 
 #### `get-legislation-content`
 
-Retrieve legislation content from cache or download if needed.
+Retrieve legislation content from cache or download if needed. Supports both HTML (federal) and PDF (Victorian, Modern Awards) sources.
 
 **Parameters:**
-- `canonical_id` (string, required): Canonical legislation ID (e.g., "/au-victoria/ohs/2004")
-- `mode` (string, optional): Content mode - "text" (default, only mode in Phase 1)
+- `canonical_id` (string, required): Canonical legislation ID
+  - Federal Acts: `/au-federal/fwa/2009`
+  - Modern Awards: `/au-federal/ma/000004`
+  - Victorian Acts: `/au-victoria/ohs/2004`
+- `mode` (string, optional): Content mode - "text", "summary", or "metadata"
 - `section` (string, optional): Optional section filter (e.g., "s21")
 
 **Example:**
 ```json
 {
-  "canonical_id": "/au-victoria/ohs/2004",
-  "mode": "text",
-  "section": "s21"
+  "canonical_id": "/au-federal/ma/000004",
+  "mode": "text"
 }
 ```
 
-**Returns:** Legislation content with metadata.
+**Returns:** Legislation content with metadata, including page markers for PDF sources.
+
+#### `get-support`
+
+Find support agencies and resolution pathways for workplace issues.
+
+**Parameters:**
+- `scenario` (string, required): Workplace issue description (e.g., "unfair dismissal", "wage theft", "discrimination")
+- `jurisdiction` (string, optional): Filter by jurisdiction (e.g., "au-victoria", "au-federal")
+
+**Example:**
+```json
+{
+  "scenario": "unfair dismissal",
+  "jurisdiction": "au-federal"
+}
+```
+
+**Returns:** Support agencies, contact information, deadlines, and step-by-step guidance.
 
 #### `get-cache-status`
 
@@ -134,7 +175,7 @@ Get cache coverage, size, and missing items.
 
 **Parameters:** None
 
-**Returns:** JSON with cache statistics including P0 coverage, total size, and cached items.
+**Returns:** JSON with cache statistics including coverage, total size, and cached items.
 
 ### CLI Admin Mode
 
@@ -186,11 +227,13 @@ uv run pytest tests/test_tools.py::test_evaluate_tool_basic -v
 ```
 
 **Testing Architecture:**
+- **NO MOCKS POLICY** - All tests use real HTTP requests and actual data
 - Uses FastMCP's in-memory testing client for clean, fast tests
+- Integration tests verify end-to-end functionality with real legislation sources
+- PDF and HTML parsing tested with actual government documents
 - Zero subprocess overhead or async teardown issues
-- Tests verify tool registration, parameter validation, and responses
 - Parametrized tests cover multiple scenarios
-- All tests pass cleanly with no errors or warnings
+- 111 tests, 82.75% coverage, all passing with no errors or warnings
 
 ### Code Quality
 
@@ -219,13 +262,18 @@ mcp-fair-shake/
 │   ├── cache.py               # Cache manager with SHA256 verification
 │   ├── fetcher.py             # Legislation fetcher with retry logic
 │   └── cli.py                 # CLI admin mode
-├── tests/                     # Test suite (61 tests, 83.54% coverage)
+├── tests/                     # Test suite (111 tests, 82.75% coverage)
 │   ├── conftest.py            # Pytest fixtures
 │   ├── test_server.py         # Server initialization tests
 │   ├── test_tools.py          # MCP tool integration tests
 │   ├── test_canonical_id.py   # Canonical ID parsing tests
 │   ├── test_cache.py          # Cache management tests
-│   └── test_fetcher.py        # Legislation fetcher tests
+│   ├── test_fetcher.py        # Legislation fetcher unit tests
+│   ├── test_fetcher_integration.py  # Real HTTP integration tests (NO MOCKS)
+│   ├── test_pdf_parser.py     # PDF parsing tests
+│   ├── test_html_parser.py    # HTML parsing tests
+│   ├── test_playwright_fetcher.py   # Playwright browser automation tests
+│   └── test_deadlines.py      # Deadline tracking and urgency tests
 ├── data/                      # Local legislation cache
 │   ├── legislation/cache/     # Cached legislation files
 │   ├── legislation/summaries/ # Plain language summaries (Phase 2+)

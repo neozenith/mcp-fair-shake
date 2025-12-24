@@ -1,12 +1,22 @@
 {
   "canonical_id": "/au-victoria/lsl/2018",
-  "source_url": "https://www.legislation.vic.gov.au/as-made/acts/long-service-leave-act-2018",
-  "fetch_timestamp": "2025-12-24T02:39:40.604954+00:00",
-  "content_hash": "ed18373f1232a25ef5b2c69fe58a22a1499aca67865efe2b1626569c62ecafe8",
-  "file_size": 206,
+  "source_url": "https://content.legislation.vic.gov.au/sites/default/files/2025-12/18-12aa006-authorised.pdf",
+  "fetch_timestamp": "2025-12-24T03:20:07.142448+00:00",
+  "content_hash": "6cb15726247e66a2706e6d0a84e6b3c2e5f93441821b9ed5b3bf41dc4bee2240",
+  "file_size": 84463,
   "jurisdiction": "au-victoria",
   "code_type": "lsl",
   "year": "2018",
   "section_count": null,
-  "title": "Long Service Leave Act 2018"
+  "title": "Long Service Leave Act 2018",
+  "document_info": {
+    "source_url": "https://content.legislation.vic.gov.au/sites/default/files/2025-12/18-12aa006-authorised.pdf",
+    "page_count": "65",
+    "title": "Long Service Leave Act 2018",
+    "author": "hayley",
+    "creator": "Microsoft\u00ae Word for Microsoft 365",
+    "producer": "Microsoft\u00ae Word for Microsoft 365",
+    "creation_date": "2025-12-12 11:49:04+11:00",
+    "modification_date": "2025-12-12 11:49:51+11:00"
+  }
 }

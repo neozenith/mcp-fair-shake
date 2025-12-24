@@ -1,7 +1,2742 @@
 # Long Service Leave Act 2018
 
-[PLACEHOLDER: HTML parsing not yet implemented]
+**Source**: https://content.legislation.vic.gov.au/sites/default/files/2025-12/18-12aa006-authorised.pdf
+**Pages**: 65
+**Created**: 2025-12-12 11:49:04+11:00
 
-Source HTML length: 65345 characters
+---
 
-To implement: Use BeautifulSoup to extract legislation sections from the HTML structure.
+
+[Page 1]
+
+Authorised by the Chief Parliamentary Counsel 
+i  
+Authorised Version No. 006 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+Authorised Version incorporating amendments as at 
+12 December 2025 
+ 
+TABLE OF PROVISIONS 
+Section Page 
+Part 1—Preliminary 1 
+1 Purposes 1 
+2 Commencement 1 
+3 Definitions 1 
+4 Act binds the Crown 5 
+5 Employees to whom this Act does not apply 5 
+Part 2—Long service leave entitlements 7 
+6 Entitlement to long service leave 7 
+7 Long service leave does not include public holidays or annual 
+leave 7 
+8 Leave in advance 7 
+9 What happens if employment ends before leave is taken? 8 
+10 What is to happen if the employee dies before leave is taken? 9 
+11 Meaning of one employer 10 
+12 Meaning of continuous employment 13 
+13 Periods of absence from work that are taken to be periods of 
+employment when calculating the length of a period of 
+continuous employment 17 
+14 Periods of absence from work not taken to be periods of 
+employment when calculating the length of a period of 
+continuous employment 19 
+15 Meaning of ordinary pay and ordinary time rate of pay 20 
+16 Normal weekly hours if none fixed or hours changed 20 
+17 Normal weekly hours and ordinary time rate of pay if working 
+in suitable employment or absent due to workplace illness or 
+injury 23 
+18 Employee may make request for long service leave 24 
+19 Employer may direct employee to take long service leave 24 
+20 Payment while on long service leave 24 
+21 Pay increases while on leave 25 
+22 Leave at half pay 26
+
+[Page 2]
+
+Authorised by the Chief Parliamentary Counsel 
+Section Page 
+ii   
+23 Contracting out prohibited 26 
+Part 3—Enforcement 28 
+Division 1—Industrial Division of the Magistrates' Court 28 
+24 Jurisdiction of the Industrial Division of the Magistrates' Court 28 
+25 Proceedings for offences to be brought in Industrial Division of 
+the Magistrates' Court 29 
+26 Recovery of money owed 30 
+27 Order for reimbursement, reinstatement and compensation 31 
+28 Order for payment of arrears or compensation on conviction 32 
+Division 2—Authorised officers 33 
+29 Appointment of authorised officers 33 
+30 Identity cards 34 
+31 Power to require information or documents 34 
+32 Retention of documents 35 
+33 Confidentiality 35 
+Division 3—Offences 36 
+34 Payments in lieu forbidden 36 
+35 Offences concerning working during long service leave 37 
+36 Adverse action taken against employee 37 
+37 Offences concerning long service leave records 40 
+38 Failing to produce documents or giving false or misleading 
+documents 42 
+39 Protection against self-incrimination 42 
+40 Who can prosecute under this Act? 43 
+41 Judicial notice 44 
+42 Imputing conduct to bodies corporate or other employer 45 
+43 Criminal liability of officers of bodies corporate—accessorial 
+liability 45 
+44 Offences by unincorporated associations 47 
+Part 4—Preservation of superior long service leave entitlements 48 
+45 Application of Part 48 
+46 Definition of award 48 
+47 Preservation 49 
+Part 5—Preservation of accrued long service leave entitlements 50 
+48 Definitions for this Part 50 
+49 Protection of accrued entitlements 51 
+Part 6—Disclosure requirements for workplace agreements 52 
+50 Disclosure of modified or removed long service leave 
+entitlements 52
+
+[Page 3]
+
+Authorised by the Chief Parliamentary Counsel 
+Section Page 
+iii   
+Part 7—General 53 
+52 Supreme Court—limitation of jurisdiction 53 
+53 Regulations 53 
+Part 8—Repeal of Long Service Leave Act 1992 and savings and 
+transitional provisions 54 
+Division 1—Long Service Leave Act 2018 54 
+55 Definitions 54 
+56 Long Service Leave Act 1992 repealed 54 
+57 Transitional provisions 54 
+Division 2—Industrial Relations Legislation Amendment Act 2021 55 
+58 Transitional provision—Industrial Relations Legislation 
+Amendment Act 2021 55 
+═══════════════ 
+Endnotes 58 
+1 General information 58 
+2 Table of Amendments 60 
+3 Explanatory details 61
+
+[Page 4]
+
+Authorised by the Chief Parliamentary Counsel 
+Section Page 
+iv
+
+[Page 5]
+
+Authorised by the Chief Parliamentary Counsel 
+ 
+1   
+Authorised Version No. 006 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+Authorised Version incorporating amendments as at 
+12 December 2025 
+ 
+The Parliament of Victoria enacts: 
+Part 1—Preliminary 
+ 1 Purposes 
+The purposes of this Act are— 
+ (a) to make provision with respect to the 
+long service leave entitlements of certain 
+employees, including public and private 
+sector employees and police officers; and 
+ (b) to repeal the Long Service Leave Act 1992; 
+and 
+ (c) to make consequential amendments to other 
+Acts. 
+ 2 Commencement 
+ (1) Subject to subsection (2), this Act comes into 
+operation on a day to be proclaimed. 
+ (2) If this Act does not come into operation before 
+1 November 2018, it comes into operation on that 
+day. 
+ 3 Definitions 
+ (1) In this Act— 
+authorised officer means a person appointed 
+under section 29; 
+continuous employment has the meaning given in 
+section 12;
+
+[Page 6]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 1—Preliminary 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+2   
+employee includes— 
+ (a) a person employed by an employer to 
+do any work for hire or reward and 
+includes— 
+ (i) an apprentice and any person 
+whose contract of employment 
+requires the person to learn or to 
+be taught an occupation; and 
+ (ii) a casual or seasonal employee; 
+and 
+ (b) a public sector employee within the 
+meaning of section 4(1) of the Public 
+Administration Act 2004; and 
+ (c) a person employed under Part 6 of the 
+Public Administration Act 2004; and 
+ (d) a director of a public entity within the 
+meaning of the Public Administration 
+Act 2004; and 
+ (e) a person appointed under Part 3 of the 
+Victoria Police Act 2013; and 
+ (f) a person appointed as a police 
+reservist under section 103 of the 
+Police Regulation Act 1958 as in force 
+immediately before the commencement 
+of section 282 of the Victoria Police 
+Act 2013; 
+employer includes— 
+ (a) a person by whom an employee is 
+employed; and 
+ (b) in the case of a transfer of assets 
+referred to in section 11, a person who 
+was not an employer at the time of the 
+transfer but who is taken to be an
+
+[Page 7]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 1—Preliminary 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+3   
+employee's one employer under that 
+section; and 
+ (c) in the case of a contract for the 
+performance of work referred to in 
+section 11, a person who was not an 
+employer at the time the contract was 
+entered into but who is taken to be an 
+employee's one employer under that 
+section; and 
+ (d) a person or body (corporate or 
+unincorporate) nominated by the 
+Governor in Council as the employer 
+of a person referred to in paragraph (b), 
+(c), (d), (e) or (f) of the definition of 
+employee; 
+employment agreement means the agreement 
+(whether written or oral) under which an 
+employee is employed and includes— 
+ (a) a fair work instrument; and 
+ (b) a fair work instrument given 
+continuing effect under the Fair 
+Work Transition Act; 
+Fair Work Act means the Fair Work Act 2009 of 
+the Commonwealth; 
+fair work instrument has the same meaning as in 
+section 12 of the Fair Work Act; 
+Fair Work Transition Act means the Fair 
+Work (Transitional Provisions and 
+Consequential Amendments) Act 2009  
+of the Commonwealth; 
+long service leave record includes any register, 
+certificate, notice, pay sheet or other 
+document relating to an employee's long 
+service leave entitlement;
+
+[Page 8]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 1—Preliminary 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+4   
+one employer has the meaning given in 
+section 11; 
+ordinary pay has the meaning given in 
+section 15(1); 
+ordinary time rate of pay has the meaning 
+given in section 15(2); 
+organisation means an association of employees 
+that is registered under the law of any State 
+or Territory or of the Commonwealth;  
+other Act includes an Act of the Commonwealth 
+and of any State or Territory; 
+parental leave means— 
+ (a) maternity leave; and 
+ (b) paternity leave; and 
+ (c) adoption leave; 
+person includes an unincorporated body and a 
+partnership; 
+reasonable business grounds includes the 
+following— 
+ (a) there is no capacity to change the 
+working arrangements of other 
+employees to accommodate the 
+employee taking long service leave 
+at the requested time; 
+ (b) it is impractical to change the working 
+arrangements of other employees, or 
+recruit new employees to accommodate 
+the employee taking long service leave 
+at the requested time; 
+ (c) the long service leave requested by 
+the employee is likely to result in a 
+significant loss in efficiency or 
+productivity;
+
+[Page 9]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 1—Preliminary 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+5   
+ (d) the long service leave requested by the 
+employee is likely to have a significant 
+negative impact on customer service; 
+Secretary means the Department Head (within the 
+meaning of the Public Administration 
+Act 2004) to the Department of Premier and 
+Cabinet. 
+ * * * * * 
+ 
+ 
+ 4 Act binds the Crown 
+This Act binds the Crown in right of Victoria and, 
+so far as the legislative power of the Parliament 
+permits, the Crown in all its other capacities. 
+ 5 Employees to whom this Act does not apply 
+This Act does not apply in relation to an employee 
+who— 
+ (a) is entitled to long service leave under a 
+Victorian Act other than this Act, to the 
+extent of any inconsistency with that other 
+Victorian Act; or 
+ (b) is entitled to long service leave under an 
+employment agreement (regardless of 
+whether it was made before or after the 
+commencement of this Act), to the extent 
+of any inconsistency with that employment 
+agreement if, in the opinion of the Industrial 
+Division of the Magistrates' Court, the long 
+service leave entitlements are more 
+favourable under that agreement than those 
+provided by this Act; or 
+ 
+ 
+S. 3(1) def. of 
+Secretary 
+amended by 
+No. 14/2021 
+s. 74. 
+S. 3(2) 
+repealed by 
+No. 44/2018 
+s. 81(1).
+
+[Page 10]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 1—Preliminary 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+6   
+ (c) is employed by an employer who was 
+exempted from complying with Division 6 of 
+Part 5 of the Long Service Leave Act 1992 
+under section 65 of that Act; or 
+ (d) is employed under Part 2.3, 2.4 or 2A.1 of 
+the Education and Training Reform 
+Act 2006; or 
+ (e) is entitled under the Construction Industry 
+Long Service Leave Act 1997 to long 
+service leave and to be paid benefits out of 
+the fund within the meaning of that Act. 
+  
+S. 5(d) 
+amended by 
+No. 7/2024 
+s. 18.
+
+[Page 11]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+7   
+Part 2—Long service leave entitlements 
+ 6 Entitlement to long service leave  
+At any time after completing 7 years of 
+continuous employment with one employer, an 
+employee is entitled to an amount of long service 
+leave on ordinary pay equal to 1/60th of the 
+employee's total period of continuous employment 
+less any period of long service leave taken during 
+that period. 
+ 7 Long service leave does not include public holidays 
+or annual leave 
+Long service leave does not include any public 
+holiday occurring, or annual leave taken, during 
+the period when the long service leave is taken. 
+ 8 Leave in advance 
+ (1) An employer may agree to an employee taking 
+long service leave— 
+ (a) despite the employee not completing  
+7 years of continuous employment with 
+the employer; and 
+ (b) at any time before the employee becomes 
+entitled to the long service leave. 
+ (2) If an employee takes long service leave before 
+the employee is entitled to the long service leave, 
+the employee is not entitled to any further long 
+service leave or payment in lieu of long service 
+leave for the period of employment in respect of 
+which the leave in advance was taken. 
+ (3) If an employee takes long service leave before 
+the employee is entitled to the long service 
+leave and the employee's employment ends, the 
+employer may deduct from any payment payable
+
+[Page 12]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+8   
+to the employee as a result of the ending of the 
+employment an amount equal to the amount paid 
+to the employee for the leave (if any) in respect of 
+which the employee will not become entitled. 
+ 9 What happens if employment ends before leave is 
+taken? 
+ (1) If an employee's employment ends (other than 
+because of the employee's death) before the 
+employee has taken all the long service leave to 
+which the employee is entitled— 
+ (a) the employee is taken to have started long 
+service leave on the day on which the 
+employment ends; and 
+ (b) the full amount of the employee's long 
+service leave entitlement, calculated as at the 
+day on which the employment ends, is due 
+and payable to the employee on that day. 
+ (2) The employer of an employee referred to in 
+subsection (1) must pay the employee the full 
+amount of the employee's long service leave 
+entitlement. 
+Penalty: In the case of a natural person, 
+12 penalty units for each day during 
+which the offence continues; 
+ In the case of a body corporate, 
+60 penalty units for each day during 
+which the offence continues. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ (3) The obligation imposed under subsection (2) to 
+pay the employee's long service leave entitlement 
+continues from the day on which the entitlement 
+accrues under subsection (1)(b) until the employer 
+has paid the full amount of the entitlement to the 
+employee. 
+S. 9(1) 
+substituted by 
+No. 14/2021 
+s. 75. 
+S. 9(2) 
+substituted by 
+No. 14/2021 
+s. 75. 
+S. 9(3) 
+inserted by 
+No. 14/2021 
+s. 75.
+
+[Page 13]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+9   
+ 10 What is to happen if the employee dies before leave 
+is taken? 
+ (1) If an employee dies before taking all the long 
+service leave to which the employee is entitled, 
+the employee's employer must pay to the 
+employee's personal representative the full amount 
+of the long service leave entitlement still owed to 
+the employee. 
+Penalty: In the case of a natural person,  
+12 penalty units for each day during 
+which the offence continues; 
+ In the case of a body corporate,  
+60 penalty units for each day during 
+which the offence continues. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ (2) If, in relation to a prosecution of an offence 
+against this section, the employer alleges that the 
+length of the employee's period of continuous 
+employment with the employer is wrong in the 
+charge-sheet, the employer bears the onus of 
+proving the allegation. 
+ (3) For the purposes of calculating the amount to be 
+paid under this section— 
+ (a) the ordinary pay of the employee is the 
+amount the employee was entitled to receive 
+as at the time of the employee's death for 
+working the employee's normal weekly 
+hours at the employee's ordinary rate of pay; 
+and 
+ (b) any average that needs to be taken for the 
+purposes of section 15 or 16 is to be taken 
+over the 52 weeks immediately before the 
+employee's death.
+
+[Page 14]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+10   
+ 11 Meaning of one employer 
+ (1) This section sets out several situations in which 
+an employee is taken, for the purposes of this Act, 
+to have been employed by one employer despite 
+having been employed during the relevant period 
+by more than one employer in a strict legal sense. 
+ (2) If an employee is employed by a corporation, the 
+employee is taken to have been employed by the 
+corporation during any period that the employee 
+was employed by— 
+ (a) a related body corporate of the corporation 
+(within the meaning of the Corporations 
+Act); or 
+ (b) another corporation and— 
+ (i) the directors of that other corporation 
+and the employee's present employer 
+were substantially the same; or 
+ (ii) that other corporation and the 
+employee's present employer 
+were under substantially the 
+same management. 
+ (3) If the ownership of a business employing an 
+employee changes but the employment of the 
+employee continues— 
+ (a) the employee is taken to have started 
+employment with the new owner on the date 
+on which the employee started employment 
+at that business; and 
+ (b) the new owner must not refuse to provide the 
+employee any long service leave to which 
+the employee is entitled, including long 
+service leave which accrued before the 
+change of ownership.
+
+[Page 15]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+11   
+ (4) Subsection (3) applies regardless of whether the 
+change of ownership of the business occurred 
+before or after the commencement of this Act. 
+ (5) If an employee is dismissed from employment by 
+the owner of a business and is re-employed within 
+12 weeks after the day of the dismissal by a new 
+owner of the same business to perform work for 
+the new owner which is the same (or substantially 
+the same) as the work the employee performed for 
+the former owner, the employee is taken— 
+ (a) to have finished employment with the former 
+owner on the day before the ownership of the 
+business changed; and 
+ (b) to have started employment with the new 
+owner on the day the ownership of the 
+business changed; and 
+ (c) to have been employed by the new owner 
+from the day on which the employee first 
+started employment at that business. 
+ (6) If an employee performs duties in connection with 
+any assets used in the carrying on of a business 
+owned by the employee's employer and those 
+assets are transferred to another employer who 
+continues the employment of the employee— 
+ (a) the employee is taken to have started 
+employment with the new owner on the day 
+on which the employee started employment 
+at that business; and 
+ (b) the new owner must not refuse to provide 
+the employee any long service leave to 
+which the employee is entitled, including 
+long service leave which accrued before the 
+transfer.
+
+[Page 16]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+12   
+ (7) Subsection (8) applies if— 
+ (a) an employee performs duties in connection 
+with any assets used in the carrying on of an 
+employer's business; and 
+ (b) the employee is dismissed by that employer; 
+and 
+ (c) those assets are transferred to another 
+employer; and 
+ (d) within 12 weeks after the day of the 
+dismissal, the other employer employs the 
+employee to perform duties in relation to 
+those assets or other assets of a similar kind. 
+ (8) An employee referred to in subsection (7) is 
+taken— 
+ (a) to have finished employment with the 
+employee's former employer on the day 
+before the assets were transferred; and 
+ (b) to have started employment with the new 
+employer on the day the assets were 
+transferred; and 
+ (c) to have been employed by the new employer 
+from the day on which the employee first 
+started employment at that business. 
+ (9) Subsection (10) applies if— 
+ (a) an employee performs work in the course 
+of employment with the employee's 
+employer (the first-mentioned employer); 
+and 
+ (b) the first-mentioned employer enters 
+into a contract with another person 
+(the second-mentioned employer) for 
+the performance of work that is the same 
+(or substantially the same) as the work
+
+[Page 17]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+13   
+performed for the first-mentioned employer; 
+and 
+ (c) as a consequence of that contract, the 
+employee ceases employment with the 
+first-mentioned employer and commences 
+employment with the second-mentioned 
+employer. 
+ (10) An employee referred to in subsection (9) is 
+taken to have started employment with the 
+second-mentioned employer on the day on 
+which the employee started employment with the 
+first-mentioned employer. 
+ (11) The second-mentioned employer referred to in 
+subsection (9) must not refuse to provide the 
+employee any long service leave to which the 
+employee is entitled, including long service leave 
+which accrued while the employee was employed 
+by the first-mentioned employer. 
+ (12) In this section— 
+assets includes tangible and intangible assets; 
+business includes a trade, process and occupation 
+and any part of a trade, process or occupation 
+and also includes any part of a business; 
+transfer includes a transmission, conveyance, 
+assignment or succession, whether by 
+agreement or by operation of law. 
+ 12 Meaning of continuous employment 
+ (1) This section sets out several situations in which an 
+employee is taken, for the purposes of this Act, to 
+be continuously employed. 
+ (2) An employee's employment is taken to be 
+continuous despite an absence from work caused 
+by the employee taking— 
+ 
+S. 12(1) 
+amended by 
+No. 44/2018 
+s. 81(2).
+
+[Page 18]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+14   
+ (a) annual leave; or 
+ (b) long service leave; or 
+ (c) paid or unpaid parental leave (other than in 
+the case of a casual or seasonal employee); 
+or 
+ (d) in the case of a casual or seasonal employee, 
+paid or unpaid parental leave that is not 
+longer than 104 weeks; or 
+ (e) carer's leave; or 
+ (f) leave on account of illness or injury; or 
+ (g) any other form of leave not referred to in this 
+subsection that is provided for under the 
+relevant employment agreement. 
+ (3) A casual or seasonal employee's employment is 
+taken to be continuous despite an absence from 
+work that is longer than 12 weeks, starting at the 
+end of a particular instance of employment and 
+ending at the start of another particular instance of 
+employment if— 
+ (a) the casual or seasonal employee and the 
+employer so agree before the start of the 
+absence; or 
+ (b) the absence is due to the terms of 
+engagement of the casual or seasonal 
+employee; or 
+ (c) the absence is caused by seasonal factors; or 
+ (d) the employee has been employed by the 
+employer on a regular and systematic 
+basis and the employee has a reasonable 
+expectation of being re-engaged by the 
+employer.
+
+[Page 19]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+15   
+ (4) An employee's employment is taken to be 
+continuous despite an absence from work caused 
+by the employer terminating or interrupting the 
+employment with the intention of avoiding an 
+obligation in relation to long service leave. 
+ (5) An employee's employment is taken to be 
+continuous despite an absence arising solely 
+from the transfer of assets from one employer to 
+another, if the employee usually performs duties 
+which are connected with those assets. 
+ (6) An employee's employment is taken to be 
+continuous despite an absence from work 
+caused by the termination of the employee's 
+employment— 
+ (a) at the initiative of the employer or the 
+employee, if the employee is re-employed 
+by the employer within 12 weeks after the 
+termination; or 
+ (b) because of the expiration of a specified term 
+of an employment contract, if the employee 
+is re-employed by the employer within 
+12 weeks after the expiration; or  
+ (c) because the employee's apprenticeship to 
+an employer is completed, if the employee 
+is re-employed by the employer within 
+52 weeks after the end of the apprenticeship. 
+ (7) An employee's employment is taken to be 
+continuous despite the employer standing 
+down the employee— 
+ (a) during industrial action if the employee 
+cannot be usefully employed because of 
+the industrial action; or 
+ 
+ 
+S. 12(7) 
+substituted by 
+No. 44/2018 
+s. 81(3).
+
+[Page 20]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+16   
+ (b) because of a breakdown of machinery or 
+equipment for which the employer cannot 
+reasonably be held responsible if the 
+employee cannot be usefully employed 
+because of the breakdown; or 
+ (c) because of a stoppage of work for any cause 
+for which the employer cannot reasonably be 
+held responsible if the employee cannot be 
+usefully employed because of the stoppage. 
+ (8) An employee's employment is taken to be 
+continuous despite any interruption arising 
+directly or indirectly from an industrial dispute. 
+ * * * * * 
+ 
+ 
+ (9) In this section— 
+industrial action means any of the following 
+kinds of action— 
+ (a) the performance of work by an 
+employee in a manner different 
+from that in which it is customarily 
+performed, or the adoption of a practice 
+in relation to work by an employee, the 
+result of which is a restriction or 
+limitation on, or a delay in, the 
+performance of the work; 
+ (b) a ban, limitation or restriction on the 
+performance of work by an employee 
+or on the acceptance of, or offering for, 
+work by an employee; 
+ (c) a failure or refusal by employees to 
+attend for work or a failure or refusal to 
+perform any work at all by employees 
+who attend for work; 
+S. 12(8) 
+substituted by 
+No. 44/2018 
+s. 81(3). 
+S. 12(9) 
+repealed by 
+No. 44/2018 
+s. 81(3). 
+S. 12(10) 
+renumbered 
+as s. 12(9) by 
+No. 44/2018 
+s. 81(4)(a).
+
+[Page 21]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+17   
+ (d) an employer prevents an employee 
+from performing work under the 
+employee's contract of employment 
+without terminating that contract. 
+ (10) Despite anything to the contrary in subsection (9), 
+industrial action does not include the following— 
+ (a) action by employees that is authorised or 
+agreed to by the employer of the employees; 
+ (b) action by an employer that is authorised or 
+agreed to by, or on behalf of, employees of 
+the employer; 
+ (c) action by an employee if— 
+ (i) the action was based on a reasonable 
+concern of the employee about an 
+imminent risk to the employee's health 
+or safety; and 
+ (ii) the employee did not unreasonably 
+fail to comply with a direction of the 
+employer to perform other available 
+work, whether at the same or another 
+workplace, that was safe and 
+appropriate for the employee to 
+perform. 
+ 13 Periods of absence from work that are taken to be 
+periods of employment when calculating the length 
+of a period of continuous employment 
+ (1) The following periods of absence from work 
+referred to in section 12 are taken to be periods of 
+employment when calculating the length of an 
+employee's period of continuous employment— 
+ (a) a period of paid leave; 
+ (b) if a period of unpaid leave is less than or is 
+52 weeks, that period; 
+S. 12(11) 
+renumbered 
+as s. 12(10) by 
+No. 44/2018 
+s. 81(4)(b)(i), 
+amended by 
+No. 44/2018 
+s. 81(4)(b)(ii).
+
+[Page 22]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+18   
+ (c) if a period of unpaid leave is more than 
+52 weeks, the initial 52 weeks;  
+ (d) if a period of unpaid leave is more than 
+52 weeks, the entire period of unpaid leave 
+if— 
+ (i) the period of absence is taken to be a 
+period of employment in accordance 
+with the relevant employment 
+agreement; or 
+ (ii) the employer and the employee agreed 
+in writing before the leave was taken 
+that the period is taken to be a period of 
+employment; or 
+ (iii) the leave is taken on account of illness 
+or injury or is any other form of leave 
+provided for under the relevant 
+employment agreement; 
+ (e) a period of absence arising from— 
+ (i) an interruption to, or termination of, 
+employment caused by the employer 
+with the intention of avoiding an 
+obligation in relation to long service 
+leave; or  
+ (ii) the transfer of assets from one 
+employer to another if the employee 
+usually performs duties which are 
+connected with those assets. 
+ (2) If an employee enters into a contract of 
+employment with an employer within 52 weeks 
+after completing an apprenticeship with the 
+employer, the period of apprenticeship is taken to 
+be a period of employment when calculating the 
+length of the employee's period of continuous 
+employment.
+
+[Page 23]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+19   
+ 14 Periods of absence from work not taken to be 
+periods of employment when calculating the length 
+of a period of continuous employment 
+The following periods of absence from work 
+referred to in section 12 are not taken to be 
+periods of employment when calculating the 
+length of an employee's period of continuous 
+employment— 
+ (a) a period of unpaid leave in excess of 
+52 weeks (other than the initial 52 weeks) 
+unless— 
+ (i) the period of absence is taken to be a 
+period of employment in accordance 
+with the relevant employment 
+agreement; or 
+ (ii) the employer and the employee agreed 
+in writing before the leave was taken 
+that the period is taken to be a period of 
+employment; or 
+ (iii) the unpaid leave is taken on account of 
+illness or injury or is any other form of 
+leave provided for under the relevant 
+employment agreement;  
+ (b) an absence following the ending of the 
+employee's employment described in 
+section 12(6)(a) or (b); 
+ (c) an absence caused by an employer 
+standing down the employee described 
+in section 12(7)(a), (b) or (c); 
+ (d) an interruption described in section 12(8). 
+ 
+ 
+ 
+ 
+S. 14(c) 
+amended by 
+No. 44/2018 
+s. 81(5)(a). 
+S. 14(d) 
+inserted by 
+No. 44/2018 
+s. 81(5)(b).
+
+[Page 24]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+20   
+ 15 Meaning of ordinary pay and ordinary time rate of 
+pay 
+ (1) For the purposes of this Act, and subject to this 
+section, ordinary pay— 
+ (a) means the pay that an employee is entitled 
+to receive on the day on which the employee 
+starts long service leave, calculated on the 
+employee's normal weekly hours at the 
+employee's ordinary time rate of pay; and 
+ (b) includes the cash value of any board or 
+lodging that an employee receives from the 
+employee's employer. 
+ (2) If an ordinary time rate of pay is not fixed for an 
+employee's work under the relevant employment 
+agreement, the employee's ordinary time rate of 
+pay is the greatest of the following— 
+ (a) the average weekly rate earned by the 
+employee in the 52 weeks immediately 
+before the employee starts long service 
+leave; 
+ (b) the average weekly rate earned by the 
+employee in the 260 weeks immediately 
+before the employee starts long service 
+leave; 
+ (c) the average weekly rate earned by the 
+employee during the employee's period of 
+continuous employment with the employer 
+immediately before the employee starts long 
+service leave. 
+ 16 Normal weekly hours if none fixed or hours changed 
+ (1) This section applies if— 
+ (a) no normal weekly number of hours of work 
+is fixed for an employee's work under the 
+relevant employment agreement; or
+
+[Page 25]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+21   
+ (b) the normal weekly number of hours of work 
+is fixed but is changed one or more times 
+during the 104 weeks immediately before the 
+employee starts long service leave. 
+ (2) The employee's normal weekly number of hours 
+of work is taken to be the greatest of the 
+following— 
+ (a) in relation to the 52 weeks immediately 
+before the employee starts long service 
+leave, the average weekly number of hours 
+calculated in accordance with the following 
+formula— 
+(B + C)A= (52 – D)
+ 
+where— 
+ A is the employee's average weekly 
+number of hours; 
+ B is the number of hours the employee 
+worked during the 52 weeks; 
+ C is the number of hours in respect of 
+which the employee took paid leave 
+during the 52 weeks; 
+ D is the number of weeks the employee 
+took unpaid leave during the 52 weeks; 
+ (b) in relation to the 260 weeks immediately 
+before the employee starts long service 
+leave, the average weekly number of hours 
+calculated in accordance with the following 
+formula—
+
+[Page 26]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+22   
+(B + C)A= (260 – D)
+ 
+where— 
+ A is the employee's average weekly 
+number of hours; 
+ B is the number of hours the employee 
+worked during the 260 weeks; 
+ C is the number of hours in respect of 
+which the employee took paid leave 
+during the 260 weeks; 
+ D is the number of weeks the 
+employee took unpaid leave during 
+the 260 weeks; 
+ (c) in relation to the employee's last period of 
+continuous employment immediately before 
+the employee starts long service leave, the 
+average weekly number of hours calculated 
+in accordance with the following formula— 
+(B + C)A= (D – E)
+ 
+where— 
+ A is the employee's average weekly 
+number of hours; 
+ B is the number of hours the employee 
+worked during the last period of 
+continuous employment; 
+ C is the number of hours in respect of 
+which the employee took paid leave 
+during the last period of continuous 
+employment; 
+ D is the number of weeks of the 
+employee's last period of continuous 
+employment;
+
+[Page 27]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+23   
+ E is the number of weeks the employee 
+took unpaid leave during the last period 
+of continuous employment. 
+ 17 Normal weekly hours and ordinary time rate of pay 
+if working in suitable employment or absent due to 
+workplace illness or injury 
+ (1) This section applies if an employee is— 
+ (a) working in suitable employment (within the 
+meaning of section 3 of the Workplace 
+Injury Rehabilitation and Compensation 
+Act 2013); or 
+ (b) absent from work because of a workplace 
+illness or injury and is in receipt of any 
+compensation in the form of weekly 
+payments from the Victorian WorkCover 
+Authority for that illness or injury. 
+ (2) An employee's normal weekly hours and ordinary 
+time rate of pay are to be taken to be the greater of 
+the following— 
+ (a) the employee's normal weekly hours and 
+ordinary time rate of pay immediately before 
+the employee starts long service leave; 
+ (b) the employee's normal weekly hours and 
+ordinary time rate of pay immediately before 
+the employee developed the relevant illness 
+or suffered the relevant injury. 
+Note 
+Section 16 may apply when determining an employee's 
+normal weekly hours.
+
+[Page 28]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+24   
+ 18 Employee may make request for long service leave 
+ (1) An employee may make a request to the 
+employee's employer to take long service 
+leave for a period of not less than 1 day. 
+ (2) An employer must grant an employee's request to 
+take long service leave as soon as practicable after 
+receiving the request unless the employer has 
+reasonable business grounds for refusing the 
+request. 
+ 19 Employer may direct employee to take long service 
+leave 
+ (1) An employer may direct an employee to take 
+long service leave at a specified time and for a 
+specified period by giving the employee at least 
+12 weeks' written notice. 
+ (2) Subject to an order of the Industrial Division of 
+the Magistrates' Court, an employee must comply 
+with a direction given under subsection (1). 
+ 20 Payment while on long service leave 
+ (1) An employer must give an employee the pay to 
+which the employee is entitled in respect of long 
+service leave in any way and at any time that is 
+agreed to by the employee and the employer 
+before the start of the long service leave. 
+Penalty: In the case of a natural person, 
+12 penalty units for each day during 
+which the offence continues; 
+ In the case of a body corporate, 
+60 penalty units for each day during 
+which the offence continues. 
+Note 
+Section 43 applies to an offence against this subsection.
+
+[Page 29]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+25   
+ (2) If no agreement exists, an employer must give 
+an employee the pay to which the employee is 
+entitled in respect of long service leave in one of 
+the following ways— 
+ (a) pay in full when the employee starts the long 
+service leave;  
+ (b) pay at the same time and in the same manner 
+as if the employee were not taking long 
+service leave. 
+Penalty: In the case of a natural person, 
+12 penalty units for each day during 
+which the offence continues; 
+ In the case of a body corporate, 
+60 penalty units for each day during 
+which the offence continues. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ 21 Pay increases while on leave 
+ (1) If the ordinary pay of an employee who is on long 
+service leave increases, the employee is entitled to 
+be paid at the increased rate from the time of the 
+increase. 
+ (2) If the employee was paid in full at the start of 
+the long service leave or was paid in advance 
+with respect to any period of the long service 
+leave, the employer must pay the additional 
+amount resulting from the increase as soon as 
+that period ends. 
+Penalty: In the case of a natural person, 
+12 penalty units for each day during 
+which the offence continues; 
+ In the case of a body corporate, 
+60 penalty units for each day during 
+which the offence continues.
+
+[Page 30]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+26   
+ 22 Leave at half pay 
+ (1) An employee may request the employee's 
+employer to grant the employee a period of long 
+service leave— 
+ (a) twice as long as the period to which the 
+employee would otherwise be entitled; and 
+ (b) at a rate of pay equal to half the employee's 
+ordinary pay. 
+ (2) An employer must grant a request made under 
+subsection (1) unless the employer has reasonable 
+business grounds for refusing the request. 
+ 23 Contracting out prohibited 
+ (1) A provision in an employment agreement or a 
+relevant deed that annuls, varies or excludes any 
+provision of this Act or of the Long Service 
+Leave Act 1992 is of no effect, regardless of 
+whether the employment agreement or relevant 
+deed was made before or after the commencement 
+of this Act. 
+ (2) This section does not affect any provision of an 
+employment agreement or a relevant deed 
+(regardless of whether it was made before or after 
+the commencement of this Act), to the extent of 
+any inconsistency with this Act if, in the opinion 
+of the Industrial Division of the Magistrates' 
+Court, the long service leave entitlements are 
+more favourable under the agreement or the deed 
+than those provided by this Act. 
+ (3) In this section— 
+employee includes a former employee; 
+employer includes a former employer; 
+ 
+ 
+S. 23(1) 
+amended by 
+No. 14/2021 
+s. 76(1). 
+S. 23(2) 
+amended by 
+No. 14/2021 
+s. 76(2). 
+S. 23(3) 
+inserted by 
+No. 14/2021 
+s. 76(3).
+
+[Page 31]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 2—Long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+27   
+relevant deed means a deed or agreement between 
+an employer and an employee, however that 
+deed or agreement is named, that is executed 
+at any time before, during or after the 
+employment of the employee. 
+Note 
+A deed of settlement between a former employer and 
+a former employee is an example of a relevant deed.
+
+[Page 32]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+28   
+Part 3—Enforcement 
+Division 1—Industrial Division of the Magistrates' Court 
+ 24 Jurisdiction of the Industrial Division of the 
+Magistrates' Court 
+ (1) The Industrial Division of the Magistrates' Court 
+has— 
+ (a) jurisdiction to deal with an application as 
+to whether an employee is entitled to long 
+service leave; and 
+ (b) jurisdiction to deal with an application as 
+to whether an employee (or an employee's 
+personal representative) is entitled to a 
+payment in lieu of long service leave; and 
+ (c) jurisdiction to deal with an application as to 
+an employer's refusal to grant long service 
+leave under section 18(2); and 
+ (d) jurisdiction to deal with an application as to 
+a direction to take long service leave under 
+section 19(1), including the length of long 
+service leave; and 
+ (e) jurisdiction to deal with an application as to 
+the rate of ordinary pay of an employee for 
+the purposes of calculating a long service 
+leave entitlement; and 
+ (f) jurisdiction to deal with an application as 
+to an employer's refusal to grant a request 
+under section 22(2); and 
+ (g) jurisdiction to deal with an application as 
+to payment of any amount owing to the 
+employee (or the employee's personal 
+representative) under this Act within the 
+6 years immediately before the day on which 
+the application is made; and
+
+[Page 33]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+29   
+ (h) any other jurisdiction given to it by or under 
+this or any other Act. 
+ (2) An employee (or an employee's personal 
+representative) may apply to the Industrial 
+Division of the Magistrates' Court for an order 
+in relation to any matter referred to in 
+subsection (1). 
+ (3) In determining an application under this 
+section, the Industrial Division of the Magistrates' 
+Court may take into account all the relevant 
+circumstances, including the needs of the 
+employee and the business needs of the employer. 
+ (4) The Industrial Division of the Magistrates' Court 
+may make an order in relation to any matter 
+referred to in subsection (1) and may award costs 
+to any party to the application and assess the 
+amount of those costs. 
+ (5) The Chief Magistrate, together with 2 or more 
+Deputy Magistrates, may jointly make rules of 
+court for or with respect to any matter relating to 
+the practice and procedure of the Industrial 
+Division of the Magistrates' Court. 
+ 25 Proceedings for offences to be brought in Industrial 
+Division of the Magistrates' Court 
+ (1) If a person is charged with an offence against this 
+Act, the charge must be heard, and all penalties 
+recovered, before the Industrial Division of the 
+Magistrates' Court. 
+ (2) Despite anything to the contrary in any Act, 
+the jurisdiction of the Industrial Division of the 
+Magistrates' Court in relation to any matter 
+referred to in subsection (1) is exclusive.
+
+[Page 34]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+30   
+ (3) Nothing in this section deprives a person of any 
+right that the person has under the Criminal 
+Procedure Act 2009— 
+ (a) to appeal to the County Court against any 
+sentence imposed by the Industrial Division 
+of the Magistrates' Court; or 
+ (b) to appeal to the Supreme Court, on a 
+question of law, from a final order of the 
+Industrial Division of the Magistrates' Court. 
+ 26 Recovery of money owed 
+ (1) For the purposes of this Act, money owed for 
+long service leave by an employer to an employee 
+(or to an employee's personal representative) is 
+taken to be arrears of pay. 
+ (2) An employee to whom money is owed by an 
+employer for long service leave under this Act or 
+any other Act, or under an employment agreement 
+or order made under this Act or any other Act, 
+may commence a proceeding in the Industrial 
+Division of the Magistrates' Court to recover the 
+money owing. 
+ (3) An organisation may, if requested to do so by 
+an employee who is, or is eligible to become, 
+a member of the organisation, commence a 
+proceeding in the Industrial Division of the 
+Magistrates' Court to recover money owed to 
+the employee for long service leave. 
+ (4) A proceeding under this section must be 
+commenced within 6 years after the employee's 
+entitlement to the money arises. 
+ (5) Before a proceeding may be commenced under 
+this section, the employee or organisation, as the 
+case may be, must give the employer a written 
+demand for the money owed.
+
+[Page 35]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+31   
+ (6) The Industrial Division of the Magistrates' 
+Court may order an employer to pay interest in 
+accordance with subsection (7) in addition to any 
+other amount to which the employee is entitled if 
+it is satisfied that the employer— 
+ (a) had reasonable notice of the employee's 
+claim; and 
+ (b) had no reasonable grounds on which to 
+dispute the claim; and 
+ (c) in the circumstances should have paid the 
+claim without the need for a proceeding 
+being commenced to establish the validity 
+of the claim. 
+ (7) The interest must not be greater than the rate 
+fixed under section 2 of the Penalty Interest 
+Rates Act 1983 that applies at the time the order 
+is made. 
+ (8) If a claim is made under this section by 
+an employee's personal representative, 
+subsections (6) and (7) apply despite 
+anything to the contrary in section 29 of the 
+Administration and Probate Act 1958. 
+ (9) In this section— 
+employee includes a former employee; 
+employer includes a former employer. 
+ 27 Order for reimbursement, reinstatement and 
+compensation 
+ (1) If an employer is found to have contravened 
+section 36, the Industrial Division of the 
+Magistrates' Court may— 
+ (a) order the employer to pay the employee a 
+specified sum by way of reimbursement for 
+the remuneration lost by the employee; and
+
+[Page 36]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+32   
+ (b) subject to subsection (2), order that the 
+employee be reinstated in the employee's 
+former position or a similar position. 
+ (2) If the adverse action constituting the 
+contravention referred to in subsection (1) was 
+the dismissal of the employee and the Industrial 
+Division of the Magistrates' Court considers that it 
+would be impracticable to reinstate the employee, 
+the Court may order the employer to pay the 
+employee an amount of compensation not 
+exceeding the amount of remuneration of the 
+employee during the 52 weeks immediately 
+before the employee's dismissal. 
+ (3) An order under subsection (1)(a) or (2) is taken 
+to be a judgment debt due by the employer to the 
+employee and may be enforced in the Industrial 
+Division of the Magistrates' Court accordingly. 
+ (4) The amount of remuneration that would have been 
+payable to an employee in respect of any period 
+that the employer fails to give effect to an order 
+under subsection (1)(b) is recoverable as a debt 
+due to the employee by the employer in any court 
+of competent jurisdiction. 
+ (5) In this section— 
+employee includes a former employee; 
+employer includes a former employer. 
+ 28 Order for payment of arrears or compensation on 
+conviction 
+ (1) If the Industrial Division of the Magistrates' 
+Court finds an employer guilty of an offence 
+against this Act and that the employer owes an 
+amount to the employee in relation to long service 
+leave, the Court may order the employer to pay 
+the employee any amount still owing to the 
+employee, in addition to imposing a penalty for 
+the offence.
+
+[Page 37]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+33   
+ (2) If the Industrial Division of the Magistrates' 
+Court finds a person (other than an employer) 
+guilty of an offence against a provision that is 
+specified in section 43(2), the Court may order 
+the person to pay an employee compensation 
+equivalent to the amount still owing to the 
+employee as a result of the offence, in addition 
+to imposing a penalty for the offence. 
+ (3) Section 26(6), (7) and (8) applies to this section. 
+ (4) An order under this section may be enforced as if 
+it were an order made by the Industrial Division of 
+the Magistrates' Court in a civil proceeding.  
+ (5) If an amount referred to in subsection (1) or (2) 
+remains to be paid after all reasonable means of 
+civil enforcement have been tried, the order may 
+be enforced as if it were a penalty imposed by the 
+Industrial Division of the Magistrates' Court. 
+ (6) Nothing in this section limits an employee's rights 
+under section 26, and nothing in that section limits 
+the power of the Industrial Division of the 
+Magistrates' Court under this section. 
+ (7) In this section— 
+employee includes a former employee; 
+employer includes a former employer. 
+Division 2—Authorised officers 
+ 29 Appointment of authorised officers 
+ (1) The Workforce Inspectorate Victoria may, by 
+instrument, appoint a person employed under 
+Part 3 of the Public Administration Act 2004 as 
+an authorised officer for the purposes of this Act. 
+ 
+S. 29(1) 
+amended by 
+Nos 14/2021 
+s. 65(1), 
+35/2025 s. 76.
+
+[Page 38]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+34   
+ (2) An authorised officer is subject to the directions 
+of the Workforce Inspectorate Victoria in the 
+performance of the authorised officer's functions 
+or in the exercise of the authorised officer's 
+powers under this Act. 
+ (3) A direction under subsection (2) may be of a 
+general nature or may relate to a specified matter 
+or to a specified class of matter. 
+ 30 Identity cards 
+ (1) An authorised officer must be issued with 
+an identity card in the form approved by the 
+Workforce Inspectorate Victoria. 
+ 
+ (2) The identity card must bear a photograph and the 
+signature of the authorised officer. 
+ (3) An authorised officer must produce the authorised 
+officer's identity card for inspection— 
+ (a) before exercising a power under this Act, 
+other than a requirement made by post, 
+e-mail or other electronic communication; 
+and 
+ (b) at any time during the exercise of a power 
+under this Act, if asked to do so. 
+Penalty: 10 penalty units. 
+ 31 Power to require information or documents 
+ (1) For the purpose of monitoring compliance with 
+this Act and the regulations, an authorised officer 
+may by written notice require a person, within a 
+reasonable period specified in the notice— 
+ (a) to give the authorised officer any 
+information that the authorised officer 
+requires; or 
+S. 29(2) 
+amended by 
+Nos 14/2021 
+s. 65(2), 
+35/2025 s. 76. 
+S. 30(1) 
+amended by 
+Nos 14/2021 
+s. 66, 35/2025 
+s. 77.
+
+[Page 39]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+35   
+ (b) to produce to the authorised officer a 
+document in the custody or control of the 
+person. 
+ (2) A notice under subsection (1) must— 
+ (a) warn the person that a refusal or failure to 
+comply with the notice, without reasonable 
+excuse, is an offence; and 
+ (b) if directed to a natural person, inform the 
+person that the person may refuse or fail to 
+produce documents (other than a record or 
+other document that the person is required to 
+keep under this Act) or provide information 
+if producing the document or providing the 
+information would tend to incriminate the 
+person. 
+ (3) An authorised officer may inspect, and make 
+copies of or take extracts from, a document 
+produced to the authorised officer under 
+subsection (1). 
+ 32 Retention of documents 
+ (1) An authorised officer may retain a document 
+produced to the authorised officer for the period 
+necessary to monitor compliance with this Act and 
+the regulations. 
+ (2) During the period that the authorised officer 
+retains a document, the authorised officer must 
+permit the person otherwise entitled to its 
+possession to inspect it and make copies of or 
+take extracts from it. 
+ 33 Confidentiality 
+ (1) An authorised officer must not, except to the 
+extent necessary to monitor compliance with this 
+Act and the regulations, give to any other person, 
+whether directly or indirectly, any information
+
+[Page 40]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+36   
+acquired by the authorised officer in performing 
+that function. 
+Penalty: 60 penalty units. 
+ (2) Subsection (1) does not apply to the giving of 
+information— 
+ (a) to a court or tribunal in the course of a legal 
+proceeding; or 
+ (b) pursuant to an order of a court or tribunal; or 
+ (c) to the extent reasonably required to enable 
+the investigation or the enforcement of a 
+law of Victoria or of any other State or a 
+Territory or of the Commonwealth; or 
+ (d) with the written authority of the Workforce 
+Inspectorate Victoria; or 
+ 
+ (e) with the written authority of the person to 
+whom the information relates. 
+Division 3—Offences  
+ 34 Payments in lieu forbidden 
+ (1) An employer must not give an employee a 
+payment in lieu of long service leave, or in lieu of 
+any part of long service leave, except as permitted 
+under this or any other Act or under the relevant 
+fair work instrument. 
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ 
+S. 33(2)(d) 
+amended by 
+Nos 14/2021 
+s. 67, 35/2025 
+s. 78.
+
+[Page 41]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+37   
+ (2) An employee must not accept any payment in lieu 
+of long service leave, or in lieu of any part of long 
+service leave, except as permitted under this or 
+any other Act or under the relevant fair work 
+instrument. 
+Penalty: 12 penalty units. 
+ 35 Offences concerning working during long service 
+leave 
+ (1) An employee who is on long service leave must 
+not work for hire or reward in relation to the hours 
+during which the employee is taking long service 
+leave. 
+Penalty: 12 penalty units. 
+ (2) A person must not knowingly employ another 
+person for hire or reward in relation to the hours 
+during which that other person is taking long 
+service leave. 
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+ 36 Adverse action taken against employee 
+ (1) An employer must not take adverse action against 
+an employee because the employee is entitled to 
+long service leave or any other entitlement under 
+this Act. 
+Penalty: In the case of a natural person, 
+12 penalty units for each day during 
+which the offence continues; 
+ In the case of a body corporate, 
+60 penalty units for each day during 
+which the offence continues.
+
+[Page 42]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+38   
+Note 
+Section 43 applies to an offence against this subsection. 
+ (2) An employer must not take adverse action 
+against an employee because the employee seeks 
+to exercise the employee's entitlement to long 
+service leave or to any other entitlement under 
+this Act. 
+Penalty: In the case of a natural person, 
+12 penalty units for each day during 
+which the offence continues; 
+ In the case of a body corporate, 
+60 penalty units for each day during 
+which the offence continues. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ (3) An employer must not take adverse action against 
+an employee because the employee makes an 
+enquiry as to the employee's entitlement to long 
+service leave or any other entitlement under this 
+Act. 
+Penalty: In the case of a natural person, 
+12 penalty units for each day during 
+which the offence continues; 
+ In the case of a body corporate, 
+60 penalty units for each day during 
+which the offence continues. 
+Note 
+Section 43 applies to an offence against this subsection.
+
+[Page 43]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+39   
+ (4) An employer must not take adverse action against 
+an employee because the employee applies to the 
+Industrial Division of the Magistrates' Court for an 
+order in relation to a direction to take long service 
+leave under section 19(1), including the length of 
+long service leave. 
+Penalty: In the case of a natural person, 
+12 penalty units for each day during 
+which the offence continues; 
+ In the case of a body corporate, 
+60 penalty units for each day during 
+which the offence continues. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ (5) In a proceeding for an alleged contravention 
+of subsection (1), (2), (3) or (4), the onus of 
+proving that the adverse action by the employer 
+was not actuated by any reason referred to in 
+subsection (1), (2), (3) or (4), as the case may be, 
+lies on the employer. 
+ (6) For the purposes of this section, an employer 
+takes adverse action against an employee if the 
+employer— 
+ (a) dismisses the employee; or 
+ (b) injures the employee in the employee's 
+employment; or 
+ (c) alters the position of the employee to the 
+employee's prejudice; or 
+ (d) discriminates between the employee and 
+other employees of the employer; or 
+ (e) knowingly or recklessly makes a false 
+representation about the employee's long 
+service leave entitlements.
+
+[Page 44]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+40   
+ 37 Offences concerning long service leave records 
+ * * * * * 
+ 
+ 
+ (2) An employer must keep a long service leave 
+record relating to an employee during the 
+employee's period of continuous employment 
+by the employer. 
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+Notes 
+1 Section 43 applies to an offence against this subsection. 
+2 Section 11 sets out several situations in which an 
+employee is taken, for the purposes of this Act, to have 
+been employed by one employer despite having been 
+employed during the relevant period by more than one 
+employer in a strict legal sense. 
+ (3) An employer must keep a long service leave 
+record relating to an employee for at least 7 years 
+after the employee stops working for the 
+employer. 
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ 
+ 
+ 
+S. 37(1) 
+repealed by 
+No. 14/2021 
+s. 68.
+
+[Page 45]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+41   
+ (4) An employer must keep a long service leave 
+record so that it is able to be readily produced to 
+an authorised officer if the authorised officer 
+requires its production.  
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+ (5) A person must not make, without reasonable 
+excuse, any false or misleading statement in, or 
+any material omission from, a long service leave 
+record. 
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ (6) An employer must not refuse a request by 
+an employee (or an employee's personal 
+representative) to provide the employee (or the 
+personal representative) with a copy of a long 
+service leave record relating to the employee. 
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+ (7) Despite anything to the contrary in this or any 
+other Act, a proceeding for an offence against this 
+section may be commenced by filing a charge 
+sheet at any time within 6 years after the date on 
+which the offence is alleged to have been 
+committed.
+
+[Page 46]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+42   
+ (8) In this section— 
+employee includes a former employee; 
+employer includes a former employer. 
+ 38 Failing to produce documents or giving false or 
+misleading documents 
+ (1) A person must not, without reasonable excuse, fail 
+to comply with a notice to produce documents or 
+provide information under section 31. 
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ (2) A person must not produce a document to an 
+authorised officer that the person knows to be 
+false or misleading in a material particular 
+without indicating the respect in which it is false 
+or misleading and, if practicable, providing 
+correct information. 
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ 39 Protection against self-incrimination 
+ (1) It is a reasonable excuse for a natural person 
+to refuse or fail to give information, produce a 
+document or do any other thing that the person is 
+required to do by or under this Act, if the giving 
+of the information, production of the document or
+
+[Page 47]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+43   
+doing of the thing would tend to incriminate the 
+person. 
+ (2) Despite subsection (1), it is not a reasonable 
+excuse for a natural person to refuse or fail to 
+produce a record or other document that the 
+person is required to keep under this Act, if the 
+production of the record or other document would 
+tend to incriminate the person. 
+ 40 Who can prosecute under this Act? 
+ (1) A prosecution for an offence against this Act may 
+only be brought by— 
+ 
+ (a) the Workforce Inspectorate Victoria; or 
+ 
+ 
+ (b) a person employed under Part 3 of the 
+Public Administration Act 2004 who is 
+authorised by the Workforce Inspectorate 
+Victoria to bring a prosecution; or 
+ (c) a prescribed person. 
+ (2) An authorisation— 
+ (a) must be in writing; and 
+ (b) may be given generally, or only in relation 
+to a particular case or cases, or a particular 
+class of case or cases; and 
+ (c) may be revoked by the person who gave it at 
+any time by written notice. 
+ (3) The revocation of an authorisation does not affect 
+a proceeding commenced by a person before that 
+person's authorisation was revoked unless the 
+notice of revocation states otherwise. 
+S. 40(1) 
+substituted by 
+No. 14/2021 
+s. 69. 
+S. 40(1)(a) 
+amended by 
+No. 35/2025 
+s. 79. 
+S. 40(1)(b) 
+amended by 
+No. 35/2025 
+s. 79.
+
+[Page 48]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+44   
+ (4) In a prosecution for an offence under this Act, 
+the Industrial Division of the Magistrates' Court 
+must presume, in the absence of evidence to the 
+contrary, that the prosecutor is authorised to bring 
+the prosecution. 
+ (5) A prosecution may only be conducted by— 
+ (a) the person authorised to bring the 
+prosecution; or 
+ (b) an Australian lawyer briefed by the person 
+authorised to bring the prosecution. 
+ 41 Judicial notice 
+ 
+ 
+ 
+ 
+ 
+ (1) All courts must take judicial notice of— 
+ (a) the signature of a person who is, or was at 
+the time the signature purports to have been 
+made, the Minister, the Secretary, the 
+Commissioner of the Workforce Inspectorate 
+Victoria or an employee to whom section 
+40(1) applies; and 
+ (b) the fact that a person referred to in 
+paragraph (a) held the position the person 
+purported to hold at the time the signature 
+purports to have been made. 
+ (2) All courts must take judicial notice of the official 
+seal of the Workforce Inspectorate Victoria 
+affixed to a document and, until the contrary is 
+proved, must presume that it was duly affixed. 
+ 
+S. 41 
+(Heading) 
+amended by 
+No. 14/2021 
+s. 70(1). 
+S. 41 
+amended by 
+No. 14/2021 
+s. 70(3) (ILA 
+s. 39B(1)). 
+S. 41(1)(a) 
+amended by 
+Nos 14/2021 
+s. 70(2), 
+35/2025 s. 80. 
+S. 41(2) 
+inserted by 
+No. 14/2021 
+s. 70(3), 
+amended by 
+No. 35/2025 
+s. 80.
+
+[Page 49]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+45   
+ 42 Imputing conduct to bodies corporate or other 
+employer 
+ (1) For the purposes of this Act, any conduct 
+engaged in or on behalf of a body corporate or 
+other employer by an employee, agent or officer 
+of the body corporate or other employer (as the 
+case may be) acting within the actual or apparent 
+scope of employment or apparent authority of the 
+employee, agent or officer, is conduct also 
+engaged in by the body corporate or employer. 
+ (2) In this section, officer has the same meaning 
+given by section 9 of the Corporations Act. 
+ 43 Criminal liability of officers of bodies corporate—
+accessorial liability 
+ (1) If a body corporate commits an offence against 
+a provision specified in subsection (2), an officer 
+of the body corporate also commits an offence 
+against the provision if the officer— 
+ (a) authorised or permitted the commission of 
+the offence by the body corporate; or 
+ (b) was knowingly concerned in any way 
+(whether by act or omission) in the 
+commission of the offence by the body 
+corporate. 
+ (2) For the purposes of subsection (1), the following 
+provisions are specified— 
+ (a) section 9(2); 
+ (b) section 10(1); 
+ (c) section 20(1); 
+ (d) section 20(2); 
+ (e) section 34(1); 
+ (f) section 36(1); 
+ (g) section 36(2);
+
+[Page 50]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+46   
+ (h) section 36(3); 
+ (i) section 36(4); 
+ (j) section 37(1); 
+ (k) section 37(2); 
+ (l) section 37(3); 
+ (m) section 37(5); 
+ (n) section 38(1); 
+ (o) section 38(2); 
+ (p) section 50(1). 
+ (3) Without limiting any other defence available to 
+the officer, an officer of a body corporate may 
+rely on a defence that would be available to the 
+body corporate if it were charged with the offence 
+with which the officer is charged and, in doing so, 
+the officer bears the same burden of proof that the 
+body corporate would bear. 
+ (4) An officer of a body corporate may commit 
+an offence against a provision specified in 
+subsection (2) whether or not the body corporate 
+has been prosecuted for, or found guilty of, an 
+offence against that provision. 
+ (5) In this section— 
+body corporate has the same meaning as 
+corporation has in section 57A of the 
+Corporations Act; 
+officer, in relation to a body corporate, means— 
+ (a) a person who is an officer (as defined 
+by section 9 of the Corporations Act) 
+of the body corporate; or 
+ (b) a person (other than a person referred 
+to in paragraph (a)), by whatever name 
+called, who is concerned in, or takes
+
+[Page 51]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 3—Enforcement 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+47   
+part in, the management of the body 
+corporate. 
+ (6) This section does not affect the operation of 
+Subdivision (1) of Division 1 of Part II of the 
+Crimes Act 1958. 
+ 44 Offences by unincorporated associations 
+A proceeding for an offence against this Act by 
+an unincorporated association may be brought 
+against any or all members of the committee of 
+management or other governing body of the 
+association. 
+  
+S. 43(6) 
+amended by 
+No. 14/2021 
+s. 77.
+
+[Page 52]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 4—Preservation of superior long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+48   
+Part 4—Preservation of superior 
+long service leave entitlements 
+ 45 Application of Part 
+This Part applies despite anything to the contrary 
+in this Act. 
+ 46 Definition of award 
+In this Part— 
+award— 
+ (a) has the same meaning as it had in the 
+Workplace Relations Act 1996 of the 
+Commonwealth as in force immediately 
+before 27 March 2006; and 
+ (b) includes a term of an award that 
+was a common rule in Victoria 
+under section 141, 142 or 493A of the 
+Workplace Relations Act 1996 of the 
+Commonwealth as in force immediately 
+before 27 March 2006; and 
+ (c) in relation to an employee and the 
+employee's employer, means an 
+award— 
+ (i) that was binding on the employer 
+immediately before 27 March 
+2006 or would have been binding 
+had the employer been an 
+employer in the relevant industry 
+at that time; and 
+ (ii) to which the employee's 
+employment was subject 
+immediately before 27 March 
+2006 or would have been subject 
+had the employee been employed 
+by the employer at that time.
+
+[Page 53]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 4—Preservation of superior long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+49   
+ 47 Preservation 
+ (1) If, immediately before 27 March 2006, an award 
+provided a long service leave entitlement that was 
+more beneficial to an employee in any respect 
+than the entitlement provided in Part 5 of the 
+Long Service Leave Act 1992, the employee is 
+entitled under this Act to that superior entitlement 
+instead of the employee's relevant entitlement 
+under this Act. 
+ (2) Subsection (1) applies to an employee whether 
+or not the employee was employed immediately 
+before 27 March 2006.
+
+[Page 54]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 5—Preservation of accrued long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+50   
+Part 5—Preservation of accrued 
+long service leave entitlements 
+ 48 Definitions for this Part 
+In this Part— 
+award has the same meaning as it has in Part 4; 
+protected accrued long service leave entitlement 
+in relation to an employee means an 
+entitlement to long service leave— 
+ (a) that accrued by operation of an award 
+that has subsequently been varied, 
+set aside, ceased to have effect or 
+was revoked under Part 10 of the 
+Workplace Relations Act 1996 of 
+the Commonwealth; or 
+ (b) that accrued by operation of an award 
+that is no longer applicable to that 
+employee under Division 5 of Part 11 
+of the Workplace Relations Act 1996 
+of the Commonwealth; or  
+ (c) that accrued by operation of an 
+employment agreement that has 
+subsequently been terminated under— 
+ (i) Division 9 of Part 8 of the 
+Workplace Relations Act 1996 
+of the Commonwealth; or 
+ (ii) section 170MH of the Workplace 
+Relations Act 1996 of the 
+Commonwealth as continued in 
+operation by clause 2(1)(k) of 
+Schedule 7 to that Act; or
+
+[Page 55]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 5—Preservation of accrued long service leave entitlements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+51   
+ (d) that accrued by operation of an 
+agreement that is no longer applicable 
+to that employee under Division 3 or 4 
+of Part 11 of the Workplace Relations 
+Act 1996 of the Commonwealth. 
+ 49 Protection of accrued entitlements 
+An employee who is or was at any time entitled to 
+a protected accrued long service leave entitlement 
+is entitled to the benefit of that entitlement under 
+this Act regardless of the status of the award or 
+agreement under which that entitlement accrued.
+
+[Page 56]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 6—Disclosure requirements for workplace agreements 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+52   
+Part 6—Disclosure requirements for 
+workplace agreements 
+ 50 Disclosure of modified or removed long service leave 
+entitlements 
+ (1) At least 7 days before entering into an 
+employment agreement that would modify or 
+remove an employee's entitlements under this 
+Act, the employer must notify the employee in 
+writing of the modification or removal (as the 
+case may be). 
+Penalty: 12 penalty units in the case of a natural 
+person; 
+ 60 penalty units in the case of a body 
+corporate. 
+Note 
+Section 43 applies to an offence against this subsection. 
+ (2) For the purposes of subsection (1), the notice must 
+state whether the proposed agreement modifies or 
+removes any of the following entitlements under 
+this Act— 
+ (a) an entitlement to long service leave on 
+completing 7 years of continuous service; 
+ (b) any entitlement arising from the operation of 
+section 47 or 49.
+
+[Page 57]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 7—General 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+53   
+Part 7—General 
+ * * * * * 
+ 
+ 
+ 52 Supreme Court—limitation of jurisdiction 
+It is the intention of this section to alter or vary 
+section 85 of the Constitution Act 1975 to the 
+extent necessary to prevent the bringing before the 
+Supreme Court of a proceeding or matter of a kind 
+referred to in section 25(1) of this Act. 
+ 53 Regulations  
+ (1) The Governor in Council may make regulations 
+for or with respect to any matter or thing required 
+or permitted by this Act to be prescribed or that is 
+necessary to be prescribed to give effect to this 
+Act.  
+ (2) A regulation may create an offence punishable by 
+a penalty not exceeding 20 penalty units. 
+ * * * * * 
+  
+S. 51 
+repealed by 
+No. 14/2021 
+s. 71. 
+S. 54 expired 
+by force of 
+No. 12/2018 
+s. 54(5).
+
+[Page 58]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 8—Repeal of Long Service Leave Act 1992 and savings and 
+transitional provisions 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+54   
+Part 8—Repeal of Long Service 
+Leave Act 1992 and savings and 
+transitional provisions 
+Division 1—Long Service Leave Act 2018 
+ 55 Definitions 
+ (1) In this Part— 
+1992 Act means the Long Service Leave 
+Act 1992; 
+2018 Act means the Long Service Leave 
+Act 2018. 
+ (2) A word or expression that is defined in the 
+1992 Act and is used in this Part in relation 
+to the 1992 Act has the same meaning as is 
+given in the 1992 Act. 
+ 56 Long Service Leave Act 1992 repealed 
+ (1) The Long Service Leave Act 1992 is repealed. 
+ (2) On and from the commencement of the 2018 Act, 
+any reference in any Act (other than the 2018 Act 
+or a regulation under the 2018 Act), regulation, 
+subordinate instrument or other document 
+whatsoever to the 1992 Act is to be construed as 
+a reference to the 2018 Act, unless the contrary 
+intention appears. 
+ (3) Nothing in this section limits or otherwise affects 
+the operation of the Interpretation of Legislation 
+Act 1984. 
+ 57 Transitional provisions 
+ (1) Despite anything to the contrary in section 13 of 
+the 2018 Act, any interruption to an employee's 
+employment caused by an absence from work not 
+referred to in section 62(2) or (3) or 62A(1) of 
+the 1992 Act is taken to interrupt an employee's 
+Pt 8 Div. 1 
+(Heading) 
+inserted by 
+No. 14/2021 
+s. 72.
+
+[Page 59]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 8—Repeal of Long Service Leave Act 1992 and savings and 
+transitional provisions 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+55   
+continuous employment for the purposes of 
+section 12 of the 2018 Act if the absence started 
+before the commencement of the 2018 Act. 
+ (2) If the 2018 Act commences during an employee's 
+absence from work and that absence is a type 
+of absence that was not counted as part of the 
+period of the employee's continuous employment 
+under section 62, 62A or 63 of the 1992 Act but 
+is taken to be a period of employment under 
+section 13 of the 2018 Act, only that part of the 
+period of absence occurring on and from the 
+commencement of the 2018 Act is taken to be a 
+period of employment under section 13 of that 
+Act. 
+Division 2—Industrial Relations Legislation 
+Amendment Act 2021 
+ 
+ 58 Transitional provision—Industrial Relations 
+Legislation Amendment Act 2021 
+ (1) A person who was an authorised officer 
+immediately before the commencement of section 
+65 of the amending Act remains an authorised 
+officer on and after that commencement as if the 
+person had been appointed by the Wage 
+Inspectorate Victoria under section 29 as amended 
+by the amending Act. 
+ (2) An identity card issued to an authorised officer 
+under section 30(1) that was in force immediately 
+before the commencement of section 66 of the 
+amending Act remains in force on and after that 
+commencement as if it had been issued by the 
+Wage Inspectorate Victoria under section 30(1) as 
+amended by the amending Act. 
+ 
+Pt 8 Div. 2 
+(Heading and 
+new s. 58) 
+inserted by 
+No. 14/2021 
+s. 73. 
+New s. 58 
+inserted by 
+No. 14/2021 
+s. 73.
+
+[Page 60]
+
+Authorised by the Chief Parliamentary Counsel 
+Part 8—Repeal of Long Service Leave Act 1992 and savings and 
+transitional provisions 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+56   
+ (3) A written authority given by the Secretary under 
+section 33(2)(d) that was in force immediately 
+before the commencement of section 67 of the 
+amending Act remains in force on and after that 
+commencement as if it had been given by the 
+Wage Inspectorate Victoria under section 33(2)(d) 
+as amended by the amending Act.  
+ (4) An authorisation given by the Secretary under 
+section 40(1) that was in force immediately before 
+the commencement of section 69 of the amending 
+Act remains in force on and after that 
+commencement as if it had been given by the 
+Wage Inspectorate Victoria under section 40(1) as 
+amended by the amending Act. 
+ (5) In this section— 
+amending Act means the Industrial Relations 
+Legislation Amendment Act 2021.
+
+[Page 61]
+
+Authorised by the Chief Parliamentary Counsel 
+ 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+57   
+ * * * * * 
+ 
+ 
+ 
+═══════════════ 
+  
+Pt 9 (Heading 
+and ss 58–62) 
+repealed by 
+No. 12/2018 
+s. 62.
+
+[Page 62]
+
+Authorised by the Chief Parliamentary Counsel 
+Endnotes 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+58   
+Endnotes 
+1 General information 
+See www.legislation.vic.gov.au for Victorian Bills, Acts and current 
+authorised versions of legislation and up-to-date legislative information. 
+Minister's second reading speech— 
+Legislative Assembly: 24 August 2017 
+Legislative Council: 8 March 2018 
+The long title for the Bill for this Act was "A Bill for an Act to make 
+provision for the long service entitlements of certain employees, to repeal the 
+Long Service Leave Act 1992, to make consequential amendments to 
+various other Acts and for other purposes." 
+The Long Service Leave Act 2018 was assented to on 15 May 2018 and 
+came into operation on 1 November 2018: section 2(2). 
+INTERPRETATION OF LEGISLATION ACT 1984 (ILA) 
+Style changes 
+Section 54A of the ILA authorises the making of the style changes set out in 
+Schedule 1 to that Act. 
+References to ILA s. 39B 
+Sidenotes which cite ILA s. 39B refer to section 39B of the ILA which 
+provides that where an undivided section or clause of a Schedule is amended 
+by the insertion of one or more subsections or subclauses, the original section 
+or clause becomes subsection or subclause (1) and is amended by the 
+insertion of the expression "(1)" at the beginning of the original section or 
+clause. 
+Interpretation 
+As from 1 January 2001, amendments to section 36 of the ILA have the 
+following effects: 
+• Headings 
+All headings included in an Act which is passed on or after 1 January 2001 
+form part of that Act.  Any heading inserted in an Act which was passed 
+before 1 January 2001, by an Act passed on or after 1 January 2001, forms 
+part of that Act.  This includes headings to Parts, Divisions or Subdivisions in 
+a Schedule; sections; clauses; items; tables; columns; examples; diagrams; 
+notes or forms.  See section 36(1A)(2A).
+
+[Page 63]
+
+Authorised by the Chief Parliamentary Counsel 
+Endnotes 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+59   
+• Examples, diagrams or notes 
+All examples, diagrams or notes included in an Act which is passed on or 
+after 1 January 2001 form part of that Act.  Any examples, diagrams or notes 
+inserted in an Act which was passed before 1 January 2001, by an Act passed 
+on or after 1 January 2001, form part of that Act.  See section 36(3A). 
+• Punctuation 
+All punctuation included in an Act which is passed on or after 1 January 2001 
+forms part of that Act.  Any punctuation inserted in an Act which was passed 
+before 1 January 2001, by an Act passed on or after 1 January 2001, forms 
+part of that Act.  See section 36(3B). 
+• Provision numbers 
+All provision numbers included in an Act form part of that Act, whether 
+inserted in the Act before, on or after 1 January 2001.  Provision numbers 
+include section numbers, subsection numbers, paragraphs and subparagraphs.  
+See section 36(3C). 
+• Location of "legislative items" 
+A "legislative item" is a penalty, an example or a note.  As from 13 October 
+2004, a legislative item relating to a provision of an Act is taken to be at the 
+foot of that provision even if it is preceded or followed by another legislative 
+item that relates to that provision.  For example, if a penalty at the foot of a 
+provision is followed by a note, both of these legislative items will be 
+regarded as being at the foot of that provision.  See section 36B. 
+• Other material 
+Any explanatory memorandum, table of provisions, endnotes, index and  
+other material printed after the Endnotes does not form part of an Act.   
+See section 36(3)(3D)(3E).
+
+[Page 64]
+
+Authorised by the Chief Parliamentary Counsel 
+Endnotes 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+60   
+2 Table of Amendments 
+This publication incorporates amendments made to the Long Service Leave 
+Act 2018 by Acts and subordinate instruments. 
+––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– 
+Long Service Leave Act 2018, No. 12/2018 
+Assent Date: 15.5.18 
+Commencement Date: Ss 54(5), 62 on 1.11.18: s. 2(2) 
+Note: S. 62 repealed Pt 9 (ss 58–62) on 1.6.19; s. 54(5) 
+provided that s. 54 expired on 1.11.20 
+Current State: This information relates only to the provision/s 
+amending the Long Service Leave Act 2018 
+Long Service Benefits Portability Act 2018, No. 44/2018 
+Assent Date: 18.9.18 
+Commencement Date: S. 81 on 1.11.18: Special Gazette (No. 497) 23.10.18 
+p. 1 
+Current State: This information relates only to the provision/s 
+amending the Long Service Leave Act 2018 
+Industrial Relations Legislation Amendment Act 2021, No. 14/2021 
+Assent Date: 11.5.21 
+Commencement Date: Ss 65–77 on 1.7.21: s. 2(1) 
+Current State: This information relates only to the provision/s 
+amending the Long Service Leave Act 2018 
+Education and Training Reform Amendment (Early Childhood Employment 
+Powers) Act 2024, No. 7/2024 
+Assent Date: 13.3.24 
+Commencement Date: S. 18 on 30.6.24: s. 2(2) 
+Current State: This information relates only to the provision/s 
+amending the Long Service Leave Act 2018 
+Wage Theft Amendment Act 2025, No. 35/2025 
+Assent Date: 2.9.25 
+Commencement Date: Ss 76–80 on 12.12.25: Special Gazette (No. 689) 
+9.12.25 p. 1 
+Current State: This information relates only to the provision/s 
+amending the Long Service Leave Act 2018 
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+[Page 65]
+
+Authorised by the Chief Parliamentary Counsel 
+Endnotes 
+ 
+ 
+ 
+Long Service Leave Act 2018 
+No. 12 of 2018 
+61   
+3 Explanatory details 
+No entries at date of publication.
