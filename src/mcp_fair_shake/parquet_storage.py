@@ -4,9 +4,7 @@ Converts cached text files to compressed Parquet format for faster queries
 and better storage efficiency.
 """
 
-import json
 from pathlib import Path
-from typing import Optional
 
 try:
     import polars as pl
@@ -16,7 +14,6 @@ except ImportError:
 from .cache import CacheManager
 from .canonical_id import parse_canonical_id
 
-
 # Parquet base directory
 PARQUET_BASE = Path(__file__).parent.parent.parent / "data" / "legislation" / "parquet"
 
@@ -24,7 +21,7 @@ PARQUET_BASE = Path(__file__).parent.parent.parent / "data" / "legislation" / "p
 class ParquetStorage:
     """Manage Parquet storage for legislation."""
 
-    def __init__(self, base_dir: Optional[Path] = None):
+    def __init__(self, base_dir: Path | None = None):
         """Initialize Parquet storage.
 
         Args:
@@ -36,9 +33,7 @@ class ParquetStorage:
         self.base_dir = base_dir or PARQUET_BASE
         self.base_dir.mkdir(parents=True, exist_ok=True)
 
-    def convert_from_cache(
-        self, canonical_id: str, cache_manager: CacheManager
-    ) -> None:
+    def convert_from_cache(self, canonical_id: str, cache_manager: CacheManager) -> None:
         """Convert cached text file to Parquet format.
 
         Args:
@@ -135,14 +130,14 @@ class ParquetStorage:
         """
         jurisdiction_dir = self.base_dir / canonical.jurisdiction
         jurisdiction_dir.mkdir(parents=True, exist_ok=True)
-        return jurisdiction_dir / f"{canonical.code_type}-{canonical.year}.parquet"
+        return jurisdiction_dir / f"{canonical.code_type}-{canonical.year}.parquet"  # type: ignore[no-any-return]
 
     def query(
         self,
-        canonical_id: Optional[str] = None,
-        section: Optional[str] = None,
-        jurisdiction: Optional[str] = None,
-    ) -> Optional[pl.DataFrame]:
+        canonical_id: str | None = None,
+        section: str | None = None,
+        jurisdiction: str | None = None,
+    ) -> pl.DataFrame | None:
         """Query Parquet storage.
 
         Args:
@@ -221,16 +216,14 @@ class ParquetStorage:
 
             jurisdiction_size = sum(f.stat().st_size for f in parquet_files)
 
-            stats["total_files"] += len(parquet_files)
-            stats["total_size_bytes"] += jurisdiction_size
-            stats["by_jurisdiction"][jurisdiction] = {
+            stats["total_files"] += len(parquet_files)  # type: ignore[operator]
+            stats["total_size_bytes"] += jurisdiction_size  # type: ignore[operator]
+            stats["by_jurisdiction"][jurisdiction] = {  # type: ignore[index]
                 "files": len(parquet_files),
                 "size_bytes": jurisdiction_size,
                 "size_mb": round(jurisdiction_size / (1024 * 1024), 2),
             }
 
-        stats["total_size_mb"] = round(
-            stats["total_size_bytes"] / (1024 * 1024), 2
-        )
+        stats["total_size_mb"] = round(stats["total_size_bytes"] / (1024 * 1024), 2)  # type: ignore[operator]
 
         return stats

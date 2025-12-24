@@ -1,0 +1,7 @@
+# Fair Work Regulations 2009
+
+[PLACEHOLDER: HTML parsing not yet implemented]
+
+Source HTML length: 74751 characters
+
+To implement: Use BeautifulSoup to extract legislation sections from the HTML structure.

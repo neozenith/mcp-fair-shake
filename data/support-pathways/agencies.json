@@ -1,0 +1,121 @@
+{
+  "agencies": [
+    {
+      "id": "fwc",
+      "name": "Fair Work Commission",
+      "jurisdiction": "federal",
+      "type": "tribunal",
+      "website": "https://www.fwc.gov.au",
+      "phone": "1300 799 675",
+      "description": "Independent national workplace relations tribunal",
+      "services": [
+        "unfair dismissal claims",
+        "general protections claims",
+        "enterprise agreement approval",
+        "dispute resolution"
+      ],
+      "eligibility": "Most Australian employees",
+      "cost": "Free",
+      "timeframes": {
+        "unfair_dismissal": "21 days from dismissal",
+        "general_protections": "21 days from adverse action"
+      }
+    },
+    {
+      "id": "fwo",
+      "name": "Fair Work Ombudsman",
+      "jurisdiction": "federal",
+      "type": "regulator",
+      "website": "https://www.fairwork.gov.au",
+      "phone": "13 13 94",
+      "description": "Provides free advice and investigates workplace complaints",
+      "services": [
+        "wage theft complaints",
+        "underpayment recovery",
+        "workplace rights education",
+        "employer compliance"
+      ],
+      "eligibility": "All Australian employees and employers",
+      "cost": "Free",
+      "timeframes": {
+        "complaint": "6 years for underpayment recovery"
+      }
+    },
+    {
+      "id": "worksafe-vic",
+      "name": "WorkSafe Victoria",
+      "jurisdiction": "victoria",
+      "type": "regulator",
+      "website": "https://www.worksafe.vic.gov.au",
+      "phone": "1800 136 089",
+      "description": "Victorian workplace health and safety regulator",
+      "services": [
+        "workplace injury reports",
+        "safety inspections",
+        "workers compensation",
+        "return to work support"
+      ],
+      "eligibility": "Victorian workers and employers",
+      "cost": "Free",
+      "timeframes": {
+        "injury_report": "Report immediately or within 48 hours",
+        "workers_comp_claim": "As soon as practical after injury"
+      }
+    },
+    {
+      "id": "veohrc",
+      "name": "Victorian Equal Opportunity and Human Rights Commission",
+      "jurisdiction": "victoria",
+      "type": "commission",
+      "website": "https://www.humanrights.vic.gov.au",
+      "phone": "1300 891 848",
+      "description": "Handles discrimination and human rights complaints in Victoria",
+      "services": [
+        "discrimination complaints",
+        "sexual harassment complaints",
+        "victimization complaints",
+        "dispute resolution"
+      ],
+      "eligibility": "People experiencing discrimination in Victoria",
+      "cost": "Free",
+      "timeframes": {
+        "complaint": "12 months from the discriminatory act"
+      }
+    },
+    {
+      "id": "justice-connect",
+      "name": "Justice Connect - Employment Law",
+      "jurisdiction": "national",
+      "type": "legal-aid",
+      "website": "https://justiceconnect.org.au",
+      "phone": "03 8636 4400",
+      "description": "Free legal help for workers experiencing exploitation",
+      "services": [
+        "free legal advice",
+        "assistance with claims",
+        "worker advocacy",
+        "migrant worker support"
+      ],
+      "eligibility": "Low income workers, vulnerable workers",
+      "cost": "Free (means-tested)",
+      "timeframes": null
+    },
+    {
+      "id": "victoria-legal-aid",
+      "name": "Victoria Legal Aid - Employment Law",
+      "jurisdiction": "victoria",
+      "type": "legal-aid",
+      "website": "https://www.legalaid.vic.gov.au",
+      "phone": "1300 792 387",
+      "description": "Legal assistance for employment matters",
+      "services": [
+        "legal advice",
+        "representation in tribunals",
+        "employment law information"
+      ],
+      "eligibility": "Victorian residents (means-tested)",
+      "cost": "Free or low-cost (means-tested)",
+      "timeframes": null
+    }
+  ]
+}

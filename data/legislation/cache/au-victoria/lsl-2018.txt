@@ -1,0 +1,7 @@
+# Long Service Leave Act 2018
+
+[PLACEHOLDER: HTML parsing not yet implemented]
+
+Source HTML length: 65345 characters
+
+To implement: Use BeautifulSoup to extract legislation sections from the HTML structure.

@@ -4,11 +4,13 @@ Provides authoritative access to Australian workplace legislation through:
 - resolve-legislation: Find legislation by natural language or citation
 - get-legislation-content: Retrieve full legislation text
 - get-cache-status: Check cache coverage and status
+- get-support: Find support agencies and resolution pathways
 """
 
 import json
 import logging
-from typing import Literal
+from pathlib import Path
+from typing import Any, Literal, cast
 
 from fastmcp import FastMCP
 
@@ -26,6 +28,23 @@ mcp = FastMCP("mcp-fair-shake")
 # Initialize cache manager and fetcher
 cache_manager = CacheManager()
 fetcher = LegislationFetcher(cache_manager=cache_manager)
+
+# Load support pathways database
+AGENCIES_FILE = Path(__file__).parent.parent.parent / "data" / "support-pathways" / "agencies.json"
+
+
+def load_agencies() -> dict[str, Any]:
+    """Load support agencies database from JSON file."""
+    if not AGENCIES_FILE.exists():
+        logger.warning(f"Agencies file not found: {AGENCIES_FILE}")
+        return {"agencies": []}
+
+    try:
+        with open(AGENCIES_FILE) as f:
+            return cast(dict[str, Any], json.load(f))
+    except Exception as e:
+        logger.error(f"Error loading agencies file: {e}")
+        return {"agencies": []}
 
 
 @mcp.tool()
@@ -151,9 +170,7 @@ def get_legislation_content(
             # Return metadata only
             metadata = cache_manager.read_metadata(canonical)
             if not metadata:
-                return json.dumps(
-                    {"error": f"No metadata found for {canonical_id}"}
-                )
+                return json.dumps({"error": f"No metadata found for {canonical_id}"})
 
             return json.dumps(
                 {
@@ -309,6 +326,291 @@ def get_cache_status() -> str:
     except Exception as e:
         logger.error(f"Error getting cache status: {e}")
         return json.dumps({"error": str(e)})
+
+
+@mcp.tool()
+def get_support(
+    scenario: str,
+    jurisdiction: str | None = None,
+    legislation_id: str | None = None,
+) -> str:
+    """Find support agencies and resolution pathways for workplace issues.
+
+    Matches workplace scenarios to relevant support agencies with contact
+    information, eligibility criteria, deadlines, and step-by-step guidance.
+
+    Args:
+        scenario: Description of the workplace issue (e.g., "unfair dismissal",
+                 "wage theft", "workplace discrimination", "unsafe working conditions")
+        jurisdiction: Optional jurisdiction filter - "federal", "victoria", "national"
+        legislation_id: Optional canonical legislation ID to find related agencies
+
+    Returns:
+        JSON string with matched agencies, contact info, deadlines, and pathways
+
+    Example:
+        >>> get_support("unfair dismissal", jurisdiction="federal")
+        '{"agencies": [{"name": "Fair Work Commission", ...}], "pathways": [...]}'
+    """
+    if not scenario:
+        return json.dumps({"error": "Scenario is required"})
+
+    scenario_lower = scenario.lower()
+
+    # Load agencies database
+    agencies_db = load_agencies()
+    agencies = agencies_db.get("agencies", [])
+
+    if not agencies:
+        return json.dumps({"error": "No agencies database available"})
+
+    # Define service matching keywords
+    service_keywords = {
+        "unfair dismissal": ["unfair dismissal", "general protections"],
+        "wage theft": ["wage theft", "underpayment"],
+        "discrimination": ["discrimination", "sexual harassment", "victimization"],
+        "safety": [
+            "workplace injury",
+            "safety inspections",
+            "workers compensation",
+        ],
+        "harassment": ["sexual harassment", "discrimination", "victimization"],
+        "underpayment": ["underpayment", "wage theft"],
+    }
+
+    # Find matching keywords for the scenario
+    relevant_keywords = []
+    for key, keywords in service_keywords.items():
+        if key in scenario_lower:
+            relevant_keywords.extend(keywords)
+
+    # If no specific keywords matched, use the scenario itself
+    if not relevant_keywords:
+        relevant_keywords = [scenario_lower]
+
+    # Match agencies
+    matched_agencies = []
+    for agency in agencies:
+        # Filter by jurisdiction if specified
+        if jurisdiction:
+            agency_jurisdiction = agency.get("jurisdiction", "")
+            # Handle both specific (e.g., "victoria") and general (e.g., "federal") jurisdictions
+            if jurisdiction.lower() == "victoria" and agency_jurisdiction != "victoria":
+                continue
+            elif jurisdiction.lower() == "federal" and agency_jurisdiction != "federal":
+                continue
+
+        # Check if agency services match the scenario
+        services = agency.get("services", [])
+        service_text = " ".join(services).lower()
+
+        score = 0
+        matched_services = []
+
+        for keyword in relevant_keywords:
+            if keyword in service_text:
+                score += 10
+                # Find which specific services matched
+                for service in services:
+                    if keyword in service.lower():
+                        matched_services.append(service)
+
+        if score > 0:
+            agency_info = {
+                "id": agency.get("id"),
+                "name": agency.get("name"),
+                "jurisdiction": agency.get("jurisdiction"),
+                "type": agency.get("type"),
+                "website": agency.get("website"),
+                "phone": agency.get("phone"),
+                "description": agency.get("description"),
+                "matched_services": list(set(matched_services)),
+                "all_services": services,
+                "eligibility": agency.get("eligibility"),
+                "cost": agency.get("cost"),
+                "timeframes": agency.get("timeframes"),
+                "relevance_score": score,
+            }
+            matched_agencies.append(agency_info)
+
+    # Sort by relevance score
+    matched_agencies.sort(key=lambda x: x["relevance_score"], reverse=True)
+
+    # Build pathways based on scenario
+    pathways = []
+
+    if "unfair dismissal" in scenario_lower:
+        pathways.append(
+            {
+                "title": "Unfair Dismissal Claim",
+                "steps": [
+                    {
+                        "step": 1,
+                        "action": "Check eligibility",
+                        "details": (
+                            "You must have worked for the employer for at least 6 months "
+                            "(12 months for small business)"
+                        ),
+                    },
+                    {
+                        "step": 2,
+                        "action": "Act quickly - 21 day deadline",
+                        "details": (
+                            "You must lodge your claim within 21 days of your dismissal. "
+                            "This is a strict deadline."
+                        ),
+                        "critical": True,
+                    },
+                    {
+                        "step": 3,
+                        "action": "Gather evidence",
+                        "details": (
+                            "Collect your employment contract, pay slips, dismissal letter, "
+                            "and any relevant communications"
+                        ),
+                    },
+                    {
+                        "step": 4,
+                        "action": "Contact Fair Work Commission",
+                        "details": (
+                            "Lodge your unfair dismissal claim at www.fwc.gov.au "
+                            "or call 1300 799 675"
+                        ),
+                    },
+                    {
+                        "step": 5,
+                        "action": "Consider getting advice",
+                        "details": (
+                            "Contact a community legal center or union "
+                            "for free advice before lodging"
+                        ),
+                    },
+                ],
+            }
+        )
+
+    elif "wage theft" in scenario_lower or "underpayment" in scenario_lower:
+        pathways.append(
+            {
+                "title": "Recovering Unpaid Wages",
+                "steps": [
+                    {
+                        "step": 1,
+                        "action": "Calculate what you're owed",
+                        "details": (
+                            "Use the Fair Work Ombudsman's pay calculator "
+                            "to determine correct pay rates"
+                        ),
+                    },
+                    {
+                        "step": 2,
+                        "action": "Gather evidence",
+                        "details": (
+                            "Collect pay slips, timesheets, roster, employment contract, "
+                            "and bank statements"
+                        ),
+                    },
+                    {
+                        "step": 3,
+                        "action": "Raise with employer",
+                        "details": (
+                            "Put your complaint in writing to your employer first (keep a copy)"
+                        ),
+                    },
+                    {
+                        "step": 4,
+                        "action": "Contact Fair Work Ombudsman",
+                        "details": (
+                            "If employer doesn't resolve it, "
+                            "lodge a complaint at www.fairwork.gov.au or call 13 13 94"
+                        ),
+                    },
+                    {
+                        "step": 5,
+                        "action": "Note the recovery timeframe",
+                        "details": "You can recover underpayments for up to 6 years back",
+                        "critical": False,
+                    },
+                ],
+            }
+        )
+
+    elif "discrimination" in scenario_lower or "harassment" in scenario_lower:
+        pathways.append(
+            {
+                "title": "Discrimination or Harassment Complaint",
+                "steps": [
+                    {
+                        "step": 1,
+                        "action": "Document incidents",
+                        "details": "Record dates, times, witnesses, and details of each incident",
+                    },
+                    {
+                        "step": 2,
+                        "action": "Report internally (if safe)",
+                        "details": (
+                            "Use your workplace's formal complaint process "
+                            "if available and safe to do so"
+                        ),
+                    },
+                    {
+                        "step": 3,
+                        "action": "Seek support",
+                        "details": (
+                            "Contact a support service or counselor - "
+                            "you don't have to go through this alone"
+                        ),
+                    },
+                    {
+                        "step": 4,
+                        "action": "Lodge formal complaint",
+                        "details": (
+                            "Contact VEOHRC (Victoria) at 1300 891 848 "
+                            "or Australian Human Rights Commission (federal)"
+                        ),
+                    },
+                    {
+                        "step": 5,
+                        "action": "Know the deadline",
+                        "details": (
+                            "You typically have 12 months from the discriminatory act "
+                            "to lodge a complaint"
+                        ),
+                        "critical": True,
+                    },
+                ],
+            }
+        )
+
+    # Add critical deadlines section
+    critical_deadlines = []
+    for agency in matched_agencies:
+        timeframes = agency.get("timeframes")
+        if timeframes:
+            for event, deadline in timeframes.items():
+                critical_deadlines.append(
+                    {
+                        "event": event.replace("_", " ").title(),
+                        "deadline": deadline,
+                        "agency": agency["name"],
+                    }
+                )
+
+    return json.dumps(
+        {
+            "scenario": scenario,
+            "jurisdiction_filter": jurisdiction,
+            "matched_agencies": matched_agencies,
+            "total_agencies": len(matched_agencies),
+            "pathways": pathways,
+            "critical_deadlines": critical_deadlines,
+            "next_steps": (
+                "Contact the most relevant agency as soon as possible. "
+                "Many workplace claims have strict time limits."
+            ),
+        },
+        indent=2,
+    )
 
 
 def main() -> None:

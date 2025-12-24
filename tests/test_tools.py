@@ -5,7 +5,6 @@ from typing import Any
 
 import pytest
 from fastmcp.client import Client
-from fastmcp.exceptions import ToolError
 
 
 @pytest.mark.asyncio
@@ -153,3 +152,131 @@ async def test_unknown_tool(client: Client[Any]) -> None:
     """
     with pytest.raises(Exception, match="Unknown tool"):
         await client.call_tool("nonexistent_tool", arguments={})
+
+
+@pytest.mark.asyncio
+async def test_get_support_unfair_dismissal(client: Client[Any]) -> None:
+    """Test get-support for unfair dismissal scenario."""
+    result = await client.call_tool(
+        "get_support",
+        arguments={"scenario": "unfair dismissal"},
+    )
+
+    assert result is not None
+    assert result.data is not None
+
+    data = json.loads(result.data)
+    assert "matched_agencies" in data
+    assert data["total_agencies"] > 0
+
+    # Should match Fair Work Commission
+    agencies = data["matched_agencies"]
+    assert any("Fair Work Commission" in agency["name"] for agency in agencies)
+
+    # Should have pathways
+    assert "pathways" in data
+    assert len(data["pathways"]) > 0
+
+    # Check for critical deadlines
+    assert "critical_deadlines" in data
+    pathways = data["pathways"]
+    # Unfair dismissal pathway should mention 21 day deadline
+    assert any("21 day" in str(pathway) for pathway in pathways)
+
+
+@pytest.mark.asyncio
+async def test_get_support_wage_theft(client: Client[Any]) -> None:
+    """Test get-support for wage theft scenario."""
+    result = await client.call_tool(
+        "get_support",
+        arguments={"scenario": "wage theft"},
+    )
+
+    assert result is not None
+    assert result.data is not None
+
+    data = json.loads(result.data)
+    assert "matched_agencies" in data
+    assert data["total_agencies"] > 0
+
+    # Should match Fair Work Ombudsman
+    agencies = data["matched_agencies"]
+    assert any("Fair Work Ombudsman" in agency["name"] for agency in agencies)
+
+
+@pytest.mark.asyncio
+async def test_get_support_discrimination(client: Client[Any]) -> None:
+    """Test get-support for discrimination scenario."""
+    result = await client.call_tool(
+        "get_support",
+        arguments={"scenario": "workplace discrimination"},
+    )
+
+    assert result is not None
+    assert result.data is not None
+
+    data = json.loads(result.data)
+    assert "matched_agencies" in data
+
+    # Should have discrimination pathway
+    assert "pathways" in data
+
+
+@pytest.mark.asyncio
+async def test_get_support_with_jurisdiction_filter(client: Client[Any]) -> None:
+    """Test get-support with jurisdiction filter."""
+    result = await client.call_tool(
+        "get_support",
+        arguments={"scenario": "workplace safety", "jurisdiction": "victoria"},
+    )
+
+    assert result is not None
+    assert result.data is not None
+
+    data = json.loads(result.data)
+    assert "matched_agencies" in data
+
+    # All matched agencies should be Victorian or national
+    for agency in data["matched_agencies"]:
+        jurisdiction = agency.get("jurisdiction")
+        assert jurisdiction in ["victoria", "national"]
+
+
+@pytest.mark.asyncio
+async def test_get_support_empty_scenario(client: Client[Any]) -> None:
+    """Test get-support with empty scenario."""
+    result = await client.call_tool(
+        "get_support",
+        arguments={"scenario": ""},
+    )
+
+    assert result is not None
+    assert result.data is not None
+
+    data = json.loads(result.data)
+    assert "error" in data
+    assert data["error"] == "Scenario is required"
+
+
+@pytest.mark.asyncio
+async def test_get_support_includes_contact_info(client: Client[Any]) -> None:
+    """Test that get-support includes agency contact information."""
+    result = await client.call_tool(
+        "get_support",
+        arguments={"scenario": "unfair dismissal"},
+    )
+
+    assert result is not None
+    assert result.data is not None
+
+    data = json.loads(result.data)
+    agencies = data["matched_agencies"]
+
+    # Check first agency has contact info
+    if len(agencies) > 0:
+        agency = agencies[0]
+        assert "phone" in agency
+        assert "website" in agency
+        assert "description" in agency
+        assert "eligibility" in agency
+        assert "cost" in agency

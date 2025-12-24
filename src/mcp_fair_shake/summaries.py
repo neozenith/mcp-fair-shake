@@ -4,8 +4,6 @@ This module provides non-lawyer friendly explanations of key sections
 from Australian workplace legislation.
 """
 
-from typing import Optional
-
 # Summaries database: canonical_id -> {section -> summary}
 SUMMARIES: dict[str, dict[str, str]] = {
     "/au-federal/fwa/2009": {
@@ -134,7 +132,7 @@ This Act works alongside the Workers Compensation Act 1958.
 }
 
 
-def get_summary(canonical_id: str, section: Optional[str] = None) -> Optional[str]:
+def get_summary(canonical_id: str, section: str | None = None) -> str | None:
     """Get a plain language summary for legislation.
 
     Args:

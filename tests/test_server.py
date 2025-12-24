@@ -19,13 +19,16 @@ async def test_list_tools(client: Client[Any]) -> None:
     tools = await client.list_tools()
 
     assert tools is not None
-    assert len(tools) == 3  # resolve_legislation, get_legislation_content, get_cache_status
+    assert (
+        len(tools) == 4
+    )  # resolve_legislation, get_legislation_content, get_cache_status, get_support
 
     # Check that the legislation tools are present
     tool_names = [tool.name for tool in tools]
     assert "resolve_legislation" in tool_names
     assert "get_legislation_content" in tool_names
     assert "get_cache_status" in tool_names
+    assert "get_support" in tool_names
 
     # Find and validate the resolve_legislation tool
     resolve_tool = next(tool for tool in tools if tool.name == "resolve_legislation")
