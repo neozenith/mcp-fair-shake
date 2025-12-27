@@ -8,7 +8,7 @@ SHELL := bash
 MAKEFLAGS += --warn-undefined-variables
 MAKEFLAGS += --no-builtin-rules
 
-.PHONY: docs init fix check docs test claude
+.PHONY: docs init fix check docs test claude frontend-install frontend-dev frontend-agentic-dev frontend-build
 
 #########################################################################################
 # Project Setup
@@ -59,8 +59,34 @@ claude: test
 	@echo ""
 	claude --mcp-config $$(pwd)/mcp-config.json
 
+#########################################################################################
+# Frontend Development
+#########################################################################################
+
+frontend-install:
+	npm --prefix frontend install
+
+frontend-dev: frontend-install
+	@echo "🚀 Starting development servers..."
+	@echo "   Backend:  http://localhost:8100"
+	@echo "   Frontend: http://localhost:5273"
+	@echo ""
+	npm --prefix frontend run dev
+
+frontend-agentic-dev: frontend-install
+	@echo "🤖 Starting agentic development servers..."
+	@echo "   Backend:  http://localhost:8101"
+	@echo "   Frontend: http://localhost:5274"
+	@echo ""
+	npm --prefix frontend run agentic-dev
+
+frontend-build: frontend-install
+	npm --prefix frontend run build
+
 clean:
 	rm -rf .make
 	rm -rf .*_cache
 	rm -rf __pycache__/
 	rm -rf scripts/
+	rm -rf frontend/node_modules
+	rm -rf frontend/dist

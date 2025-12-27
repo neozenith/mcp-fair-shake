@@ -103,6 +103,64 @@ The server implements a **three-tool pattern** inspired by Context7 and arXiv MC
 7. **Explicit Triggering**: Require "use fair-shake" phrase (Phase 1)
 8. **Actionable Guidance**: Not just legal text, but next steps and support pathways
 
+## 🚨 CRITICAL: Agency and Verification Standards
+
+### NEVER Mark Work Complete Without Verification
+
+**This is the most important rule in this entire document.**
+
+Tasks are NOT complete until you have:
+1. ✅ Run the actual command/build/test that proves it works
+2. ✅ Read the output and verified success (not just assumed)
+3. ✅ Used all available testing tools (Playwright MCP, build tools, etc.)
+4. ✅ Taken screenshots and **evaluated them yourself** if UI is involved
+5. ✅ Fixed any errors that appeared during verification
+
+### The Verification Checklist
+
+Before marking ANY task as complete, you MUST:
+
+- [ ] **Build Test**: Does `npm run build` (or equivalent) succeed?
+- [ ] **Dev Server Test**: Does the dev server start without errors?
+- [ ] **Visual Test**: If UI, use Playwright MCP to screenshot and inspect
+- [ ] **Self-Evaluation**: Look at screenshots yourself - does it actually work?
+- [ ] **Error Resolution**: Fix ALL errors before claiming completion
+
+### Failure Modes to Avoid
+
+**❌ NEVER DO THIS:**
+- Marking tasks complete based on "it should work"
+- Claiming Playwright MCP is unavailable without checking
+- Ignoring build/runtime errors and moving on
+- Presenting work without running verification commands
+- Assuming files existing = feature working
+
+**✅ ALWAYS DO THIS:**
+- Run `npm --prefix frontend run build` to verify TypeScript compiles
+- Run `npm --prefix frontend run dev` to verify server starts
+- Use Playwright MCP to screenshot and verify UI
+- Read error messages and fix them
+- Only mark complete after ALL verification passes
+
+### Why This Matters
+
+The user has explicitly stated:
+> "I will not accept you stopping and presenting me work that is done if you have not inspected it yourself and taken screenshots and evaluated those screenshots yourself."
+
+This is not optional. This is mandatory. Failing to verify is:
+- Wasting the user's time
+- Breaking their trust
+- Creating technical debt
+- The opposite of being agentic
+
+### Being Agentic Means
+
+1. **Using all available tools proactively** - Don't claim tools don't exist without thorough investigation
+2. **Verifying your own work** - Test, screenshot, inspect, iterate until it works
+3. **Fixing problems you find** - Don't report broken work as complete
+4. **Taking initiative** - Use TodoWrite, run builds, test thoroughly
+5. **Being honest** - If something doesn't work, say so and fix it
+
 ### Data Architecture
 
 **Canonical ID Format**: `/{jurisdiction}/{code-type}/{code}/{section?}`
