@@ -1,0 +1,4881 @@
+{
+  "metadata": {
+    "title": "Long Service Leave Act 2018",
+    "last_updated": "2025-12-31",
+    "source_file": "lsl-2018-registry.json",
+    "total_nodes": 376,
+    "total_edges": 375
+  },
+  "nodes": [
+    {
+      "id": "/au-victoria/lsl/2018",
+      "label": "Long Service Leave Act 2018",
+      "type": "act",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-1",
+      "label": "Part 1\u2014Preliminary 1",
+      "type": "part",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-2",
+      "label": "Part 2\u2014Long service leave entitlements 7",
+      "type": "part",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-3",
+      "label": "Part 3\u2014Enforcement 28",
+      "type": "part",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-3/div-1",
+      "label": "Division 1\u2014Industrial Division of the Magistrates' Court",
+      "type": "division",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-3/div-2",
+      "label": "Division 2\u2014Authorised officers",
+      "type": "division",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-3/div-3",
+      "label": "Division 3\u2014Offences",
+      "type": "division",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-4",
+      "label": "Part 4\u2014Preservation of superior long service leave entitlements 48",
+      "type": "part",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-5",
+      "label": "Part 5\u2014Preservation of accrued long service leave entitlements 50",
+      "type": "part",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-6",
+      "label": "Part 6\u2014Disclosure requirements for workplace agreements 52",
+      "type": "part",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-7",
+      "label": "Part 7\u2014General 53",
+      "type": "part",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-8",
+      "label": "Part 8\u2014Repeal of Long Service Leave Act 1992 and savings and",
+      "type": "part",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-8/div-1",
+      "label": "Division 1\u2014Long Service Leave Act 2018",
+      "type": "division",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/part-8/div-2",
+      "label": "Division 2\u2014Industrial Relations Legislation",
+      "type": "division",
+      "jurisdiction": "Victoria"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s1",
+      "label": "Purposes",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "The purposes of this Act are\u2014 \n (a) to make provision with respect to the \nlong service leave entitlements of certain \nemployees, including public and private \nsector employees and police officers; an..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to make provision with respect to the The purposes of this Act are\u2014 long service leave entitlements of certain employees, including public and private sector employees and police officers; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to repeal the Long Service Leave Act 1992; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s1/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to make consequential amendments to other Acts."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s2",
+      "label": "Commencement",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "(1) Subject to subsection (2), this Act comes into \noperation on a day to be proclaimed. \n (2) If this Act does not come into operation before \n1 November 2018, it comes into operation on that \nday."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s2/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Subject to subsection (2), this Act comes into operation on a day to be proclaimed."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s2/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If this Act does not come into operation before 1 November 2018, it comes into operation on that day."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s3",
+      "label": "Definitions",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n5   \n (d) the long service leave requested by the \nemployee is likely to have a significant \nnegative impact on customer service; \nSecretary means the Depa..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s3/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this Act\u2014 authorised officer means a person appointed under section 29; continuous employment has the meaning given in section 12;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s3/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "there is no capacity to change the working arrangements of other employees to accommodate the employee taking long service leave at the requested time;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s3/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "it is impractical to change the working arrangements of other employees, or recruit new employees to accommodate the employee taking long service leave at the requested time;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s3/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the long service leave requested by the employee is likely to result in a significant loss in efficiency or productivity;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s3/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the long service leave requested by the Long Service Leave Act 2018 No. 12 of 2018 5 employee is likely to have a significant negative impact on customer service; Secretary means the Department Head (..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s3/e",
+      "label": "Paragraph e",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a person appointed under Part 3 of the Victoria Police Act 2013; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s3/f",
+      "label": "Paragraph f",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a person appointed as a police reservist under section 103 of the Police Regulation Act 1958 as in force immediately before the commencement of section 282 of the Victoria Police Act 2013; employer in..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s4",
+      "label": "Act binds the Crown",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "This Act binds the Crown in right of Victoria and, \nso far as the legislative power of the Parliament \npermits, the Crown in all its other capacities."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s5",
+      "label": "Employees to whom this Act does not apply",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n7"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s5/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "is entitled to long service leave under a This Act does not apply in relation to an employee who\u2014 Victorian Act other than this Act, to the extent of any inconsistency with that other Victorian Act; o..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s5/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "is entitled to long service leave under an employment agreement (regardless of whether it was made before or after the commencement of this Act), to the extent of any inconsistency with that employmen..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s5/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "is employed by an employer who was Long Service Leave Act 2018 No. 12 of 2018 6 exempted from complying with Division 6 of Part 5 of the Long Service Leave Act 1992 under section 65 of that Act; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s5/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "is employed under Part 2.3, 2.4 or 2A.1 of the Education and Training Reform Act 2006; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s5/e",
+      "label": "Paragraph e",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "is entitled under the Construction Industry Long Service Leave Act 1997 to long service leave and to be paid benefits out of the fund within the meaning of that Act. amended by No. 7/2024 s. 18."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s6",
+      "label": "Entitlement to long service leave",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "At any time after completing 7 years of \ncontinuous employment with one employer, an \nemployee is entitled to an amount of long service \nleave on ordinary pay equal to 1/60th of the \nemployee's total..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s7",
+      "label": "Long service leave does not include public holidays",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "or annual leave \nLong service leave does not include any public \nholiday occurring, or annual leave taken, during \nthe period when the long service leave is taken."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s8",
+      "label": "Leave in advance",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n8   \nto the employee as a result of the ending of the \nemployment an amount equal to the amount paid \nto the employee for the leave (if any) in respect of..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s8/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer may agree to an employee taking long service leave\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s8/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "despite the employee not completing 7 years of continuous employment with the employer; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s8/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "at any time before the employee becomes entitled to the long service leave."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s8/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an employee takes long service leave before the employee is entitled to the long service leave, the employee is not entitled to any further long service leave or payment in lieu of long service lea..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s8/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an employee takes long service leave before the employee is entitled to the long service leave and the employee's employment ends, the employer may deduct from any payment payable"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s9",
+      "label": "What happens if employment ends before leave is",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n9"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s9/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an employee's employment ends (other than taken? because of the employee's death) before the employee has taken all the long service leave to which the employee is entitled\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s9/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the employee is taken to have started long service leave on the day on which the employment ends; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s9/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the full amount of the employee's long service leave entitlement, calculated as at the day on which the employment ends, is due and payable to the employee on that day."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s9/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The employer of an employee referred to in subsection (1) must pay the employee the full amount of the employee's long service leave entitlement. Penalty: In the case of a natural person, 12 penalty u..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s9/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The obligation imposed under subsection (2) to pay the employee's long service leave entitlement continues from the day on which the entitlement accrues under subsection (1)(b) until the employer has..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s10",
+      "label": "What is to happen if the employee dies before leave",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n10"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s10/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an employee dies before taking all the long is taken? service leave to which the employee is entitled, the employee's employer must pay to the employee's personal representative the full amount of..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s10/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If, in relation to a prosecution of an offence against this section, the employer alleges that the length of the employee's period of continuous employment with the employer is wrong in the charge-she..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s10/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "For the purposes of calculating the amount to be paid under this section\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s10/3/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the ordinary pay of the employee is the amount the employee was entitled to receive as at the time of the employee's death for working the employee's normal weekly hours at the employee's ordinary rat..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s10/3/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "any average that needs to be taken for the purposes of section 15 or 16 is to be taken over the 52 weeks immediately before the employee's death."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11",
+      "label": "Meaning of one employer",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n13   \nperformed for the first-mentioned employer; \nand \n (c) as a consequence of that contract, the \nemployee ceases employment with the \nfirst-mentioned e..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "This section sets out several situations in which an employee is taken, for the purposes of this Act, to have been employed by one employer despite having been employed during the relevant period by m..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an employee is employed by a corporation, the employee is taken to have been employed by the corporation during any period that the employee was employed by\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a related body corporate of the corporation (within the meaning of the Corporations Act); or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "another corporation and\u2014 (i) the directors of that other corporation and the employee's present employer were substantially the same; or (ii) that other corporation and the employee's present employer..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If the ownership of a business employing an employee changes but the employment of the employee continues\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/3/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the employee is taken to have started employment with the new owner on the date on which the employee started employment at that business; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/3/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the new owner must not refuse to provide the employee any long service leave to which the employee is entitled, including long service leave which accrued before the change of ownership."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Subsection (3) applies regardless of whether the Long Service Leave Act 2018 No. 12 of 2018 11 change of ownership of the business occurred before or after the commencement of this Act."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an employee is dismissed from employment by the owner of a business and is re-employed within 12 weeks after the day of the dismissal by a new owner of the same business to perform work for the new..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/5/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to have finished employment with the former owner on the day before the ownership of the business changed; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/5/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to have started employment with the new owner on the day the ownership of the business changed; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/5/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to have been employed by the new owner from the day on which the employee first started employment at that business."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/6",
+      "label": "Subsection 6",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an employee performs duties in connection with any assets used in the carrying on of a business owned by the employee's employer and those assets are transferred to another employer who continues t..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/6/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the employee is taken to have started employment with the new owner on the day on which the employee started employment at that business; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/6/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the new owner must not refuse to provide the employee any long service leave to which the employee is entitled, including long service leave which accrued before the transfer."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/7",
+      "label": "Subsection 7",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Subsection (8) applies if\u2014 Long Service Leave Act 2018 No. 12 of 2018 12"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/7/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "an employee performs duties in connection with any assets used in the carrying on of an employer's business; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/7/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the employee is dismissed by that employer; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/7/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "those assets are transferred to another employer; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/7/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "within 12 weeks after the day of the dismissal, the other employer employs the employee to perform duties in relation to those assets or other assets of a similar kind."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/8",
+      "label": "Subsection 8",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee referred to in subsection (7) is taken\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/8/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to have finished employment with the employee's former employer on the day before the assets were transferred; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/8/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to have started employment with the new employer on the day the assets were transferred; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/8/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to have been employed by the new employer from the day on which the employee first started employment at that business."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/9",
+      "label": "Subsection 9",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Subsection (10) applies if\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/9/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "an employee performs work in the course of employment with the employee's employer (the first-mentioned employer); and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/9/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the first-mentioned employer enters into a contract with another person (the second-mentioned employer) for the performance of work that is the same (or substantially the same) as the work"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "as a consequence of that contract, the Long Service Leave Act 2018 No. 12 of 2018 13 performed for the first-mentioned employer; and employee ceases employment with the first-mentioned employer and co..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/10",
+      "label": "Subsection 10",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee referred to in subsection (9) is taken to have started employment with the second-mentioned employer on the day on which the employee started employment with the first-mentioned employer."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/11",
+      "label": "Subsection 11",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The second-mentioned employer referred to in subsection (9) must not refuse to provide the employee any long service leave to which the employee is entitled, including long service leave which accrued..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s11/12",
+      "label": "Subsection 12",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section\u2014 assets includes tangible and intangible assets; business includes a trade, process and occupation and any part of a trade, process or occupation and also includes any part of a busine..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12",
+      "label": "Meaning of continuous employment",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n17   \n (d) an employer prevents an employee \nfrom performing work under the \nemployee's contract of employment \nwithout terminating that contract. \n (10) D..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "This section sets out several situations in which an employee is taken, for the purposes of this Act, to be continuously employed."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee's employment is taken to be continuous despite an absence from work caused by the employee taking\u2014 amended by No. 44/2018 s. 81(2)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "annual leave; or Long Service Leave Act 2018 No. 12 of 2018 14"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "because of a breakdown of machinery or Long Service Leave Act 2018 No. 12 of 2018 16 equipment for which the employer cannot reasonably be held responsible if the employee cannot be usefully employed..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "because of a stoppage of work for any cause for which the employer cannot reasonably be held responsible if the employee cannot be usefully employed because of the stoppage."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "an employer prevents an employee Long Service Leave Act 2018 No. 12 of 2018 17 from performing work under the employee's contract of employment without terminating that contract."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/e",
+      "label": "Paragraph e",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "carer's leave; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/f",
+      "label": "Paragraph f",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "leave on account of illness or injury; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/g",
+      "label": "Paragraph g",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "any other form of leave not referred to in this subsection that is provided for under the relevant employment agreement."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A casual or seasonal employee's employment is taken to be continuous despite an absence from work that is longer than 12 weeks, starting at the end of a particular instance of employment and ending at..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/3/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the casual or seasonal employee and the employer so agree before the start of the absence; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/3/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the absence is due to the terms of engagement of the casual or seasonal employee; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/3/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the absence is caused by seasonal factors; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/3/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the employee has been employed by the employer on a regular and systematic basis and the employee has a reasonable expectation of being re-engaged by the employer."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee's employment is taken to be Long Service Leave Act 2018 No. 12 of 2018 15 continuous despite an absence from work caused by the employer terminating or interrupting the employment with the..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee's employment is taken to be continuous despite an absence arising solely from the transfer of assets from one employer to another, if the employee usually performs duties which are connect..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/6",
+      "label": "Subsection 6",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee's employment is taken to be continuous despite an absence from work caused by the termination of the employee's employment\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/6/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "at the initiative of the employer or the employee, if the employee is re-employed by the employer within 12 weeks after the termination; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/6/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "because of the expiration of a specified term of an employment contract, if the employee is re-employed by the employer within 12 weeks after the expiration; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/6/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "because the employee's apprenticeship to an employer is completed, if the employee is re-employed by the employer within 52 weeks after the end of the apprenticeship."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/7",
+      "label": "Subsection 7",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee's employment is taken to be continuous despite the employer standing down the employee\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/7/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "during industrial action if the employee cannot be usefully employed because of the industrial action; or substituted by No. 44/2018 s. 81(3)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/8",
+      "label": "Subsection 8",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee's employment is taken to be continuous despite any interruption arising directly or indirectly from an industrial dispute. * * * * *"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/9",
+      "label": "Subsection 9",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section\u2014 industrial action means any of the following kinds of action\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/9/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the performance of work by an employee in a manner different from that in which it is customarily performed, or the adoption of a practice in relation to work by an employee, the result of which is a..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/9/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a ban, limitation or restriction on the performance of work by an employee or on the acceptance of, or offering for, work by an employee;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/9/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a failure or refusal by employees to attend for work or a failure or refusal to perform any work at all by employees who attend for work; substituted by No. 44/2018 s. 81(3). repealed by No. 44/2018 s..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/10",
+      "label": "Subsection 10",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Despite anything to the contrary in subsection (9), industrial action does not include the following\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/10/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "action by employees that is authorised or agreed to by the employer of the employees;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/10/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "action by an employer that is authorised or agreed to by, or on behalf of, employees of the employer;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s12/10/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "action by an employee if\u2014 (i) the action was based on a reasonable concern of the employee about an imminent risk to the employee's health or safety; and (ii) the employee did not unreasonably fail to..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s13",
+      "label": "Periods of absence from work that are taken to be",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n19"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s13/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The following periods of absence from work periods of employment when calculating the length of a period of continuous employment referred to in section 12 are taken to be periods of employment when c..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s13/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a period of paid leave;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s13/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "if a period of unpaid leave is less than or is 52 weeks, that period; renumbered as s. 12(10) by No. 44/2018 s. 81(4)(b)(i), amended by No. 44/2018 s. 81(4)(b)(ii)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s13/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "if a period of unpaid leave is more than Long Service Leave Act 2018 No. 12 of 2018 18 52 weeks, the initial 52 weeks;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s13/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "if a period of unpaid leave is more than 52 weeks, the entire period of unpaid leave if\u2014 (i) the period of absence is taken to be a period of employment in accordance with the relevant employment agre..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s13/e",
+      "label": "Paragraph e",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a period of absence arising from\u2014 (i) an interruption to, or termination of, employment caused by the employer with the intention of avoiding an obligation in relation to long service leave; or (ii) t..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s13/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an employee enters into a contract of employment with an employer within 52 weeks after completing an apprenticeship with the employer, the period of apprenticeship is taken to be a period of emplo..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s14",
+      "label": "Periods of absence from work not taken to be",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n20"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s14/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a period of unpaid leave in excess of periods of employment when calculating the length of a period of continuous employment The following periods of absence from work referred to in section 12 are no..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s14/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "an absence following the ending of the employee's employment described in section 12(6)(a) or (b);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s14/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "an absence caused by an employer standing down the employee described in section 12(7)(a), (b) or (c);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s14/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "an interruption described in section 12(8). amended by No. 44/2018 s. 81(5)(a). inserted by No. 44/2018 s. 81(5)(b)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s15",
+      "label": "Meaning of ordinary pay and ordinary time rate of",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "pay \n (1) For the purposes of this Act, and subject to this \nsection, ordinary pay\u2014 \n (a) means the pay that an employee is entitled \nto receive on the day on which the employee \nstarts long service l..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s15/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "For the purposes of this Act, and subject to this pay section, ordinary pay\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s15/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "means the pay that an employee is entitled to receive on the day on which the employee starts long service leave, calculated on the employee's normal weekly hours at the employee's ordinary time rate..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s15/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "includes the cash value of any board or lodging that an employee receives from the employee's employer."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s15/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an ordinary time rate of pay is not fixed for an employee's work under the relevant employment agreement, the employee's ordinary time rate of pay is the greatest of the following\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s15/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the average weekly rate earned by the employee in the 52 weeks immediately before the employee starts long service leave;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s15/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the average weekly rate earned by the employee in the 260 weeks immediately before the employee starts long service leave;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s15/2/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the average weekly rate earned by the employee during the employee's period of continuous employment with the employer immediately before the employee starts long service leave."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s16",
+      "label": "Normal weekly hours if none fixed or hours changed",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n23   \n E is the number of weeks the employee \ntook unpaid leave during the last period \nof continuous employment."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s16/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "This section applies if\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s16/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "no normal weekly number of hours of work is fixed for an employee's work under the relevant employment agreement; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s16/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the normal weekly number of hours of work Long Service Leave Act 2018 No. 12 of 2018 21 is fixed but is changed one or more times during the 104 weeks immediately before the employee starts long servi..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s16/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The employee's normal weekly number of hours of work is taken to be the greatest of the following\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s16/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "in relation to the 52 weeks immediately before the employee starts long service leave, the average weekly number of hours calculated in accordance with the following formula\u2014 (B + C)A= (52 \u2013 D) where\u2014..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s16/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "in relation to the 260 weeks immediately before the employee starts long service leave, the average weekly number of hours calculated in accordance with the following formula\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s16/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "in relation to the employee's last period of Long Service Leave Act 2018 No. 12 of 2018 22 (B + C)A= (260 \u2013 D) where\u2014 A is the employee's average weekly number of hours; B is the number of hours the e..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s17",
+      "label": "Normal weekly hours and ordinary time rate of pay",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n24"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s17/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "This section applies if an employee is\u2014 if working in suitable employment or absent due to workplace illness or injury"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s17/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "working in suitable employment (within the meaning of section 3 of the Workplace Injury Rehabilitation and Compensation Act 2013); or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s17/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "absent from work because of a workplace illness or injury and is in receipt of any compensation in the form of weekly payments from the Victorian WorkCover Authority for that illness or injury."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s17/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee's normal weekly hours and ordinary time rate of pay are to be taken to be the greater of the following\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s17/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the employee's normal weekly hours and ordinary time rate of pay immediately before the employee starts long service leave;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s17/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the employee's normal weekly hours and ordinary time rate of pay immediately before the employee developed the relevant illness or suffered the relevant injury. Note Section 16 may apply when determin..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s18",
+      "label": "Employee may make request for long service leave",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "(1) An employee may make a request to the \nemployee's employer to take long service \nleave for a period of not less than 1 day. \n (2) An employer must grant an employee's request to \ntake long servic..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s18/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee may make a request to the employee's employer to take long service leave for a period of not less than 1 day."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s18/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must grant an employee's request to take long service leave as soon as practicable after receiving the request unless the employer has reasonable business grounds for refusing the request."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s19",
+      "label": "Employer may direct employee to take long service",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "leave \n (1) An employer may direct an employee to take \nlong service leave at a specified time and for a \nspecified period by giving the employee at least \n12 weeks' written notice. \n (2) Subject to a..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s19/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer may direct an employee to take leave long service leave at a specified time and for a specified period by giving the employee at least 12 weeks' written notice."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s19/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Subject to an order of the Industrial Division of the Magistrates' Court, an employee must comply with a direction given under subsection (1)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s20",
+      "label": "Payment while on long service leave",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n25   \n (2) If no agreement exists, an employer must give \nan employee the pay to which the employee is \nentitled in respect of long service leave in one of..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s20/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must give an employee the pay to which the employee is entitled in respect of long service leave in any way and at any time that is agreed to by the employee and the employer before the st..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s20/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If no agreement exists, an employer must give Long Service Leave Act 2018 No. 12 of 2018 25 an employee the pay to which the employee is entitled in respect of long service leave in one of the followi..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s20/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "pay in full when the employee starts the long service leave;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s20/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "pay at the same time and in the same manner as if the employee were not taking long service leave. Penalty: In the case of a natural person, 12 penalty units for each day during which the offence cont..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s21",
+      "label": "Pay increases while on leave",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n26"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s21/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If the ordinary pay of an employee who is on long service leave increases, the employee is entitled to be paid at the increased rate from the time of the increase."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s21/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If the employee was paid in full at the start of the long service leave or was paid in advance with respect to any period of the long service leave, the employer must pay the additional amount resulti..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s22",
+      "label": "Leave at half pay",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "(1) An employee may request the employee's \nemployer to grant the employee a period of long \nservice leave\u2014 \n (a) twice as long as the period to which the \nemployee would otherwise be entitled; and..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s22/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee may request the employee's employer to grant the employee a period of long service leave\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s22/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "twice as long as the period to which the employee would otherwise be entitled; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s22/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "at a rate of pay equal to half the employee's ordinary pay."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s22/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must grant a request made under subsection (1) unless the employer has reasonable business grounds for refusing the request."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s23",
+      "label": "Contracting out prohibited",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n28"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s23/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A provision in an employment agreement or a relevant deed that annuls, varies or excludes any provision of this Act or of the Long Service Leave Act 1992 is of no effect, regardless of whether the emp..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s23/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "This section does not affect any provision of an employment agreement or a relevant deed (regardless of whether it was made before or after the commencement of this Act), to the extent of any inconsis..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s23/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section\u2014 employee includes a former employee; employer includes a former employer; amended by No. 14/2021 s. 76(1). amended by No. 14/2021 s. 76(2). inserted by No. 14/2021 s. 76(3)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24",
+      "label": "Jurisdiction of the Industrial Division of the",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n29   \n (h) any other jurisdiction given to it by or under \nthis or any other Act. \n (2) An employee (or an employee's personal \nrepresentative) may apply t..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The Industrial Division of the Magistrates' Court Magistrates' Court has\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "jurisdiction to deal with an application as to whether an employee is entitled to long service leave; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "jurisdiction to deal with an application as to whether an employee (or an employee's personal representative) is entitled to a payment in lieu of long service leave; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/1/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "jurisdiction to deal with an application as to an employer's refusal to grant long service leave under section 18(2); and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/1/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "jurisdiction to deal with an application as to a direction to take long service leave under section 19(1), including the length of long service leave; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/1/e",
+      "label": "Paragraph e",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "jurisdiction to deal with an application as to the rate of ordinary pay of an employee for the purposes of calculating a long service leave entitlement; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/1/f",
+      "label": "Paragraph f",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "jurisdiction to deal with an application as to an employer's refusal to grant a request under section 22(2); and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/1/g",
+      "label": "Paragraph g",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "jurisdiction to deal with an application as to payment of any amount owing to the employee (or the employee's personal representative) under this Act within the 6 years immediately before the day on w..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/h",
+      "label": "Paragraph h",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "any other jurisdiction given to it by or under Long Service Leave Act 2018 No. 12 of 2018 29 this or any other Act."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee (or an employee's personal representative) may apply to the Industrial Division of the Magistrates' Court for an order in relation to any matter referred to in subsection (1)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In determining an application under this section, the Industrial Division of the Magistrates' Court may take into account all the relevant circumstances, including the needs of the employee and the bu..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The Industrial Division of the Magistrates' Court may make an order in relation to any matter referred to in subsection (1) and may award costs to any party to the application and assess the amount of..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s24/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The Chief Magistrate, together with 2 or more Deputy Magistrates, may jointly make rules of court for or with respect to any matter relating to the practice and procedure of the Industrial Division of..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s25",
+      "label": "Proceedings for offences to be brought in Industrial",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n30   \n (3) Nothing in this section deprives a person of any \nright that the person has under the Criminal \nProcedure Act 2009\u2014 \n (a) to appeal to the Count..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s25/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If a person is charged with an offence against this Division of the Magistrates' Court Act, the charge must be heard, and all penalties recovered, before the Industrial Division of the Magistrates' Co..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s25/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Despite anything to the contrary in any Act, the jurisdiction of the Industrial Division of the Magistrates' Court in relation to any matter referred to in subsection (1) is exclusive."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s25/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Nothing in this section deprives a person of any Long Service Leave Act 2018 No. 12 of 2018 30 right that the person has under the Criminal Procedure Act 2009\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s25/3/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to appeal to the County Court against any sentence imposed by the Industrial Division of the Magistrates' Court; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s25/3/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to appeal to the Supreme Court, on a question of law, from a final order of the Industrial Division of the Magistrates' Court."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26",
+      "label": "Recovery of money owed",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n31   \n (6) The Industrial Division of the Magistrates' \nCourt may order an employer to pay interest in \naccordance with subsection (7) in addition to any..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "For the purposes of this Act, money owed for long service leave by an employer to an employee (or to an employee's personal representative) is taken to be arrears of pay."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee to whom money is owed by an employer for long service leave under this Act or any other Act, or under an employment agreement or order made under this Act or any other Act, may commence a..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An organisation may, if requested to do so by an employee who is, or is eligible to become, a member of the organisation, commence a proceeding in the Industrial Division of the Magistrates' Court to..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A proceeding under this section must be commenced within 6 years after the employee's entitlement to the money arises."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Before a proceeding may be commenced under this section, the employee or organisation, as the case may be, must give the employer a written demand for the money owed."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/6",
+      "label": "Subsection 6",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The Industrial Division of the Magistrates' Long Service Leave Act 2018 No. 12 of 2018 31 Court may order an employer to pay interest in accordance with subsection (7) in addition to any other amount..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/6/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "had reasonable notice of the employee's claim; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/6/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "had no reasonable grounds on which to dispute the claim; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/6/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "in the circumstances should have paid the claim without the need for a proceeding being commenced to establish the validity of the claim."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/7",
+      "label": "Subsection 7",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The interest must not be greater than the rate fixed under section 2 of the Penalty Interest Rates Act 1983 that applies at the time the order is made."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/8",
+      "label": "Subsection 8",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If a claim is made under this section by an employee's personal representative, subsections (6) and (7) apply despite anything to the contrary in section 29 of the Administration and Probate Act 1958."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s26/9",
+      "label": "Subsection 9",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section\u2014 employee includes a former employee; employer includes a former employer."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s27",
+      "label": "Order for reimbursement, reinstatement and",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n32   \n (b) subject to subsection (2), order that the \nemployee be reinstated in the employee's \nformer position or a similar position. \n (2) If the adverse..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s27/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an employer is found to have contravened compensation section 36, the Industrial Division of the Magistrates' Court may\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s27/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "order the employer to pay the employee a specified sum by way of reimbursement for the remuneration lost by the employee; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s27/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "subject to subsection (2), order that the Long Service Leave Act 2018 No. 12 of 2018 32 employee be reinstated in the employee's former position or a similar position."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s27/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If the adverse action constituting the contravention referred to in subsection (1) was the dismissal of the employee and the Industrial Division of the Magistrates' Court considers that it would be im..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s27/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An order under subsection (1)(a) or (2) is taken to be a judgment debt due by the employer to the employee and may be enforced in the Industrial Division of the Magistrates' Court accordingly."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s27/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The amount of remuneration that would have been payable to an employee in respect of any period that the employer fails to give effect to an order under subsection (1)(b) is recoverable as a debt due..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s27/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section\u2014 employee includes a former employee; employer includes a former employer."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s28",
+      "label": "Order for payment of arrears or compensation on",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n33   \n (2) If the Industrial Division of the Magistrates' \nCourt finds a person (other than an employer) \nguilty of an offence against a provision that is..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s28/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If the Industrial Division of the Magistrates' conviction Court finds an employer guilty of an offence against this Act and that the employer owes an amount to the employee in relation to long service..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s28/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If the Industrial Division of the Magistrates' Long Service Leave Act 2018 No. 12 of 2018 33 Court finds a person (other than an employer) guilty of an offence against a provision that is specified in..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s28/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Section 26(6), (7) and (8) applies to this section."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s28/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An order under this section may be enforced as if it were an order made by the Industrial Division of the Magistrates' Court in a civil proceeding."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s28/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If an amount referred to in subsection (1) or (2) remains to be paid after all reasonable means of civil enforcement have been tried, the order may be enforced as if it were a penalty imposed by the I..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s28/6",
+      "label": "Subsection 6",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Nothing in this section limits an employee's rights under section 26, and nothing in that section limits the power of the Industrial Division of the Magistrates' Court under this section."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s28/7",
+      "label": "Subsection 7",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section\u2014 employee includes a former employee; employer includes a former employer."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s29",
+      "label": "Appointment of authorised officers",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n34   \n (2) An authorised officer is subject to the directions \nof the Workforce Inspectorate Victoria in the \nperformance of the authorised officer's funct..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s29/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The Workforce Inspectorate Victoria may, by instrument, appoint a person employed under Part 3 of the Public Administration Act 2004 as an authorised officer for the purposes of this Act. amended by N..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s29/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An authorised officer is subject to the directions Long Service Leave Act 2018 No. 12 of 2018 34 of the Workforce Inspectorate Victoria in the performance of the authorised officer's functions or in t..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s29/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A direction under subsection (2) may be of a general nature or may relate to a specified matter or to a specified class of matter."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s30",
+      "label": "Identity cards",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "(1) An authorised officer must be issued with \nan identity card in the form approved by the \nWorkforce Inspectorate Victoria. \n (2) The identity card must bear a photograph and the \nsignature of the..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s30/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An authorised officer must be issued with an identity card in the form approved by the Workforce Inspectorate Victoria."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s30/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The identity card must bear a photograph and the signature of the authorised officer."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s30/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An authorised officer must produce the authorised officer's identity card for inspection\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s30/3/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "before exercising a power under this Act, other than a requirement made by post, e-mail or other electronic communication; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s30/3/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "at any time during the exercise of a power under this Act, if asked to do so. Penalty: 10 penalty units."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s31",
+      "label": "Power to require information or documents",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n35   \n (b) to produce to the authorised officer a \ndocument in the custody or control of the \nperson. \n (2) A notice under subsection (1) must\u2014 \n (a) warn..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s31/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "For the purpose of monitoring compliance with this Act and the regulations, an authorised officer may by written notice require a person, within a reasonable period specified in the notice\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s31/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to give the authorised officer any information that the authorised officer requires; or amended by Nos 14/2021 s. 65(2), 35/2025 s. 76. amended by Nos 14/2021 s. 66, 35/2025 s. 77."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s31/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to produce to the authorised officer a Long Service Leave Act 2018 No. 12 of 2018 35 document in the custody or control of the person."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s31/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A notice under subsection (1) must\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s31/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "warn the person that a refusal or failure to comply with the notice, without reasonable excuse, is an offence; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s31/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "if directed to a natural person, inform the person that the person may refuse or fail to produce documents (other than a record or other document that the person is required to keep under this Act) or..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s31/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An authorised officer may inspect, and make copies of or take extracts from, a document produced to the authorised officer under subsection (1)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s32",
+      "label": "Retention of documents",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "(1) An authorised officer may retain a document \nproduced to the authorised officer for the period \nnecessary to monitor compliance with this Act and \nthe regulations. \n (2) During the period that th..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s32/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An authorised officer may retain a document produced to the authorised officer for the period necessary to monitor compliance with this Act and the regulations."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s32/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "During the period that the authorised officer retains a document, the authorised officer must permit the person otherwise entitled to its possession to inspect it and make copies of or take extracts f..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s33",
+      "label": "Confidentiality",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n36   \nacquired by the authorised officer in performing \nthat function. \nPenalty: 60 penalty units. \n (2) Subsection (1) does not apply to the giving of \nin..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s33/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An authorised officer must not, except to the extent necessary to monitor compliance with this Act and the regulations, give to any other person, whether directly or indirectly, any information"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s33/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Subsection (1) does not apply to the giving of Long Service Leave Act 2018 No. 12 of 2018 36 acquired by the authorised officer in performing that function. Penalty: 60 penalty units. information\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s33/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to a court or tribunal in the course of a legal proceeding; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s33/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "pursuant to an order of a court or tribunal; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s33/2/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "to the extent reasonably required to enable the investigation or the enforcement of a law of Victoria or of any other State or a Territory or of the Commonwealth; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s33/2/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "with the written authority of the Workforce Inspectorate Victoria; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s33/2/e",
+      "label": "Paragraph e",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "with the written authority of the person to whom the information relates."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s34",
+      "label": "Payments in lieu forbidden",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "(1) An employer must not give an employee a \npayment in lieu of long service leave, or in lieu of \nany part of long service leave, except as permitted \nunder this or any other Act or under the releva..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s34/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must not give an employee a payment in lieu of long service leave, or in lieu of any part of long service leave, except as permitted under this or any other Act or under the relevant fair..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60",
+      "label": "penalty units in the case of a body",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "* * * * *"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "For the purposes of subsection (1), the notice must corporate. Note Section 43 applies to an offence against this subsection. state whether the proposed agreement modifies or removes any of the follow..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s35",
+      "label": "Offences concerning working during long service",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "leave \n (1) An employee who is on long service leave must \nnot work for hire or reward in relation to the hours \nduring which the employee is taking long service \nleave. \nPenalty: 12 penalty units...."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s35/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employee who is on long service leave must leave not work for hire or reward in relation to the hours during which the employee is taking long service leave. Penalty: 12 penalty units."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s35/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A person must not knowingly employ another person for hire or reward in relation to the hours during which that other person is taking long service leave. Penalty: 12 penalty units in the case of a na..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36",
+      "label": "Adverse action taken against employee",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n40"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must not take adverse action against an employee because the employee is entitled to long service leave or any other entitlement under this Act. Penalty: In the case of a natural person, 1..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must not take adverse action Long Service Leave Act 2018 No. 12 of 2018 38 Note Section 43 applies to an offence against this subsection. against an employee because the employee seeks to..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must not take adverse action against an employee because the employee makes an enquiry as to the employee's entitlement to long service leave or any other entitlement under this Act. Penal..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must not take adverse action against Long Service Leave Act 2018 No. 12 of 2018 39 an employee because the employee applies to the Industrial Division of the Magistrates' Court for an orde..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In a proceeding for an alleged contravention of subsection (1), (2), (3) or (4), the onus of proving that the adverse action by the employer was not actuated by any reason referred to in subsection (1..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/6",
+      "label": "Subsection 6",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "For the purposes of this section, an employer takes adverse action against an employee if the employer\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/6/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "dismisses the employee; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/6/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "injures the employee in the employee's employment; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/6/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "alters the position of the employee to the employee's prejudice; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/6/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "discriminates between the employee and other employees of the employer; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s36/6/e",
+      "label": "Paragraph e",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "knowingly or recklessly makes a false representation about the employee's long service leave entitlements."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s37",
+      "label": "Offences concerning long service leave records",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "* * * * * \n (2) An employer must keep a long service leave \nrecord relating to an employee during the \nemployee's period of continuous employment \nby the employer. \nPenalty: 12 penalty units in the c..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s37/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must keep a long service leave * * * * * record relating to an employee during the employee's period of continuous employment by the employer. Penalty: 12 penalty units in the case of a na..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must keep a long service leave corporate. Notes 1 Section 43 applies to an offence against this subsection. 2 Section 11 sets out several situations in which an employee is taken, for the..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must keep a long service leave Long Service Leave Act 2018 No. 12 of 2018 41 record so that it is able to be readily produced to an authorised officer if the authorised officer requires it..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A person must not make, without reasonable corporate. excuse, any false or misleading statement in, or any material omission from, a long service leave record. Penalty: 12 penalty units in the case of..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60/6",
+      "label": "Subsection 6",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An employer must not refuse a request by corporate. Note Section 43 applies to an offence against this subsection. an employee (or an employee's personal representative) to provide the employee (or th..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60/7",
+      "label": "Subsection 7",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Despite anything to the contrary in this or any corporate. other Act, a proceeding for an offence against this section may be commenced by filing a charge sheet at any time within 6 years after the da..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60/8",
+      "label": "Subsection 8",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section\u2014 Long Service Leave Act 2018 No. 12 of 2018 42 employee includes a former employee; employer includes a former employer."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s38",
+      "label": "Failing to produce documents or giving false or",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "misleading documents \n (1) A person must not, without reasonable excuse, fail \nto comply with a notice to produce documents or \nprovide information under section 31. \nPenalty: 12 penalty units in the..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s38/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A person must not, without reasonable excuse, fail misleading documents to comply with a notice to produce documents or provide information under section 31. Penalty: 12 penalty units in the case of a..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s39",
+      "label": "Protection against self-incrimination",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n43   \ndoing of the thing would tend to incriminate the \nperson. \n (2) Despite subsection (1), it is not a reasonable \nexcuse for a natural person to refuse..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s39/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "It is a reasonable excuse for a natural person to refuse or fail to give information, produce a document or do any other thing that the person is required to do by or under this Act, if the giving of..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s39/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Despite subsection (1), it is not a reasonable Long Service Leave Act 2018 No. 12 of 2018 43 doing of the thing would tend to incriminate the person. excuse for a natural person to refuse or fail to p..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40",
+      "label": "Who can prosecute under this Act?",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n44   \n (4) In a prosecution for an offence under this Act, \nthe Industrial Division of the Magistrates' Court \nmust presume, in the absence of evidence to..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A prosecution for an offence against this Act may only be brought by\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the Workforce Inspectorate Victoria; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a person employed under Part 3 of the Public Administration Act 2004 who is authorised by the Workforce Inspectorate Victoria to bring a prosecution; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/1/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a prescribed person."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An authorisation\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "must be in writing; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "may be given generally, or only in relation to a particular case or cases, or a particular class of case or cases; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/2/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "may be revoked by the person who gave it at any time by written notice."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The revocation of an authorisation does not affect a proceeding commenced by a person before that person's authorisation was revoked unless the notice of revocation states otherwise. substituted by No..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In a prosecution for an offence under this Act, Long Service Leave Act 2018 No. 12 of 2018 44 the Industrial Division of the Magistrates' Court must presume, in the absence of evidence to the contrary..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A prosecution may only be conducted by\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/5/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the person authorised to bring the prosecution; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s40/5/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "an Australian lawyer briefed by the person authorised to bring the prosecution."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s41",
+      "label": "Judicial notice",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n45"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s41/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "All courts must take judicial notice of\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s41/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the signature of a person who is, or was at the time the signature purports to have been made, the Minister, the Secretary, the Commissioner of the Workforce Inspectorate Victoria or an employee to wh..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s41/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "the fact that a person referred to in paragraph (a) held the position the person purported to hold at the time the signature purports to have been made."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s41/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "All courts must take judicial notice of the official seal of the Workforce Inspectorate Victoria affixed to a document and, until the contrary is proved, must presume that it was duly affixed. (Headin..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s42",
+      "label": "Imputing conduct to bodies corporate or other",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "employer \n (1) For the purposes of this Act, any conduct \nengaged in or on behalf of a body corporate or \nother employer by an employee, agent or officer \nof the body corporate or other employer (as t..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s42/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "For the purposes of this Act, any conduct employer engaged in or on behalf of a body corporate or other employer by an employee, agent or officer of the body corporate or other employer (as the case m..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s42/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section, officer has the same meaning given by section 9 of the Corporations Act."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43",
+      "label": "Criminal liability of officers of bodies corporate\u2014",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n47   \npart in, the management of the body \ncorporate. \n (6) This section does not affect the operation of \nSubdivision (1) of Division 1 of Part II of the..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If a body corporate commits an offence against accessorial liability a provision specified in subsection (2), an officer of the body corporate also commits an offence against the provision if the offi..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/1/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "authorised or permitted the commission of the offence by the body corporate; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/1/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "was knowingly concerned in any way (whether by act or omission) in the commission of the offence by the body corporate."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "For the purposes of subsection (1), the following provisions are specified\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 9(2);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 10(1);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/2/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 20(1);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/2/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 20(2);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/2/e",
+      "label": "Paragraph e",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 34(1);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/2/f",
+      "label": "Paragraph f",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 36(1);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/2/g",
+      "label": "Paragraph g",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 36(2);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/h",
+      "label": "Paragraph h",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 36(3); Long Service Leave Act 2018 No. 12 of 2018 46 (i) section 36(4);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/j",
+      "label": "Paragraph j",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 37(1);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/k",
+      "label": "Paragraph k",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 37(2);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/l",
+      "label": "Paragraph l",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 37(3);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/m",
+      "label": "Paragraph m",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 37(5);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/n",
+      "label": "Paragraph n",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 38(1);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/o",
+      "label": "Paragraph o",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 38(2);"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/p",
+      "label": "Paragraph p",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "section 50(1)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Without limiting any other defence available to the officer, an officer of a body corporate may rely on a defence that would be available to the body corporate if it were charged with the offence with..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An officer of a body corporate may commit an offence against a provision specified in subsection (2) whether or not the body corporate has been prosecuted for, or found guilty of, an offence against t..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section\u2014 body corporate has the same meaning as corporation has in section 57A of the Corporations Act; officer, in relation to a body corporate, means\u2014"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/5/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a person who is an officer (as defined by section 9 of the Corporations Act) of the body corporate; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/5/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "a person (other than a person referred to in paragraph (a)), by whatever name called, who is concerned in, or takes"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s43/6",
+      "label": "Subsection 6",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "This section does not affect the operation of Long Service Leave Act 2018 No. 12 of 2018 47 part in, the management of the body corporate. Subdivision (1) of Division 1 of Part II of the Crimes Act 19..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s44",
+      "label": "Offences by unincorporated associations",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "long service leave entitlements"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s45",
+      "label": "Application of Part",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "This Part applies despite anything to the contrary \nin this Act."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s46",
+      "label": "Definition of award",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n49"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s46/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "has the same meaning as it had in the In this Part\u2014 award\u2014 Workplace Relations Act 1996 of the Commonwealth as in force immediately before 27 March 2006; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s46/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "includes a term of an award that was a common rule in Victoria under section 141, 142 or 493A of the Workplace Relations Act 1996 of the Commonwealth as in force immediately before 27 March 2006; and"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s46/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "in relation to an employee and the employee's employer, means an award\u2014 (i) that was binding on the employer immediately before 27 March 2006 or would have been binding had the employer been an employ..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s47",
+      "label": "Preservation",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "long service leave entitlements"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s47/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If, immediately before 27 March 2006, an award provided a long service leave entitlement that was more beneficial to an employee in any respect than the entitlement provided in Part 5 of the Long Serv..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s47/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Subsection (1) applies to an employee whether or not the employee was employed immediately before 27 March 2006."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s48",
+      "label": "Definitions for this Part",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Long Service Leave Act 2018 \nNo. 12 of 2018 \n51   \n (d) that accrued by operation of an \nagreement that is no longer applicable \nto that employee under Division 3 or 4 \nof Part 11 of the Workplace Rel..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s48/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "that accrued by operation of an award In this Part\u2014 award has the same meaning as it has in Part 4; protected accrued long service leave entitlement in relation to an employee means an entitlement to..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s48/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "that accrued by operation of an award that is no longer applicable to that employee under Division 5 of Part 11 of the Workplace Relations Act 1996 of the Commonwealth; or"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s48/c",
+      "label": "Paragraph c",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "that accrued by operation of an employment agreement that has subsequently been terminated under\u2014 (i) Division 9 of Part 8 of the Workplace Relations Act 1996 of the Commonwealth; or (ii) section 170M..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s48/d",
+      "label": "Paragraph d",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "that accrued by operation of an Long Service Leave Act 2018 No. 12 of 2018 51 agreement that is no longer applicable to that employee under Division 3 or 4 of Part 11 of the Workplace Relations Act 19..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s49",
+      "label": "Protection of accrued entitlements",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "workplace agreements"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s50",
+      "label": "Disclosure of modified or removed long service leave",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "entitlements \n (1) At least 7 days before entering into an \nemployment agreement that would modify or \nremove an employee's entitlements under this \nAct, the employer must notify the employee in \nwrit..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s50/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "At least 7 days before entering into an entitlements employment agreement that would modify or remove an employee's entitlements under this Act, the employer must notify the employee in writing of the..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60/2/a",
+      "label": "Paragraph a",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "an entitlement to long service leave on completing 7 years of continuous service;"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s60/2/b",
+      "label": "Paragraph b",
+      "type": "paragraph",
+      "jurisdiction": "Victoria",
+      "summary": "any entitlement arising from the operation of section 47 or 49."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s52",
+      "label": "Supreme Court\u2014limitation of jurisdiction",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "It is the intention of this section to alter or vary \nsection 85 of the Constitution Act 1975 to the \nextent necessary to prevent the bringing before the \nSupreme Court of a proceeding or matter of a..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s53",
+      "label": "Regulations",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Leave Act 1992 and savings and \ntransitional provisions"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s53/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The Governor in Council may make regulations for or with respect to any matter or thing required or permitted by this Act to be prescribed or that is necessary to be prescribed to give effect to this..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s53/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A regulation may create an offence punishable by a penalty not exceeding 20 penalty units. * * * * * repealed by No. 14/2021 s. 71. by force of No. 12/2018 s. 54(5)."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s55",
+      "label": "Definitions",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "(1) In this Part\u2014 \n1992 Act means the Long Service Leave \nAct 1992; \n2018 Act means the Long Service Leave \nAct 2018. \n (2) A word or expression that is defined in the \n1992 Act and is used in this P..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s55/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this Part\u2014 1992 Act means the Long Service Leave Act 1992; 2018 Act means the Long Service Leave Act 2018."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s55/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A word or expression that is defined in the 1992 Act and is used in this Part in relation to the 1992 Act has the same meaning as is given in the 1992 Act."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s56",
+      "label": "Long Service Leave Act 1992 repealed",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "(1) The Long Service Leave Act 1992 is repealed. \n (2) On and from the commencement of the 2018 Act, \nany reference in any Act (other than the 2018 Act \nor a regulation under the 2018 Act), regulatio..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s56/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "The Long Service Leave Act 1992 is repealed."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s56/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "On and from the commencement of the 2018 Act, any reference in any Act (other than the 2018 Act or a regulation under the 2018 Act), regulation, subordinate instrument or other document whatsoever to..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s56/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Nothing in this section limits or otherwise affects the operation of the Interpretation of Legislation Act 1984."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s57",
+      "label": "Transitional provisions",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "Amendment Act 2021"
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s57/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "Despite anything to the contrary in section 13 of the 2018 Act, any interruption to an employee's employment caused by an absence from work not referred to in section 62(2) or (3) or 62A(1) of the 199..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s57/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "If the 2018 Act commences during an employee's transitional provisions Long Service Leave Act 2018 No. 12 of 2018 55 continuous employment for the purposes of section 12 of the 2018 Act if the absence..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s58",
+      "label": "Transitional provision\u2014Industrial Relations",
+      "type": "section",
+      "jurisdiction": "Victoria",
+      "summary": "transitional provisions \nLong Service Leave Act 2018 \nNo. 12 of 2018 \n56   \n (3) A written authority given by the Secretary under \nsection 33(2)(d) that was in force immediately \nbefore the commenceme..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s58/1",
+      "label": "Subsection 1",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A person who was an authorised officer Legislation Amendment Act 2021 immediately before the commencement of section 65 of the amending Act remains an authorised officer on and after that commencement..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s58/2",
+      "label": "Subsection 2",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An identity card issued to an authorised officer under section 30(1) that was in force immediately before the commencement of section 66 of the amending Act remains in force on and after that commence..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s58/3",
+      "label": "Subsection 3",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "A written authority given by the Secretary under transitional provisions Long Service Leave Act 2018 No. 12 of 2018 56 section 33(2)(d) that was in force immediately before the commencement of section..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s58/4",
+      "label": "Subsection 4",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "An authorisation given by the Secretary under section 40(1) that was in force immediately before the commencement of section 69 of the amending Act remains in force on and after that commencement as i..."
+    },
+    {
+      "id": "/au-victoria/lsl/2018/s58/5",
+      "label": "Subsection 5",
+      "type": "subsection",
+      "jurisdiction": "Victoria",
+      "summary": "In this section\u2014 amending Act means the Industrial Relations Legislation Amendment Act 2021. Long Service Leave Act 2018 No. 12 of 2018 57 * * * * * \u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550 Pt 9 (Heading and ss 58\u201362) repeale..."
+    }
+  ],
+  "edges": [
+    {
+      "source": "/au-victoria/lsl/2018",
+      "target": "/au-victoria/lsl/2018/part-1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018",
+      "target": "/au-victoria/lsl/2018/part-2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018",
+      "target": "/au-victoria/lsl/2018/part-3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/part-3/div-1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/part-3/div-2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/part-3/div-3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018",
+      "target": "/au-victoria/lsl/2018/part-4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018",
+      "target": "/au-victoria/lsl/2018/part-5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018",
+      "target": "/au-victoria/lsl/2018/part-6",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018",
+      "target": "/au-victoria/lsl/2018/part-7",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018",
+      "target": "/au-victoria/lsl/2018/part-8",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-8",
+      "target": "/au-victoria/lsl/2018/part-8/div-1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-8",
+      "target": "/au-victoria/lsl/2018/part-8/div-2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-1",
+      "target": "/au-victoria/lsl/2018/s1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s1",
+      "target": "/au-victoria/lsl/2018/s1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s1",
+      "target": "/au-victoria/lsl/2018/s1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s1",
+      "target": "/au-victoria/lsl/2018/s1/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-1",
+      "target": "/au-victoria/lsl/2018/s2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s2",
+      "target": "/au-victoria/lsl/2018/s2/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s2",
+      "target": "/au-victoria/lsl/2018/s2/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-1",
+      "target": "/au-victoria/lsl/2018/s3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s3",
+      "target": "/au-victoria/lsl/2018/s3/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s3",
+      "target": "/au-victoria/lsl/2018/s3/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s3",
+      "target": "/au-victoria/lsl/2018/s3/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s3",
+      "target": "/au-victoria/lsl/2018/s3/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s3",
+      "target": "/au-victoria/lsl/2018/s3/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s3",
+      "target": "/au-victoria/lsl/2018/s3/e",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s3",
+      "target": "/au-victoria/lsl/2018/s3/f",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-1",
+      "target": "/au-victoria/lsl/2018/s4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-1",
+      "target": "/au-victoria/lsl/2018/s5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s5",
+      "target": "/au-victoria/lsl/2018/s5/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s5",
+      "target": "/au-victoria/lsl/2018/s5/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s5",
+      "target": "/au-victoria/lsl/2018/s5/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s5",
+      "target": "/au-victoria/lsl/2018/s5/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s5",
+      "target": "/au-victoria/lsl/2018/s5/e",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s6",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s7",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s8",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s8",
+      "target": "/au-victoria/lsl/2018/s8/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s8/1",
+      "target": "/au-victoria/lsl/2018/s8/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s8/1",
+      "target": "/au-victoria/lsl/2018/s8/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s8",
+      "target": "/au-victoria/lsl/2018/s8/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s8",
+      "target": "/au-victoria/lsl/2018/s8/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s9",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s9",
+      "target": "/au-victoria/lsl/2018/s9/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s9/1",
+      "target": "/au-victoria/lsl/2018/s9/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s9/1",
+      "target": "/au-victoria/lsl/2018/s9/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s9",
+      "target": "/au-victoria/lsl/2018/s9/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s9",
+      "target": "/au-victoria/lsl/2018/s9/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s10",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s10",
+      "target": "/au-victoria/lsl/2018/s10/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s10",
+      "target": "/au-victoria/lsl/2018/s10/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s10",
+      "target": "/au-victoria/lsl/2018/s10/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s10/3",
+      "target": "/au-victoria/lsl/2018/s10/3/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s10/3",
+      "target": "/au-victoria/lsl/2018/s10/3/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s11",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/2",
+      "target": "/au-victoria/lsl/2018/s11/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/2",
+      "target": "/au-victoria/lsl/2018/s11/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/3",
+      "target": "/au-victoria/lsl/2018/s11/3/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/3",
+      "target": "/au-victoria/lsl/2018/s11/3/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/5",
+      "target": "/au-victoria/lsl/2018/s11/5/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/5",
+      "target": "/au-victoria/lsl/2018/s11/5/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/5",
+      "target": "/au-victoria/lsl/2018/s11/5/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/6",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/6",
+      "target": "/au-victoria/lsl/2018/s11/6/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/6",
+      "target": "/au-victoria/lsl/2018/s11/6/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/7",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/7",
+      "target": "/au-victoria/lsl/2018/s11/7/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/7",
+      "target": "/au-victoria/lsl/2018/s11/7/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/7",
+      "target": "/au-victoria/lsl/2018/s11/7/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/7",
+      "target": "/au-victoria/lsl/2018/s11/7/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/8",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/8",
+      "target": "/au-victoria/lsl/2018/s11/8/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/8",
+      "target": "/au-victoria/lsl/2018/s11/8/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/8",
+      "target": "/au-victoria/lsl/2018/s11/8/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/9",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/9",
+      "target": "/au-victoria/lsl/2018/s11/9/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11/9",
+      "target": "/au-victoria/lsl/2018/s11/9/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/10",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/11",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s11",
+      "target": "/au-victoria/lsl/2018/s11/12",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s12",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/e",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/f",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/g",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/3",
+      "target": "/au-victoria/lsl/2018/s12/3/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/3",
+      "target": "/au-victoria/lsl/2018/s12/3/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/3",
+      "target": "/au-victoria/lsl/2018/s12/3/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/3",
+      "target": "/au-victoria/lsl/2018/s12/3/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/6",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/6",
+      "target": "/au-victoria/lsl/2018/s12/6/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/6",
+      "target": "/au-victoria/lsl/2018/s12/6/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/6",
+      "target": "/au-victoria/lsl/2018/s12/6/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/7",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/7",
+      "target": "/au-victoria/lsl/2018/s12/7/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/8",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/9",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/9",
+      "target": "/au-victoria/lsl/2018/s12/9/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/9",
+      "target": "/au-victoria/lsl/2018/s12/9/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/9",
+      "target": "/au-victoria/lsl/2018/s12/9/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12",
+      "target": "/au-victoria/lsl/2018/s12/10",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/10",
+      "target": "/au-victoria/lsl/2018/s12/10/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/10",
+      "target": "/au-victoria/lsl/2018/s12/10/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s12/10",
+      "target": "/au-victoria/lsl/2018/s12/10/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s13",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s13",
+      "target": "/au-victoria/lsl/2018/s13/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s13/1",
+      "target": "/au-victoria/lsl/2018/s13/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s13/1",
+      "target": "/au-victoria/lsl/2018/s13/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s13",
+      "target": "/au-victoria/lsl/2018/s13/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s13",
+      "target": "/au-victoria/lsl/2018/s13/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s13",
+      "target": "/au-victoria/lsl/2018/s13/e",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s13",
+      "target": "/au-victoria/lsl/2018/s13/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s14",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s14",
+      "target": "/au-victoria/lsl/2018/s14/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s14",
+      "target": "/au-victoria/lsl/2018/s14/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s14",
+      "target": "/au-victoria/lsl/2018/s14/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s14",
+      "target": "/au-victoria/lsl/2018/s14/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s15",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s15",
+      "target": "/au-victoria/lsl/2018/s15/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s15/1",
+      "target": "/au-victoria/lsl/2018/s15/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s15/1",
+      "target": "/au-victoria/lsl/2018/s15/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s15",
+      "target": "/au-victoria/lsl/2018/s15/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s15/2",
+      "target": "/au-victoria/lsl/2018/s15/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s15/2",
+      "target": "/au-victoria/lsl/2018/s15/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s15/2",
+      "target": "/au-victoria/lsl/2018/s15/2/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s16",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s16",
+      "target": "/au-victoria/lsl/2018/s16/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s16/1",
+      "target": "/au-victoria/lsl/2018/s16/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s16",
+      "target": "/au-victoria/lsl/2018/s16/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s16",
+      "target": "/au-victoria/lsl/2018/s16/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s16/2",
+      "target": "/au-victoria/lsl/2018/s16/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s16/2",
+      "target": "/au-victoria/lsl/2018/s16/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s16",
+      "target": "/au-victoria/lsl/2018/s16/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s17",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s17",
+      "target": "/au-victoria/lsl/2018/s17/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s17/1",
+      "target": "/au-victoria/lsl/2018/s17/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s17/1",
+      "target": "/au-victoria/lsl/2018/s17/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s17",
+      "target": "/au-victoria/lsl/2018/s17/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s17/2",
+      "target": "/au-victoria/lsl/2018/s17/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s17/2",
+      "target": "/au-victoria/lsl/2018/s17/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s18",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s18",
+      "target": "/au-victoria/lsl/2018/s18/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s18",
+      "target": "/au-victoria/lsl/2018/s18/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s19",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s19",
+      "target": "/au-victoria/lsl/2018/s19/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s19",
+      "target": "/au-victoria/lsl/2018/s19/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s20",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s20",
+      "target": "/au-victoria/lsl/2018/s20/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s20",
+      "target": "/au-victoria/lsl/2018/s20/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s20/2",
+      "target": "/au-victoria/lsl/2018/s20/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s20/2",
+      "target": "/au-victoria/lsl/2018/s20/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s21",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s21",
+      "target": "/au-victoria/lsl/2018/s21/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s21",
+      "target": "/au-victoria/lsl/2018/s21/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s22",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s22",
+      "target": "/au-victoria/lsl/2018/s22/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s22/1",
+      "target": "/au-victoria/lsl/2018/s22/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s22/1",
+      "target": "/au-victoria/lsl/2018/s22/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s22",
+      "target": "/au-victoria/lsl/2018/s22/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-2",
+      "target": "/au-victoria/lsl/2018/s23",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s23",
+      "target": "/au-victoria/lsl/2018/s23/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s23",
+      "target": "/au-victoria/lsl/2018/s23/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s23",
+      "target": "/au-victoria/lsl/2018/s23/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3/div-1",
+      "target": "/au-victoria/lsl/2018/s24",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24",
+      "target": "/au-victoria/lsl/2018/s24/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24/1",
+      "target": "/au-victoria/lsl/2018/s24/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24/1",
+      "target": "/au-victoria/lsl/2018/s24/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24/1",
+      "target": "/au-victoria/lsl/2018/s24/1/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24/1",
+      "target": "/au-victoria/lsl/2018/s24/1/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24/1",
+      "target": "/au-victoria/lsl/2018/s24/1/e",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24/1",
+      "target": "/au-victoria/lsl/2018/s24/1/f",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24/1",
+      "target": "/au-victoria/lsl/2018/s24/1/g",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24",
+      "target": "/au-victoria/lsl/2018/s24/h",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24",
+      "target": "/au-victoria/lsl/2018/s24/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24",
+      "target": "/au-victoria/lsl/2018/s24/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24",
+      "target": "/au-victoria/lsl/2018/s24/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s24",
+      "target": "/au-victoria/lsl/2018/s24/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s25",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s25",
+      "target": "/au-victoria/lsl/2018/s25/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s25",
+      "target": "/au-victoria/lsl/2018/s25/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s25",
+      "target": "/au-victoria/lsl/2018/s25/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s25/3",
+      "target": "/au-victoria/lsl/2018/s25/3/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s25/3",
+      "target": "/au-victoria/lsl/2018/s25/3/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s26",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26",
+      "target": "/au-victoria/lsl/2018/s26/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26",
+      "target": "/au-victoria/lsl/2018/s26/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26",
+      "target": "/au-victoria/lsl/2018/s26/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26",
+      "target": "/au-victoria/lsl/2018/s26/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26",
+      "target": "/au-victoria/lsl/2018/s26/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26",
+      "target": "/au-victoria/lsl/2018/s26/6",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26/6",
+      "target": "/au-victoria/lsl/2018/s26/6/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26/6",
+      "target": "/au-victoria/lsl/2018/s26/6/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26/6",
+      "target": "/au-victoria/lsl/2018/s26/6/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26",
+      "target": "/au-victoria/lsl/2018/s26/7",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26",
+      "target": "/au-victoria/lsl/2018/s26/8",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s26",
+      "target": "/au-victoria/lsl/2018/s26/9",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s27",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s27",
+      "target": "/au-victoria/lsl/2018/s27/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s27/1",
+      "target": "/au-victoria/lsl/2018/s27/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s27",
+      "target": "/au-victoria/lsl/2018/s27/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s27",
+      "target": "/au-victoria/lsl/2018/s27/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s27",
+      "target": "/au-victoria/lsl/2018/s27/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s27",
+      "target": "/au-victoria/lsl/2018/s27/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s27",
+      "target": "/au-victoria/lsl/2018/s27/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s28",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s28",
+      "target": "/au-victoria/lsl/2018/s28/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s28",
+      "target": "/au-victoria/lsl/2018/s28/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s28",
+      "target": "/au-victoria/lsl/2018/s28/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s28",
+      "target": "/au-victoria/lsl/2018/s28/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s28",
+      "target": "/au-victoria/lsl/2018/s28/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s28",
+      "target": "/au-victoria/lsl/2018/s28/6",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s28",
+      "target": "/au-victoria/lsl/2018/s28/7",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3/div-2",
+      "target": "/au-victoria/lsl/2018/s29",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s29",
+      "target": "/au-victoria/lsl/2018/s29/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s29",
+      "target": "/au-victoria/lsl/2018/s29/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s29",
+      "target": "/au-victoria/lsl/2018/s29/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s30",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s30",
+      "target": "/au-victoria/lsl/2018/s30/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s30",
+      "target": "/au-victoria/lsl/2018/s30/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s30",
+      "target": "/au-victoria/lsl/2018/s30/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s30/3",
+      "target": "/au-victoria/lsl/2018/s30/3/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s30/3",
+      "target": "/au-victoria/lsl/2018/s30/3/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s31",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s31",
+      "target": "/au-victoria/lsl/2018/s31/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s31/1",
+      "target": "/au-victoria/lsl/2018/s31/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s31",
+      "target": "/au-victoria/lsl/2018/s31/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s31",
+      "target": "/au-victoria/lsl/2018/s31/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s31/2",
+      "target": "/au-victoria/lsl/2018/s31/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s31/2",
+      "target": "/au-victoria/lsl/2018/s31/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s31",
+      "target": "/au-victoria/lsl/2018/s31/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s32",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s32",
+      "target": "/au-victoria/lsl/2018/s32/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s32",
+      "target": "/au-victoria/lsl/2018/s32/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s33",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s33",
+      "target": "/au-victoria/lsl/2018/s33/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s33",
+      "target": "/au-victoria/lsl/2018/s33/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s33/2",
+      "target": "/au-victoria/lsl/2018/s33/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s33/2",
+      "target": "/au-victoria/lsl/2018/s33/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s33/2",
+      "target": "/au-victoria/lsl/2018/s33/2/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s33/2",
+      "target": "/au-victoria/lsl/2018/s33/2/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s33/2",
+      "target": "/au-victoria/lsl/2018/s33/2/e",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3/div-3",
+      "target": "/au-victoria/lsl/2018/s34",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s34",
+      "target": "/au-victoria/lsl/2018/s34/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-6",
+      "target": "/au-victoria/lsl/2018/s60",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s60",
+      "target": "/au-victoria/lsl/2018/s60/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s35",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s35",
+      "target": "/au-victoria/lsl/2018/s35/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s35",
+      "target": "/au-victoria/lsl/2018/s35/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s36",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36",
+      "target": "/au-victoria/lsl/2018/s36/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36",
+      "target": "/au-victoria/lsl/2018/s36/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36",
+      "target": "/au-victoria/lsl/2018/s36/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36",
+      "target": "/au-victoria/lsl/2018/s36/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36",
+      "target": "/au-victoria/lsl/2018/s36/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36",
+      "target": "/au-victoria/lsl/2018/s36/6",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36/6",
+      "target": "/au-victoria/lsl/2018/s36/6/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36/6",
+      "target": "/au-victoria/lsl/2018/s36/6/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36/6",
+      "target": "/au-victoria/lsl/2018/s36/6/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36/6",
+      "target": "/au-victoria/lsl/2018/s36/6/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s36/6",
+      "target": "/au-victoria/lsl/2018/s36/6/e",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s37",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s37",
+      "target": "/au-victoria/lsl/2018/s37/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s60",
+      "target": "/au-victoria/lsl/2018/s60/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s60",
+      "target": "/au-victoria/lsl/2018/s60/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s60",
+      "target": "/au-victoria/lsl/2018/s60/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s60",
+      "target": "/au-victoria/lsl/2018/s60/6",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s60",
+      "target": "/au-victoria/lsl/2018/s60/7",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s60",
+      "target": "/au-victoria/lsl/2018/s60/8",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s38",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s38",
+      "target": "/au-victoria/lsl/2018/s38/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s39",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s39",
+      "target": "/au-victoria/lsl/2018/s39/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s39",
+      "target": "/au-victoria/lsl/2018/s39/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s40",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40",
+      "target": "/au-victoria/lsl/2018/s40/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40/1",
+      "target": "/au-victoria/lsl/2018/s40/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40/1",
+      "target": "/au-victoria/lsl/2018/s40/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40/1",
+      "target": "/au-victoria/lsl/2018/s40/1/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40",
+      "target": "/au-victoria/lsl/2018/s40/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40/2",
+      "target": "/au-victoria/lsl/2018/s40/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40/2",
+      "target": "/au-victoria/lsl/2018/s40/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40/2",
+      "target": "/au-victoria/lsl/2018/s40/2/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40",
+      "target": "/au-victoria/lsl/2018/s40/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40",
+      "target": "/au-victoria/lsl/2018/s40/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40",
+      "target": "/au-victoria/lsl/2018/s40/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40/5",
+      "target": "/au-victoria/lsl/2018/s40/5/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s40/5",
+      "target": "/au-victoria/lsl/2018/s40/5/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s41",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s41",
+      "target": "/au-victoria/lsl/2018/s41/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s41/1",
+      "target": "/au-victoria/lsl/2018/s41/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s41/1",
+      "target": "/au-victoria/lsl/2018/s41/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s41",
+      "target": "/au-victoria/lsl/2018/s41/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s42",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s42",
+      "target": "/au-victoria/lsl/2018/s42/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s42",
+      "target": "/au-victoria/lsl/2018/s42/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s43",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/1",
+      "target": "/au-victoria/lsl/2018/s43/1/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/1",
+      "target": "/au-victoria/lsl/2018/s43/1/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/2",
+      "target": "/au-victoria/lsl/2018/s43/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/2",
+      "target": "/au-victoria/lsl/2018/s43/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/2",
+      "target": "/au-victoria/lsl/2018/s43/2/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/2",
+      "target": "/au-victoria/lsl/2018/s43/2/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/2",
+      "target": "/au-victoria/lsl/2018/s43/2/e",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/2",
+      "target": "/au-victoria/lsl/2018/s43/2/f",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/2",
+      "target": "/au-victoria/lsl/2018/s43/2/g",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/h",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/j",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/k",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/l",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/m",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/n",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/o",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/p",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/5",
+      "target": "/au-victoria/lsl/2018/s43/5/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43/5",
+      "target": "/au-victoria/lsl/2018/s43/5/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s43",
+      "target": "/au-victoria/lsl/2018/s43/6",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-3",
+      "target": "/au-victoria/lsl/2018/s44",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-4",
+      "target": "/au-victoria/lsl/2018/s45",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-4",
+      "target": "/au-victoria/lsl/2018/s46",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s46",
+      "target": "/au-victoria/lsl/2018/s46/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s46",
+      "target": "/au-victoria/lsl/2018/s46/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s46",
+      "target": "/au-victoria/lsl/2018/s46/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-4",
+      "target": "/au-victoria/lsl/2018/s47",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s47",
+      "target": "/au-victoria/lsl/2018/s47/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s47",
+      "target": "/au-victoria/lsl/2018/s47/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-5",
+      "target": "/au-victoria/lsl/2018/s48",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s48",
+      "target": "/au-victoria/lsl/2018/s48/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s48",
+      "target": "/au-victoria/lsl/2018/s48/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s48",
+      "target": "/au-victoria/lsl/2018/s48/c",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s48",
+      "target": "/au-victoria/lsl/2018/s48/d",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-5",
+      "target": "/au-victoria/lsl/2018/s49",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-6",
+      "target": "/au-victoria/lsl/2018/s50",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s50",
+      "target": "/au-victoria/lsl/2018/s50/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s60/2",
+      "target": "/au-victoria/lsl/2018/s60/2/a",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s60/2",
+      "target": "/au-victoria/lsl/2018/s60/2/b",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-7",
+      "target": "/au-victoria/lsl/2018/s52",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-7",
+      "target": "/au-victoria/lsl/2018/s53",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s53",
+      "target": "/au-victoria/lsl/2018/s53/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s53",
+      "target": "/au-victoria/lsl/2018/s53/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-8/div-1",
+      "target": "/au-victoria/lsl/2018/s55",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s55",
+      "target": "/au-victoria/lsl/2018/s55/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s55",
+      "target": "/au-victoria/lsl/2018/s55/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-8/div-1",
+      "target": "/au-victoria/lsl/2018/s56",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s56",
+      "target": "/au-victoria/lsl/2018/s56/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s56",
+      "target": "/au-victoria/lsl/2018/s56/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s56",
+      "target": "/au-victoria/lsl/2018/s56/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-8/div-1",
+      "target": "/au-victoria/lsl/2018/s57",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s57",
+      "target": "/au-victoria/lsl/2018/s57/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s57",
+      "target": "/au-victoria/lsl/2018/s57/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/part-8/div-2",
+      "target": "/au-victoria/lsl/2018/s58",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s58",
+      "target": "/au-victoria/lsl/2018/s58/1",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s58",
+      "target": "/au-victoria/lsl/2018/s58/2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s58",
+      "target": "/au-victoria/lsl/2018/s58/3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s58",
+      "target": "/au-victoria/lsl/2018/s58/4",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "/au-victoria/lsl/2018/s58",
+      "target": "/au-victoria/lsl/2018/s58/5",
+      "type": "contains",
+      "label": "Contains"
+    }
+  ]
+}
