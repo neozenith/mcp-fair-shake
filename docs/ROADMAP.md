@@ -1,93 +1,28 @@
 # MCP Fair Shake - Implementation Roadmap
 
-**Version:** 1.1
-**Last Updated:** 2025-12-24
-**Current Phase:** Phase 1 → **CRITICAL BLOCKER IDENTIFIED**
-
----
-
-## 🔴 CRITICAL BLOCKER - Victorian Legislation Not Available in HTML
-
-**Issue**: Victorian `legislation.vic.gov.au` **does NOT provide HTML versions** of legislation. The website only provides PDF and DOCX downloads.
-
-**Investigation Summary** (2025-12-24):
-1. ✅ **HTML Parser** - Working perfectly (tests pass)
-2. ✅ **Playwright** - Working perfectly (fetches JavaScript-rendered pages)
-3. ✅ **Federal legislation** - Works perfectly (legislation.gov.au provides HTML)
-4. ❌ **Victorian legislation** - legislation.vic.gov.au pages only contain:
-   - Navigation menus
-   - Download links to PDF files
-   - Download links to DOCX files
-   - **NO actual legislation HTML content**
-
-**Evidence**:
-- Tested URL: `https://www.legislation.vic.gov.au/in-force/acts/occupational-health-and-safety-act-2004/045`
-- Page HTML: 97KB of HTML
-- Extracted content: 105 bytes (only "Authorised version 04-107aa045 authorised.PDF")
-- Playwright successfully renders JavaScript, but there's no legislation content to render
-- AustLII (third-party) HTML URLs return 410 Gone
-
-**Impact**:
-- Victorian legislation cannot be fetched in HTML format from official sources
-- Federal legislation works perfectly (Fair Work Act: 770KB of real content)
-- **This blocks Phase 1 completion** (requires Victorian OHS Act)
-
-**Solutions** (Choose one):
-
-**Option 1: PDF Parsing** (Recommended)
-- ✅ Use official Victorian government PDFs
-- ✅ Authoritative source (legislation.vic.gov.au)
-- ❌ Complex parsing (tables, formatting, multi-column layouts)
-- ❌ Larger file downloads (1-2MB per Act vs. HTML)
-- ❌ Requires PDF library (pypdf, pdfplumber, or PyMuPDF)
-
-**Option 2: Defer Victorian Legislation**
-- ✅ Focus on federal legislation (works perfectly)
-- ✅ Complete Phase 4 first (federal coverage)
-- ❌ Doesn't meet project goals (employee-first, Victorian coverage)
-- ❌ User explicitly requested Victorian legislation
-
-**Option 3: Find Alternative HTML Source**
-- ✅ Would work with existing HTML parser
-- ❌ No authoritative HTML sources found (AustLII outdated)
-- ❌ Third-party sources may not be current or complete
-
-**Recommended Action**: Implement PDF parsing (Option 1)
-- Library: `pypdf` or `pdfplumber` (both actively maintained)
-- Download PDFs from legislation.vic.gov.au
-- Extract text while preserving structure
-- Cache extracted text (same as HTML fetching)
-
-**Required Actions**:
-1. **[COMPLETED 2025-12-24]** Add PDF parsing library: `uv add pypdf`
-2. **[COMPLETED 2025-12-24]** Implement `_download_pdf()` and `_parse_pdf_content()` methods
-3. **[COMPLETED 2025-12-24]** Update `fetch_async()` to detect PDF-only sources
-4. **[COMPLETED 2025-12-24]** Write tests for PDF parsing (TDD) - 7/7 tests pass
-5. **[COMPLETED 2025-12-24]** Update Victorian legislation URLs to PDF download links
-6. **[IN PROGRESS]** Clear cache and re-fetch Victorian legislation as PDFs
-7. **[PENDING]** Update documentation to reflect PDF parsing approach
-
-**Implementation Details**:
-- PDF parsing with full audit trail (page numbers, source URL, PDF metadata)
-- Extracted content includes `[Page N]` markers for accurate legal citations
-- Metadata includes: author, creator, creation_date, modification_date, page_count
-- Content hash (SHA-256) for integrity verification
-- Test coverage: 7 tests covering extraction, page markers, metadata, structure preservation
-
-**Status**: 🟢 **RESOLVED** - PDF parsing implemented and tested
+**Version:** 1.2
+**Last Updated:** 2025-12-31
+**Current Phase:** Phase 2.5 → **COMPLETE** (Ready for Phase 5)
+**Completed Phases:** 1, 2.5, 3, 4 (4/10 phases complete)
 
 ---
 
 ## Quick Reference
 
-| Phase | Focus | Duration | Status |
-|-------|-------|----------|--------|
-| **Phase 1** | MVP - Victorian OHS Act | Weeks 1-2 | 🟢 Complete |
-| **Phase 2** | Victorian Coverage | Weeks 3-4 | ⚪ Not Started |
-| **Phase 3** | Support Pathways | Weeks 5-6 | ⚪ Not Started |
-| **Phase 4** | Federal Coverage | Weeks 7-9 | ⚪ Not Started |
-| **Phase 5** | National Coverage | Weeks 10-15 | ⚪ Not Started |
-| **Phase 6** | Advanced Features | Future | ⚪ Not Started |
+| Phase | Focus | Status | Completion Date |
+|-------|-------|--------|----------------|
+| **Phase 1** | Core Infrastructure (MVP) | 🟢 Complete | 2025-12-23 |
+| **Phase 2.5** | Fine-Grained Extraction (11,882 nodes) | 🟢 Complete | 2025-12-29 |
+| **Phase 3** | Support Pathways | 🟢 Complete | 2025-12-23 |
+| **Phase 4** | Federal Coverage | 🟢 Complete | 2025-12-24 |
+| **Phase 5** | Hierarchical Summaries | ⚪ Not Started | - |
+| **Phase 6** | Advanced Data & Search (6.1-6.4) | ⚪ Not Started | - |
+| **Phase 7** | Conversational Breach Test Cases | ⚪ Not Started | - |
+| **Phase 8** | Live Audio Transcription | ⚪ Not Started | - |
+| **Phase 9** | GitHub Pages WebApp | ⚪ Not Started | - |
+| **Phase 10** | National Coverage (All States) | ⚪ Deferred | - |
+
+**Note**: Phases 1-4 sections below contain historical implementation details. Active development continues with Phases 5-10.
 
 ## Phase 1: MVP - Unfair Dismissal (Federal + Victorian) (Weeks 1-3)
 
@@ -331,13 +266,13 @@
 
 ---
 
-## Phase 2.5: Knowledge Graph Redesign 🔴 **CRITICAL - CURRENT PRIORITY**
+## Phase 2.5: Knowledge Graph Redesign 🟢 **COMPLETE**
 
 **Goal**: Transform from unstructured text dump to state-of-the-art knowledge graph
 
-**Status**: ⚪ Not Started
-**Priority**: P0 (blocks all other phases)
-**Timeline**: 3 weeks
+**Status**: 🟢 Complete (2025-12-29)
+**Achievement**: 11,882 nodes extracted across 8 Acts with fine-grained hierarchy
+**Timeline**: 3 weeks (completed ahead of schedule)
 
 ### Problems with Current Implementation
 
@@ -444,92 +379,6 @@
 3. Verify structured output matches original text
 4. Update MCP tools to use graph
 5. Deprecate text cache after verification
-
----
-
-## Phase 2.5 Progress Update - Web UI Prototype (2025-12-27)
-
-**Status**: 🟡 **Partial Complete** - Visualization working, data layer needs completion
-
-### ✅ Completed (Week 3 Tasks)
-
-**Frontend Visualization (Fully Functional)**
-- ✅ FastAPI server with `/api/graph` endpoint (refactored from 205 to 64 lines)
-- ✅ D3.js force-directed graph visualization
-  - Color-coded by type (federal-act: blue, modern-award: green, state-act: amber, part: purple, division: pink, section: cyan)
-  - Size hierarchy (acts > parts > divisions > sections)
-  - Interactive node exploration with tooltips
-  - Enhanced tooltips showing parent relationships and summaries
-  - Zoom, pan, drag functionality
-- ✅ Deck.gl 3D visualization
-  - Type-based 3D spatial positioning
-  - Same color/size encoding as 2D
-  - Enhanced tooltips
-  - Code complete (WebGL verification limited by Playwright environment)
-- ✅ Port separation for human (8100/5273) vs agentic (8101/5274) development
-- ✅ Frontend quality control: `make frontend-check` and `make frontend-test`
-
-**Data Architecture**
-- ✅ Created `data/legislation/graph/` directory structure
-- ✅ JSON-based graph data storage (no hardcoding)
-  - `top-level-acts.json` - 17 pieces of legislation
-  - `fwa-2009-unfair-dismissal.json` - 13 detailed sections (Part 3-2)
-- ✅ Shared data structure for both D3 and Deck.gl visualizations
-- ✅ API loads from JSON files (clean separation of data and code)
-- ✅ 16 pytest tests validating graph data structure (all passing)
-  - No duplicate node IDs
-  - All required fields present
-  - Parent-child relationship consistency
-  - Edge references validation
-
-**Graph Coverage**
-- ✅ 30 total nodes in knowledge graph:
-  - 17 top-level acts (2 federal, 10 modern awards, 5 Victorian)
-  - 13 hierarchical Fair Work Act nodes (1 part, 3 divisions, 9 sections)
-- ✅ Demonstrates both breadth and depth ("finest granule" sample)
-
-### ❌ Not Yet Complete (Week 1-2 Tasks)
-
-**Data Layer - Still Manual**
-- ❌ Pydantic models for legislation structure
-- ❌ Plugin-based parser architecture
-- ❌ Federal HTML parser (legislation.gov.au)
-- ❌ Victorian PDF parser
-- ❌ DuckDB knowledge graph storage
-- ❌ Automated section extraction from cached legislation
-
-**Current Limitation**: Graph data is manually curated in JSON files, not parsed from `data/legislation/cache/`. The visualization architecture is sound, but needs the parser infrastructure to automatically extract sections from legislation sources.
-
-### Next Steps
-
-1. **Implement Parsers** (Phase 2.5 Week 1-2):
-   - Build Federal HTML parser to extract sections from Fair Work Act
-   - Parse structure into JSON graph format
-   - Migrate manual JSON to parser-generated data
-
-2. **Complete DuckDB Integration** (Phase 2.5 Week 2):
-   - Design schema for graph storage
-   - Implement LegislationGraph class
-   - Migrate from JSON files to DuckDB queries
-
-3. **Add Search & Filter UI** (Phase 2.5 Week 3 remaining):
-   - Full-text search bar
-   - Jurisdiction filter
-   - Section type filter
-   - `/api/search` endpoint
-
-### Architecture Validation
-
-✅ **Proven Concepts:**
-- JSON-based graph storage scales well (30 nodes, instant loading)
-- pytest validation catches data errors early
-- D3/Deck.gl handle hierarchical data beautifully
-- API abstraction (load_graph_data) allows easy backend swaps
-
-🎯 **Ready for Parser Integration:**
-- Data structure validated and working
-- Frontend accepts any valid graph JSON
-- Adding parsers won't break existing visualizations
 
 ---
 
@@ -778,12 +627,340 @@
 
 ---
 
-## Phase 5: National Coverage ⚪ **DEFERRED - LOWEST PRIORITY**
+## Phase 5: Hierarchical Summaries ⚪ **NOT STARTED**
+
+**Goal**: Generate recursive bottom-up summaries for all non-leaf nodes in the legislation graph
+
+**Pattern**: Map tile pyramid aggregation - each parent node summarizes its children from leaves to root
+
+### Scope
+
+**Hierarchical Summarization:**
+- [ ] Generate summaries for all non-leaf nodes (Acts, Parts, Divisions, Sections)
+- [ ] Recursive bottom-up aggregation (Paragraphs → Subsections → Sections → Divisions → Parts → Acts)
+- [ ] Each parent summary synthesizes all child summaries
+- [ ] Plain language summaries suitable for non-lawyers
+- [ ] Preserve legal accuracy while improving readability
+
+**Levels of Aggregation:**
+1. **Level 1 (Leaves)**: Subsections and Paragraphs (already have content)
+2. **Level 2**: Sections summarize their Subsections/Paragraphs
+3. **Level 3**: Divisions summarize their Sections
+4. **Level 4**: Parts summarize their Divisions
+5. **Level 5**: Acts summarize their Parts
+
+### Tasks
+
+**Summary Generation Pipeline:**
+- [ ] Design prompt templates for each aggregation level
+- [ ] Implement LLM-powered summarization (Claude/GPT-4 for quality)
+- [ ] Process 11,882 nodes bottom-up (leaves first, then parents)
+- [ ] Store summaries in structured registry alongside original content
+- [ ] Validate summary accuracy against source text
+
+**Quality Assurance:**
+- [ ] Manual review of sample summaries at each level
+- [ ] Ensure legal accuracy (no hallucinations or misinterpretations)
+- [ ] Test readability scores (target: Grade 8-10 reading level)
+- [ ] Cross-reference summaries preserve citations and cross-references
+- [ ] Version control for summaries (track generation date, model used)
+
+**Integration:**
+- [ ] Add `summary` field to all non-leaf nodes in registry
+- [ ] Update `get-legislation-content` to support `mode="summary"` for any node
+- [ ] Generate summary-only views of entire Acts (executive summary style)
+- [ ] Build navigation UI showing summaries at each level
+
+### Success Criteria
+
+- Summaries generated for all 3,373 non-leaf nodes (Acts, Parts, Divisions, Sections)
+- Each summary accurately reflects child content (no hallucinations)
+- Readability: Grade 8-10 level (Flesch-Kincaid score 60-70)
+- Legal professionals validate accuracy (if available)
+- Summary generation reproducible and version-controlled
+
+**Example Output:**
+```
+Fair Work Act 2009 (Act-level summary):
+"Establishes the national workplace relations system, including employee rights,
+ employer obligations, unfair dismissal protections, and the role of the Fair Work
+ Commission in resolving disputes."
+
+Part 3-2: Unfair Dismissal (Part-level summary):
+"Protects employees from unfair dismissal by defining qualifying criteria,
+ procedural requirements, and remedies available through the Fair Work Commission."
+
+Division 2: Applications for unfair dismissal remedies (Division-level summary):
+"Outlines the process for employees to apply to the Fair Work Commission within
+ 21 days of dismissal, including eligibility requirements and filing procedures."
+```
+
+---
+
+## Phase 6: Advanced Data & Search ⚪ **NOT STARTED**
+
+**Goal**: Enhanced data storage, querying, and semantic search capabilities
+
+### Phase 6.1: DuckDB Integration
+
+**Scope:**
+- [ ] Convert structured registry data to DuckDB
+- [ ] Design optimized database schema for legislation hierarchy
+- [ ] Implement complex SQL query interface
+- [ ] Performance optimization and benchmarking
+
+**Tasks:**
+- [ ] Research DuckDB + structured data integration patterns
+- [ ] Design schema for Acts, Parts, Divisions, Sections, Subsections, Paragraphs
+- [ ] Migrate 11,882 nodes from JSON to DuckDB
+- [ ] Create query API for fast lookups and aggregations
+- [ ] Benchmark against JSON file loading (target: 10x faster)
+
+**Success Criteria:**
+- DuckDB schema supports full hierarchy navigation
+- Complex queries (e.g., "all sections mentioning 'unfair dismissal'") < 50ms
+- 100% data integrity after migration
+
+### Phase 6.2: Leaf Node Embeddings + TF-IDF
+
+**Scope:**
+- [ ] Generate embeddings **only for leaf nodes** (Subsections and Paragraphs with actual content)
+- [ ] Implement TF-IDF for keyword-based search on leaf content
+- [ ] Combine dense (embeddings) and sparse (TF-IDF) retrieval
+- [ ] Hybrid search ranking (BM25 + vector similarity)
+
+**Tasks:**
+- [ ] Choose embedding model for leaf nodes (sentence-transformers, OpenAI, etc.)
+- [ ] Generate embeddings for ~8,509 leaf nodes (Subsections + Paragraphs)
+- [ ] Implement TF-IDF indexing for all leaf node content
+- [ ] Store embeddings in vector database (ChromaDB, FAISS, or DuckDB vector extension)
+- [ ] Build hybrid search: TF-IDF for keyword matching, embeddings for semantic similarity
+- [ ] Implement BM25 + vector reranking for result quality
+- [ ] Test query accuracy: "What are my rights if I'm fired?" → unfair dismissal leaf nodes
+
+**Success Criteria:**
+- Hybrid search outperforms pure keyword or pure semantic search
+- Keyword queries (e.g., "s.21") return exact matches via TF-IDF
+- Semantic queries (e.g., "Can my boss fire me?") return relevant sections via embeddings
+- Search accuracy ≥ 90% for common queries (P@5 metric)
+- Leaf node retrieval < 100ms for most queries
+
+### Phase 6.3: Node2Vec + DRIFT Hierarchical Knowledge Graph
+
+**Scope:**
+- [ ] Generate **Node2Vec embeddings** for the legislation graph structure
+- [ ] Implement **DRIFT algorithm** for hierarchical knowledge graph traversal
+- [ ] Combine content embeddings (Phase 6.2) with structural embeddings (Node2Vec)
+- [ ] Enable graph-aware search: find sections via both content and relationships
+
+**Background:**
+- **Node2Vec**: Graph embedding algorithm that learns vector representations based on graph structure (parent-child, sibling relationships)
+- **DRIFT**: Hierarchical knowledge graph algorithm for multi-resolution reasoning (research arXiv for latest papers)
+
+**Tasks:**
+- [ ] Research DRIFT algorithm papers on arXiv (hierarchical knowledge graphs, multi-scale reasoning)
+- [ ] Implement Node2Vec on legislation graph (11,882 nodes, 11,874 edges)
+- [ ] Generate structural embeddings capturing:
+  - Parent-child relationships (Section → Subsection)
+  - Sibling proximity (Section 21 near Section 22)
+  - Hierarchy depth (Acts vs Parts vs Sections)
+- [ ] Combine Node2Vec structural embeddings with Phase 6.2 content embeddings
+- [ ] Implement DRIFT traversal for multi-resolution queries:
+  - Start at leaf level (specific subsections)
+  - Expand to parent level (entire sections)
+  - Navigate siblings (related sections)
+- [ ] Test hierarchical queries: "Show all duties sections" → traverse Part→Division→Section graph
+
+**Success Criteria:**
+- Node2Vec embeddings capture graph structure (siblings closer than unrelated nodes)
+- DRIFT enables multi-scale reasoning (leaf → parent → sibling traversal)
+- Hierarchical queries work: "All sections related to dismissal" finds connected subgraph
+- Graph-aware search outperforms flat content search by ≥15% (retrieval metrics)
+
+**Research References:**
+- Node2Vec: Grover & Leskovec (2016) - "node2vec: Scalable Feature Learning for Networks"
+- DRIFT: Search arXiv for "hierarchical knowledge graph" and "multi-scale reasoning"
+
+### Phase 6.4: Advanced Search/Filter UI
+
+**Scope:**
+- [ ] Build interactive search interface in frontend
+- [ ] Filter by jurisdiction, Act, node type, date
+- [ ] Visual query builder
+- [ ] Search result highlighting and context
+
+**Tasks:**
+- [ ] Design search UI with filters (jurisdiction, Act, section type)
+- [ ] Implement query builder (boolean, phrase, proximity search)
+- [ ] Add search result highlighting
+- [ ] Implement saved searches and search history
+- [ ] Add "related sections" suggestions using vector similarity
+
+**Success Criteria:**
+- UI supports complex queries without writing SQL
+- Filters work in combination (e.g., "Victoria + OHS + duties")
+- Search results show context and highlight matching terms
+
+---
+
+## Phase 7: Conversational Breach Test Cases Generator ⚪ **NOT STARTED**
+
+**Goal**: Generate synthetic conversation transcripts to test compliance detection across all legislation
+
+### Scope
+
+**100% Compliant Scenarios:**
+- [ ] Generate conversations that are fully compliant with specific legislation
+- [ ] Surface relevant legislation in analysis
+- [ ] Result: "No Non-Compliance detected"
+
+**0% Compliant Scenarios (Blatant Breaches):**
+- [ ] Generate conversations with clear, unambiguous breaches
+- [ ] Surface violated legislation
+- [ ] Result: "Non-compliance potentially detected" with specific violations cited
+
+**50% Compliant Scenarios (Boundary Cases):**
+- [ ] Generate conversations that skate the edge of compliance
+- [ ] Test interpretation of ambiguous situations
+- [ ] Result: "Potential compliance concerns" with nuanced analysis
+
+### Tasks
+
+**Conversation Generator:**
+- [ ] Create conversation template library (dismissal, discrimination, wage disputes, etc.)
+- [ ] LLM-powered scenario generation using legislation as grounding
+- [ ] Generate 3 variants (100%, 0%, 50% compliant) for each piece of legislation
+- [ ] Total target: ~25 Acts × 3 variants = 75+ test scenarios
+
+**Breach Detection System:**
+- [ ] Implement conversation analyzer that checks against legislation
+- [ ] Citation extraction (which sections apply)
+- [ ] Compliance scoring (0-100%)
+- [ ] Generate detailed analysis reports
+
+**Validation:**
+- [ ] Manual review of generated scenarios by legal experts (if available)
+- [ ] Test detection system against known compliance/breach cases
+- [ ] Validate interpretation accuracy
+
+### Success Criteria
+- Generate 75+ conversation test cases across all cached legislation
+- Detection system correctly identifies 100% vs 0% compliant scenarios
+- 50% compliant scenarios trigger appropriate uncertainty/further-investigation flags
+- False positive rate < 5% on clear compliance cases
+- False negative rate < 5% on blatant breach cases
+
+---
+
+## Phase 8: Live Audio Transcription ⚪ **NOT STARTED**
+
+**Goal**: Real-time workplace conversation analysis via audio streaming
+
+### Scope
+
+**Google ADK Integration:**
+- [ ] Integrate Google ADK live streaming APIs
+- [ ] Stream audio to Gemini for real-time transcription
+- [ ] Process transcriptions for compliance analysis
+- [ ] Real-time breach detection alerts
+
+**Features:**
+- [ ] Live audio capture from microphone or call audio
+- [ ] Real-time transcription with speaker diarization
+- [ ] Streaming compliance analysis (as conversation happens)
+- [ ] Post-conversation compliance report
+- [ ] Export transcripts with compliance annotations
+
+### Tasks
+
+**Audio Pipeline:**
+- [ ] Research Google ADK live audio streaming capabilities
+- [ ] Implement audio capture (web browser, mobile, desktop)
+- [ ] Stream to Gemini API for transcription
+- [ ] Handle speaker diarization (who said what)
+
+**Real-Time Analysis:**
+- [ ] Process transcription chunks as they arrive
+- [ ] Match against legislation database
+- [ ] Trigger alerts for potential breaches during conversation
+- [ ] Store conversation history with compliance metadata
+
+**Privacy & Security:**
+- [ ] Implement local-only processing option
+- [ ] Encryption for audio streams
+- [ ] User consent and data retention controls
+- [ ] GDPR/privacy compliance
+
+### Success Criteria
+- Real-time transcription accuracy ≥ 95% (matches Google's benchmarks)
+- Compliance analysis lag < 2 seconds behind transcription
+- Privacy controls functional (local processing, encryption)
+- Works on web (browser), desktop, and mobile platforms
+
+---
+
+## Phase 9: GitHub Pages WebApp ⚪ **NOT STARTED**
+
+**Goal**: Public-facing web interface for exploring Australian workplace legislation
+
+### Scope
+
+**Interactive Legislation Explorer:**
+- [ ] Browse Acts, Parts, Divisions, Sections hierarchically
+- [ ] Search by keyword, citation, or natural language
+- [ ] Visualize legislation structure (D3.js force graph - already built!)
+- [ ] Plain language summaries alongside statutory text
+- [ ] Support pathway lookup integrated into UI
+
+**Features:**
+- [ ] Responsive design (mobile, tablet, desktop)
+- [ ] Deep linking to specific sections (shareable URLs)
+- [ ] Bookmarks and saved searches
+- [ ] Print/export formatted legislation sections
+- [ ] Dark mode support
+
+### Tasks
+
+**Frontend Development:**
+- [ ] Adapt existing React + D3.js frontend for GitHub Pages
+- [ ] Build hierarchy browser (tree view + graph view)
+- [ ] Implement search UI (text search + semantic search)
+- [ ] Add plain language summary display mode
+- [ ] Build support pathway lookup interface
+
+**GitHub Pages Deployment:**
+- [ ] Configure GitHub Actions for automated builds
+- [ ] Deploy static site to GitHub Pages
+- [ ] Custom domain setup (optional: fairshake.au or similar)
+- [ ] CDN optimization for fast global access
+
+**Content Generation:**
+- [ ] Pre-generate all HTML pages for legislation sections (SSG)
+- [ ] Generate plain language summaries (Phase 2 dependency)
+- [ ] Create support pathway guides
+- [ ] SEO optimization (meta tags, sitemaps, schema.org)
+
+**Analytics & Monitoring:**
+- [ ] Privacy-respecting analytics (Plausible, GoatCounter, or similar)
+- [ ] Track popular searches and legislation sections
+- [ ] Monitor broken links and missing content
+- [ ] User feedback collection
+
+### Success Criteria
+- Site loads in < 2 seconds on 3G mobile
+- All 11,882+ legislation nodes browsable and searchable
+- Search works offline after first load (PWA with service worker)
+- Accessibility score ≥ 95 (WCAG 2.1 AA compliance)
+- 1,000+ unique visitors in first month (if promoted)
+
+---
+
+## Phase 10: National Coverage ⚪ **DEFERRED - LOWEST PRIORITY**
 
 **Goal**: All Australian states and territories
 
-**Status**: Deferred until after Phase 2.5 and Phase 6 complete
-**Rationale**: Quality over quantity - perfect the small scope first
+**Status**: Deferred - now final phase after advanced features and public deployment
+**Rationale**: Quality over quantity - perfect Victorian + Federal coverage, advanced search, and public interface before scaling nationally
 
 ### Scope
 
@@ -834,57 +1011,6 @@
 
 ---
 
-## Phase 6: Advanced Features (Future)
-
-**Goal**: Enhanced search and analysis
-
-### Scope (Not Time-Bound)
-
-**DuckDB Integration:**
-- [ ] Convert Parquet to DuckDB
-- [ ] Complex SQL queries
-- [ ] Aggregations and analytics
-- [ ] Performance optimization
-
-**Vector Embeddings:**
-- [ ] Generate embeddings for sections
-- [ ] Implement semantic search
-- [ ] Similarity matching
-- [ ] Natural language queries
-
-**Smart Triggering:**
-- [ ] Auto-detect legislation references
-- [ ] Pattern matching for citations
-- [ ] No explicit "use fair-shake" needed
-
-**Advanced Features:**
-- [ ] Historical versions (as-in-force dates)
-- [ ] Case law integration
-- [ ] Regulatory guidance lookup
-- [ ] Conflict analysis
-- [ ] Change tracking and notifications
-
-### Tasks (To Be Planned)
-
-**DuckDB:**
-- [ ] Research DuckDB + Parquet integration
-- [ ] Design database schema
-- [ ] Implement query interface
-- [ ] Benchmark performance
-
-**Vector Embeddings:**
-- [ ] Choose embedding model
-- [ ] Generate embeddings for all cached legislation
-- [ ] Implement vector search
-- [ ] Integrate with resolve-legislation
-
-**Natural Language:**
-- [ ] Train/fine-tune citation detection
-- [ ] Pattern matching library
-- [ ] Auto-trigger on detected citations
-
----
-
 ## Dependencies & Blockers
 
 ### External Dependencies
@@ -906,17 +1032,42 @@
 1. **Parquet Library**:
    - Need: pandas or polars for Parquet
    - **Status**: Not yet added to dependencies
-   - **Action**: Add in Phase 2
+   - **Action**: Add in Phase 2 (deferred)
 
-2. **DuckDB**:
+2. **LLM for Hierarchical Summarization**:
+   - Need: Claude API (Anthropic) or GPT-4 (OpenAI)
+   - **Status**: Phase 5
+   - **Action**: Choose LLM provider for high-quality legal summaries (prefer Claude for long context)
+
+3. **DuckDB**:
    - Need: duckdb Python library
-   - **Status**: Phase 6
-   - **Action**: Research and plan separately
+   - **Status**: Phase 6.1
+   - **Action**: Research DuckDB integration patterns
 
-3. **Vector Embeddings**:
-   - Need: sentence-transformers or similar
-   - **Status**: Phase 6
-   - **Action**: Research model selection
+4. **Vector Embeddings + TF-IDF**:
+   - Need: sentence-transformers, scikit-learn (TF-IDF)
+   - **Status**: Phase 6.2
+   - **Action**: Research embedding model selection (local vs. API) and TF-IDF implementation
+
+5. **Node2Vec + DRIFT**:
+   - Need: node2vec library, custom DRIFT implementation
+   - **Status**: Phase 6.3
+   - **Action**: Research arXiv papers on DRIFT and hierarchical knowledge graphs
+
+6. **LLM for Test Case Generation**:
+   - Need: OpenAI/Anthropic API or local LLM
+   - **Status**: Phase 7
+   - **Action**: Choose LLM provider and design prompting strategy for breach detection
+
+7. **Google ADK/Gemini**:
+   - Need: Google ADK SDK, Gemini API access
+   - **Status**: Phase 8
+   - **Action**: Research live streaming API capabilities
+
+8. **Static Site Generator**:
+   - Need: Next.js, Astro, or Vite SSG plugin
+   - **Status**: Phase 9
+   - **Action**: Evaluate SSG options for React app
 
 ---
 
@@ -961,13 +1112,101 @@ User: "use fair-shake: Compare federal and Victorian OHS requirements"
 → Cross-reference and compare
 ```
 
-### Milestone 5: Phase 5 Complete (End of Week 15)
-**Demo**: National coverage
+### Milestone 5: Phase 5 Complete
+**Demo**: Hierarchical summaries and multi-level navigation
+```
+User: "use fair-shake: Summarize Part 3-2 of the Fair Work Act"
+→ get-legislation-content("/au-federal/fwa/2009/part-3-2", mode="summary")
+→ Returns: "Part 3-2: Unfair Dismissal - Protects employees from unfair dismissal
+   by defining qualifying criteria, procedural requirements, and remedies available
+   through the Fair Work Commission."
+
+User: "Now show me the summary of the entire Fair Work Act"
+→ get-legislation-content("/au-federal/fwa/2009", mode="summary")
+→ Returns: Act-level summary synthesizing all Parts
+
+Demonstrates:
+- Bottom-up aggregation (3,373 non-leaf summaries generated)
+- Every level navigable with summaries (Acts → Parts → Divisions → Sections)
+- Plain language (Grade 8-10 reading level) alongside statutory text
+```
+
+### Milestone 6: Phase 6.1-6.4 Complete
+**Demo**: Semantic search and advanced queries
+```
+User: "What are my rights if I'm fired without warning?"
+→ Vector semantic search matches query to unfair dismissal sections
+→ DuckDB returns all related sections across Acts (Fair Work Act s.394, Modern Awards, etc.)
+→ UI displays results with context highlighting and related sections
+→ Sub-second query performance on 11,882+ nodes
+```
+
+### Milestone 7: Phase 7 Complete
+**Demo**: Automated breach test case generation
+```
+System generates test conversations:
+
+100% Compliant:
+  "I need to let Sarah go due to redundancy. I've given 4 weeks notice,
+   offered redeployment, and consulted with her about the decision."
+  → Analysis: "No Non-Compliance detected. Redundancy process compliant with Fair Work Act s.389."
+
+0% Compliant:
+  "I fired him yesterday for complaining about safety issues. No notice."
+  → Analysis: "Non-compliance potentially detected. Adverse action (s.340), no notice period (s.117)."
+
+50% Compliant:
+  "I gave her a warning for poor performance but didn't document it."
+  → Analysis: "Potential compliance concerns. Fair Work Act recommends written warnings."
+```
+
+### Milestone 8: Phase 8 Complete
+**Demo**: Live conversation analysis
+```
+[Meeting audio streaming to Gemini]
+Manager: "If you don't improve, you're out by next week."
+→ Real-time alert: "⚠️ Potential breach: Insufficient notice period detected"
+
+Employee: "I haven't been paid for the last 3 weeks of overtime."
+→ Real-time alert: "⚠️ Potential breach: Wage theft concern (Fair Work Act s.323)"
+
+[End of meeting]
+→ Generate compliance report with timestamps and violated sections
+```
+
+### Milestone 9: Phase 9 Complete
+**Demo**: Public GitHub Pages site
+```
+Visit: https://fairshake.github.io (or custom domain)
+
+Features demonstrated:
+- Browse Fair Work Act hierarchically (Parts → Divisions → Sections)
+- Search: "bullying" → Returns all relevant sections with highlights
+- D3 force graph shows relationships between sections
+- Plain language summaries alongside statutory text
+- Mobile-responsive, offline-capable PWA
+- "Share this section" generates shareable URL
+```
+
+### Milestone 10: Phase 10 Complete
+**Demo**: National coverage across all Australian jurisdictions
 ```
 User: "use fair-shake: What are casual employee rights in Queensland?"
 → resolve-legislation("casual employee rights", jurisdiction="queensland")
 → Returns: QLD-specific legislation + federal Fair Work Act
 → Comprehensive guidance covering both jurisdictions
+
+User: "Compare OHS requirements across all states"
+→ resolve-legislation("OHS requirements", jurisdiction="all-states")
+→ Returns: Victorian OHS Act, NSW WHS Act, QLD WHS Act, etc.
+→ Side-by-side comparison of state-specific provisions
+
+Demonstrates:
+- All 8 jurisdictions covered (Federal + 7 states/territories)
+- State-specific support agencies mapped
+- Automated weekly update checks running
+- Offline operation fully functional
+- National workplace legislation accessible from single MCP server
 ```
 
 ---
@@ -1057,24 +1296,5 @@ Only proceed to next phase when current phase is complete.
 
 ---
 
-## Long-Term Vision (Post-Phase 6)
-
-**Potential Future Enhancements:**
-- AI-powered case outcome prediction
-- Automated legal form generation
-- Integration with union systems
-- Employer-facing compliance tools
-- Mobile app with voice search
-- Multilingual support (CALD communities)
-- Integration with existing legal aid systems
-
-**Sustainability:**
-- Community contributions
-- Partnership with unions/legal aid
-- Potential grant funding
-- Maintenance and update schedule
-
----
-
-**Last Updated**: 2025-12-29
-**Next Review**: End of Phase 2.5 (Week 5)
+**Last Updated**: 2025-12-31
+**Next Review**: Before starting Phase 5 (Hierarchical Summaries)

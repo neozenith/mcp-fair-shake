@@ -1,42 +1,79 @@
 # mcp-fair-shake
 
-> "Fair Shake of the Sauce Bottle" - Empowering employees with timely, grounded, and factual Australian workplace legislation
+## Etymology
+
+> ["**Fair Shake** of the Sauce Bottle mate"](https://slll.cass.anu.edu.au/centres/andc/meanings-origins/f#:~:text=fair%20shake)
+>
+> -- Kevin Rudd, 2006
+
+## Mission
+
+> _Empowering employees with timely, grounded, and factual Australian workplace legislation and support pathways._
+
+## The How
 
 A Model Context Protocol (MCP) server providing **authoritative access to Australian workplace legislation**. Built with Python using **FastMCP**, following best practices from trusted MCPs like Context7, arXiv, and Sequential Thinking.
 
-## What is MCP?
+### What is MCP?
 
 The [Model Context Protocol](https://modelcontextprotocol.io) is a standard way to connect AI assistants to external tools and data sources. This server implements MCP to provide Australian workplace legislation lookup to AI assistants like Claude Code and Claude Desktop.
 
 ## Project Status
 
-**Current Status** (December 2025):
+### ✅ Completed Phases (4/10 complete)
 
-**✅ Phase 1 Complete** - Core Infrastructure
-- Three MCP tools: `resolve-legislation`, `get-legislation-content`, `get-cache-status`
+#### Phase 1: Core Infrastructure
+- MCP tools: `resolve-legislation`, `get-legislation-content`, `get-cache-status`
 - Local-first caching with SHA256 integrity verification
-- CLI admin mode for cache management
+- CLI admin mode for cache management and pre-caching
 
-**✅ Phase 3 Complete** - Support Pathways
+#### Phase 2.5: Fine-Grained Extraction
+- Pydantic models for hierarchical legislation structure (Act → Part → Division → Section → Subsection → Paragraph)
+- Federal and Victorian text parsers with state machine parsing
+- **11,882 nodes extracted** across 8 Acts (365x more granular than manual graph)
+- D3.js force-directed graph visualization with hierarchical relationships
+
+#### Phase 3: Support Pathways
 - `get-support` tool for employee support agency lookup
-- Deadline tracking with urgency indicators
-- Victorian and federal support pathways
+- Deadline tracking with urgency indicators (21 days for unfair dismissal)
+- Victorian and federal support pathways (Fair Work Commission, WorkSafe Victoria, etc.)
 
-**✅ Phase 4 Complete** - Federal Coverage
-- Fair Work Act 2009 (complete)
-- Fair Work Regulations 2009
+#### Phase 4: Federal Coverage
+- Fair Work Act 2009, Fair Work Regulations 2009
 - Top 10 Modern Awards by employee coverage
 - Federal/state jurisdiction filtering
 
-**Testing & Quality:**
-- ✅ 111 passing tests, 82.75% coverage
-- ✅ Zero mocks - all integration tests with real HTTP requests
-- ✅ PDF parsing for Victorian legislation and Modern Awards
-- ✅ Full type safety with mypy strict mode
+### 📍 Remaining Phases (6/10)
 
-**Supported Legislation:**
+#### Phase 5: Hierarchical Summaries
+Recursive bottom-up summarization of legislation graph (map tile pyramid pattern: leaf nodes → parents → root)
+
+#### Phase 6: Advanced Data & Search
+- Phase 6.1: DuckDB integration for efficient querying
+- Phase 6.2: Leaf node embeddings + TF-IDF for content-based search
+- Phase 6.3: Node2Vec embeddings + DRIFT hierarchical knowledge graph algorithm
+- Phase 6.4: Advanced search/filter UI
+
+#### Phase 7: Conversational Breach Test Cases Generator
+- 100% compliant scenarios: Surface legislation, interpret as "No Non-Compliance detected"
+- 0% compliant scenarios: Blatant breaches surface legislation with "Non-compliance potentially detected"
+- 50% compliant scenarios: Boundary cases that test interpretation edge cases
+
+#### Phase 8: Live Audio Transcription
+Google ADK live streaming APIs with Gemini integration for real-time workplace conversation analysis
+
+#### Phase 9: GitHub Pages WebApp
+Interactive legislation exploration interface deployed via GitHub Pages
+
+#### Phase 10: National Coverage
+All Australian states and territories (NSW, QLD, SA, WA, TAS, NT, ACT)
+
+### Current Legislation Coverage
 - **Federal:** Fair Work Act 2009, Fair Work Regulations 2009, 10 Modern Awards
 - **Victorian:** OHS Act 2004, Equal Opportunity Act 2010, Long Service Leave Act 2018, Workers Compensation Act 1958, Accident Compensation Act 1985
+
+### Testing & Quality
+111 tests passing, 82.75% coverage, zero mocks, full type safety with mypy strict mode
 
 ## Installation
 
