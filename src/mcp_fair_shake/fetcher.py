@@ -630,15 +630,15 @@ class LegislationFetcher:
     def _parse_html_content(self, html: str, title: str) -> str:
         """Parse HTML to extract legislation text.
 
-        Uses BeautifulSoup to extract actual legislation content from HTML.
-        Removes scripts, styles, navigation, and other non-content elements.
+        Handles legislation.gov.au EPUB content with proper structure preservation.
+        Detects TOC pages with iframes and downloads the actual EPUB content.
 
         Args:
             html: HTML content
             title: Title of the legislation
 
         Returns:
-            Extracted text content with basic formatting preserved
+            Extracted text content with hierarchical structure preserved
         """
         try:
             from bs4 import BeautifulSoup
@@ -653,12 +653,143 @@ class LegislationFetcher:
         # Parse HTML
         soup = BeautifulSoup(html, "html.parser")
 
+        # Check if this is a legislation.gov.au TOC page with iframe
+        iframe = soup.find("iframe")
+        if iframe and iframe.get("src") and "epub/OEBPS" in iframe["src"]:
+            # This is a TOC page - download the actual EPUB content
+            epub_url = iframe["src"]
+
+            # Make URL absolute if needed
+            if not epub_url.startswith("http"):
+                base_url = "https://www.legislation.gov.au"
+                epub_url = base_url + epub_url if epub_url.startswith("/") else base_url + "/" + epub_url
+
+            # Download EPUB content
+            try:
+                response = self.client.get(epub_url)
+                response.raise_for_status()
+                html = response.text
+                soup = BeautifulSoup(html, "html.parser")
+            except Exception as e:
+                return f"# {title}\n\n[ERROR: Failed to download EPUB content: {e}]\n"
+
         # Remove script and style elements
         for element in soup(["script", "style", "noscript"]):
             element.decompose()
 
-        # Try to find main content areas (common patterns)
-        # Try different selectors for legislation websites
+        # Check if this is EPUB content (has ActHead classes)
+        has_epub_classes = soup.find("p", class_=lambda c: c and any(
+            cls in c for cls in ["ActHead2", "ActHead3", "ActHead5", "subsection", "paragraph"]
+        ))
+
+        if has_epub_classes:
+            # Parse EPUB structure with class-based hierarchy
+            return self._parse_epub_structure(soup, title)
+        else:
+            # Fallback to generic HTML parsing
+            return self._parse_generic_html(soup, title)
+
+    def _parse_epub_structure(self, soup, title: str) -> str:
+        """Parse legislation.gov.au EPUB structure.
+
+        Maps EPUB paragraph classes to legislation hierarchy:
+        - ActHead2 = Part (e.g., "Part 1-1—Introduction")
+        - ActHead3 = Division (e.g., "Division 1—Preliminary")
+        - ActHead5 = Section (e.g., "1  Short title")
+        - subsection class = Subsection content with (1), (2) markers
+        - paragraph class = Paragraph content with (a), (b) markers
+        """
+        import re
+
+        lines = [f"# {title}\n"]
+
+        # Find all paragraph elements
+        paragraphs = soup.find_all("p")
+
+        for p in paragraphs:
+            classes = p.get("class", [])
+            text = p.get_text(strip=True)
+
+            if not text or len(text) < 2:
+                continue
+
+            # Part headings (ActHead2)
+            if "ActHead2" in classes:
+                # Extract part number and title from "Part1‑1—Introduction" (NO space in EPUB!)
+                if text.startswith("Part"):
+                    # Insert space after "Part" to match parser expectations
+                    part_text = text.replace("Part", "Part ", 1)
+                    lines.append(f"\nCollapse{part_text}")
+                    continue
+
+            # Division headings (ActHead3)
+            if "ActHead3" in classes:
+                # Extract division number and title from "Division1—Preliminary" (NO space in EPUB!)
+                if text.startswith("Division"):
+                    # Insert space after "Division" to match parser expectations
+                    div_text = text.replace("Division", "Division ", 1)
+                    lines.append(f"\nCollapse{div_text}")
+                    continue
+
+            # Section headings (ActHead5)
+            if "ActHead5" in classes:
+                # EPUB structure: <p class="ActHead5"><span class="CharSectno">1</span><span>Short title</span></p>
+                # Extract section number from CharSectno span
+                sectno_span = p.find("span", class_="CharSectno")
+                if sectno_span:
+                    section_num = sectno_span.get_text(strip=True)
+                    # Get title from all other spans (not CharSectno)
+                    title_parts = []
+                    for span in p.find_all("span"):
+                        if "CharSectno" not in span.get("class", []):
+                            title_parts.append(span.get_text(strip=True))
+
+                    section_title = "".join(title_parts).strip()
+
+                    if section_title:
+                        # Insert double space to match parser expectations
+                        lines.append(f"\n{section_num}  {section_title}")
+                        continue
+
+            # Subsection content
+            if "subsection" in classes or "SubsectionHead" in classes:
+                # Preserve subsection markers like "(1)", "(2)", "(2a)"
+                lines.append(text)
+                continue
+
+            # Paragraph content
+            if "paragraph" in classes or "paragraphsub" in classes:
+                # Preserve paragraph markers like "(a)", "(b)", "(aa)"
+                lines.append(text)
+                continue
+
+            # Definition content
+            if "Definition" in classes:
+                lines.append(text)
+                continue
+
+            # Skip metadata classes
+            if any(cls in classes for cls in ["TOC1", "TOC2", "TOC3", "TOC4", "TOC5",
+                                               "ShortT", "CompiledActNo", "Header",
+                                               "notetext", "notepara"]):
+                continue
+
+            # Include other substantial paragraph content
+            if len(text) > 10:
+                lines.append(text)
+
+        # Join with newlines and clean up
+        content = "\n".join(lines)
+
+        # Remove excessive newlines (but keep structure)
+        while "\n\n\n\n" in content:
+            content = content.replace("\n\n\n\n", "\n\n\n")
+
+        return content
+
+    def _parse_generic_html(self, soup, title: str) -> str:
+        """Fallback generic HTML parser for non-EPUB content."""
+        # Try to find main content areas
         content_selectors = [
             "main",
             'div[class*="content"]',
@@ -666,7 +797,7 @@ class LegislationFetcher:
             'div[class*="legislation"]',
             "article",
             'div[role="main"]',
-            "body",  # Fallback to body
+            "body",
         ]
 
         content_div = None
@@ -679,17 +810,12 @@ class LegislationFetcher:
             content_div = soup.find("body") or soup
 
         # Extract text with some structure preservation
-        lines = []
-        lines.append(f"# {title}\n")
+        lines = [f"# {title}\n"]
 
         # Find all headings and paragraphs
         for element in content_div.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "div"]):
             text = element.get_text(strip=True)
-            if not text:
-                continue
-
-            # Skip very short text (likely navigation/metadata)
-            if len(text) < 3:
+            if not text or len(text) < 3:
                 continue
 
             # Format based on element type
@@ -702,7 +828,6 @@ class LegislationFetcher:
             elif element.name == "li":
                 lines.append(f"- {text}")
             elif element.name == "div":
-                # Only include div text if it's substantial and doesn't have child block elements
                 if len(text) > 20 and not element.find(["h1", "h2", "h3", "p", "div"]):
                     lines.append(f"{text}\n")
 
@@ -715,7 +840,6 @@ class LegislationFetcher:
 
         # Ensure we got some content
         if len(content.strip()) < 100:
-            # Fallback: just get all text
             all_text = soup.get_text(separator="\n", strip=True)
             content = f"# {title}\n\n{all_text}"
 

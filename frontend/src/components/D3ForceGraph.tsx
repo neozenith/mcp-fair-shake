@@ -23,6 +23,7 @@ export function D3ForceGraph() {
   const [data, setData] = useState<GraphData | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [expandedNodes, setExpandedNodes] = useState<Set<string>>(new Set())
 
   useEffect(() => {
     const backendUrl = import.meta.env.VITE_BACKEND_URL || 'http://localhost:8100'
@@ -39,6 +40,34 @@ export function D3ForceGraph() {
       })
   }, [])
 
+  // Helper function to check if a node should be visible
+  const isNodeVisible = (node: Node): boolean => {
+    // Top-level nodes (no parent) are always visible
+    const nodeWithParent = node as Node & { parent?: string }
+    if (!nodeWithParent.parent) return true
+
+    // Child nodes are only visible if their parent is expanded
+    return expandedNodes.has(nodeWithParent.parent)
+  }
+
+  // Helper function to check if a node has children
+  const hasChildren = (nodeId: string): boolean => {
+    return data?.edges.some(edge => edge.source === nodeId) ?? false
+  }
+
+  // Toggle expand/collapse
+  const toggleNode = (nodeId: string) => {
+    setExpandedNodes(prev => {
+      const next = new Set(prev)
+      if (next.has(nodeId)) {
+        next.delete(nodeId)
+      } else {
+        next.add(nodeId)
+      }
+      return next
+    })
+  }
+
   useEffect(() => {
     if (!data || !svgRef.current) return
 
@@ -49,13 +78,16 @@ export function D3ForceGraph() {
     // Clear previous content
     svg.selectAll('*').remove()
 
-    // Create graph data with positions
-    const nodes = data.nodes.map(d => ({ ...d }))
-    const links = data.edges.map(d => ({ ...d }))
+    // Filter visible nodes and their edges
+    const visibleNodes = data.nodes.filter(isNodeVisible).map(d => ({ ...d }))
+    const visibleNodeIds = new Set(visibleNodes.map(n => n.id))
+    const visibleLinks = data.edges
+      .filter(edge => visibleNodeIds.has(edge.source) && visibleNodeIds.has(edge.target))
+      .map(d => ({ ...d }))
 
-    // Create force simulation
-    const simulation = d3.forceSimulation(nodes as any)
-      .force('link', d3.forceLink(links).id((d: any) => d.id).distance(100))
+    // Create force simulation with visible nodes
+    const simulation = d3.forceSimulation(visibleNodes as any)
+      .force('link', d3.forceLink(visibleLinks).id((d: any) => d.id).distance(100))
       .force('charge', d3.forceManyBody().strength(-300))
       .force('center', d3.forceCenter(width / 2, height / 2))
 
@@ -71,42 +103,110 @@ export function D3ForceGraph() {
 
     svg.call(zoom as any)
 
-    // Create links
+    // Create links (using visible links)
     const link = g.append('g')
       .selectAll('line')
-      .data(links)
+      .data(visibleLinks)
       .join('line')
       .attr('stroke', '#999')
       .attr('stroke-opacity', 0.6)
       .attr('stroke-width', 2)
 
-    // Create nodes
+    // Color mapping for different legislation types
+    const getNodeColor = (d: any) => {
+      switch (d.type) {
+        case 'federal-act':
+          return '#3b82f6' // Blue for federal acts
+        case 'modern-award':
+          return '#10b981' // Green for modern awards
+        case 'state-act':
+          return '#f59e0b' // Amber for state acts
+        case 'part':
+          return '#8b5cf6' // Purple for parts
+        case 'division':
+          return '#ec4899' // Pink for divisions
+        case 'section':
+          return '#06b6d4' // Cyan for sections
+        default:
+          return '#6b7280' // Gray for others
+      }
+    }
+
+    // Size mapping (hierarchy: acts > parts > divisions > sections)
+    const getNodeSize = (d: any) => {
+      switch (d.type) {
+        case 'federal-act':
+          return 25
+        case 'modern-award':
+          return 18
+        case 'state-act':
+          return 20
+        case 'part':
+          return 15
+        case 'division':
+          return 12
+        case 'section':
+          return 10
+        default:
+          return 8
+      }
+    }
+
+    // Create nodes (using visible nodes)
     const node = g.append('g')
       .selectAll('circle')
-      .data(nodes)
+      .data(visibleNodes)
       .join('circle')
-      .attr('r', 20)
-      .attr('fill', (d: any) => d.type === 'act' ? '#3b82f6' : '#10b981')
+      .attr('r', getNodeSize)
+      .attr('fill', getNodeColor)
+      .attr('stroke', (d: any) => hasChildren(d.id) ? '#fbbf24' : '#fff')
+      .attr('stroke-width', (d: any) => hasChildren(d.id) ? 3 : 2)
+      .style('cursor', (d: any) => hasChildren(d.id) ? 'pointer' : 'default')
+      .on('click', (event: any, d: any) => {
+        event.stopPropagation()
+        if (hasChildren(d.id)) {
+          toggleNode(d.id)
+        }
+      })
       .call(d3.drag<any, any>()
         .on('start', dragstarted)
         .on('drag', dragged)
         .on('end', dragended) as any
       )
 
-    // Add labels
+    // Add labels (using visible nodes)
     const labels = g.append('g')
       .selectAll('text')
-      .data(nodes)
+      .data(visibleNodes)
       .join('text')
-      .text((d: any) => d.label)
-      .attr('font-size', 12)
-      .attr('dx', 25)
+      .text((d: any) => {
+        // Add +/- indicator for expandable nodes
+        const indicator = hasChildren(d.id) ? (expandedNodes.has(d.id) ? '− ' : '+ ') : ''
+        return indicator + d.label
+      })
+      .attr('font-size', 10)
+      .attr('dx', 30)
       .attr('dy', 4)
       .attr('fill', '#374151')
+      .attr('font-weight', (d: any) => d.type === 'federal-act' ? 'bold' : 'normal')
+      .style('cursor', (d: any) => hasChildren(d.id) ? 'pointer' : 'default')
+      .on('click', (event: any, d: any) => {
+        event.stopPropagation()
+        if (hasChildren(d.id)) {
+          toggleNode(d.id)
+        }
+      })
 
     // Add title tooltips
     node.append('title')
-      .text((d: any) => `${d.label}\nType: ${d.type}`)
+      .text((d: any) => {
+        let info = `${d.label}\nType: ${d.type}`
+        if (d.jurisdiction) info += `\nJurisdiction: ${d.jurisdiction}`
+        if (d.industry) info += `\nIndustry: ${d.industry}`
+        if (d.parent) info += `\nParent: ${d.parent}`
+        if (d.summary) info += `\n\nSummary: ${d.summary}`
+        return info
+      })
 
     // Update positions on tick
     simulation.on('tick', () => {
@@ -147,7 +247,7 @@ export function D3ForceGraph() {
     return () => {
       simulation.stop()
     }
-  }, [data])
+  }, [data, expandedNodes])
 
   if (loading) {
     return (

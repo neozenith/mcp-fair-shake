@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "canonical_id": "/au-federal/fwa/2009/part-3-2",
+    "title": "Fair Work Act 2009 - Part 3-2: Unfair Dismissal",
+    "jurisdiction": "au-federal",
+    "parent_act": "fwa-2009",
+    "last_updated": "2025-12-27",
+    "description": "Detailed section-level structure for Fair Work Act 2009 Part 3-2 (Unfair Dismissal provisions)"
+  },
+  "nodes": [
+    {
+      "id": "fwa-2009-part-3-2",
+      "label": "Part 3-2: Unfair Dismissal",
+      "type": "part",
+      "parent": "fwa-2009",
+      "jurisdiction": "Federal"
+    },
+    {
+      "id": "fwa-2009-div-2",
+      "label": "Division 2: Applications for unfair dismissal",
+      "type": "division",
+      "parent": "fwa-2009-part-3-2",
+      "jurisdiction": "Federal"
+    },
+    {
+      "id": "fwa-2009-s382",
+      "label": "Section 382: Application",
+      "type": "section",
+      "parent": "fwa-2009-div-2",
+      "jurisdiction": "Federal",
+      "summary": "Person protected from unfair dismissal may apply to FWC"
+    },
+    {
+      "id": "fwa-2009-s383",
+      "label": "Section 383: Period for application",
+      "type": "section",
+      "parent": "fwa-2009-div-2",
+      "jurisdiction": "Federal",
+      "summary": "Must apply within 21 days of dismissal taking effect"
+    },
+    {
+      "id": "fwa-2009-s384",
+      "label": "Section 384: Circumstances when application may not be made",
+      "type": "section",
+      "parent": "fwa-2009-div-2",
+      "jurisdiction": "Federal"
+    },
+    {
+      "id": "fwa-2009-div-3",
+      "label": "Division 3: Unfair dismissal--what it is",
+      "type": "division",
+      "parent": "fwa-2009-part-3-2",
+      "jurisdiction": "Federal"
+    },
+    {
+      "id": "fwa-2009-s385",
+      "label": "Section 385: Definitions",
+      "type": "section",
+      "parent": "fwa-2009-div-3",
+      "jurisdiction": "Federal"
+    },
+    {
+      "id": "fwa-2009-s386",
+      "label": "Section 386: What is an unfair dismissal",
+      "type": "section",
+      "parent": "fwa-2009-div-3",
+      "jurisdiction": "Federal",
+      "summary": "Person dismissed if employer terminated employment, or forced resignation"
+    },
+    {
+      "id": "fwa-2009-s387",
+      "label": "Section 387: Criteria for harsh, unjust or unreasonable",
+      "type": "section",
+      "parent": "fwa-2009-div-3",
+      "jurisdiction": "Federal",
+      "summary": "FWC must consider valid reason, notification, opportunity to respond, size of business, etc."
+    },
+    {
+      "id": "fwa-2009-div-5",
+      "label": "Division 5: Remedies",
+      "type": "division",
+      "parent": "fwa-2009-part-3-2",
+      "jurisdiction": "Federal"
+    },
+    {
+      "id": "fwa-2009-s390",
+      "label": "Section 390: When FWC may order remedy",
+      "type": "section",
+      "parent": "fwa-2009-div-5",
+      "jurisdiction": "Federal"
+    },
+    {
+      "id": "fwa-2009-s391",
+      "label": "Section 391: Remedy--reinstatement",
+      "type": "section",
+      "parent": "fwa-2009-div-5",
+      "jurisdiction": "Federal",
+      "summary": "FWC may order employer to reinstate employee"
+    },
+    {
+      "id": "fwa-2009-s392",
+      "label": "Section 392: Remedy--compensation",
+      "type": "section",
+      "parent": "fwa-2009-div-5",
+      "jurisdiction": "Federal",
+      "summary": "FWC may order compensation capped at 6 months pay"
+    }
+  ],
+  "edges": [
+    {
+      "source": "fwa-2009",
+      "target": "fwa-2009-part-3-2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-part-3-2",
+      "target": "fwa-2009-div-2",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-div-2",
+      "target": "fwa-2009-s382",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-div-2",
+      "target": "fwa-2009-s383",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-div-2",
+      "target": "fwa-2009-s384",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-part-3-2",
+      "target": "fwa-2009-div-3",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-div-3",
+      "target": "fwa-2009-s385",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-div-3",
+      "target": "fwa-2009-s386",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-div-3",
+      "target": "fwa-2009-s387",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-part-3-2",
+      "target": "fwa-2009-div-5",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-div-5",
+      "target": "fwa-2009-s390",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-div-5",
+      "target": "fwa-2009-s391",
+      "type": "contains",
+      "label": "Contains"
+    },
+    {
+      "source": "fwa-2009-div-5",
+      "target": "fwa-2009-s392",
+      "type": "contains",
+      "label": "Contains"
+    }
+  ]
+}

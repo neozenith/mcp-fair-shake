@@ -332,6 +332,57 @@ mcp-fair-shake
 uv run mcp-fair-shake
 ```
 
+### Frontend Development
+
+```bash
+# Install frontend dependencies
+make frontend-install
+
+# Run development servers (Human Developer Mode)
+make frontend-dev
+# Backend:  http://localhost:8100
+# Frontend: http://localhost:5273
+
+# Run development servers (Agentic Coding Mode)
+make frontend-agentic-dev
+# Backend:  http://localhost:8101
+# Frontend: http://localhost:5274
+
+# Run quality checks (lint + type-check)
+make frontend-check
+
+# Run tests (when implemented)
+make frontend-test
+
+# Build for production
+make frontend-build
+```
+
+**Port Separation Strategy:**
+
+To avoid port conflicts between human developers and agentic coding sessions, we use separate port sets:
+
+| Mode | Backend Port | Frontend Port | Use Case |
+|------|--------------|---------------|----------|
+| **Human Developer** | 8100 | 5273 | Manual development, debugging, testing |
+| **Agentic Coding** | 8101 | 5274 | Claude Code automated work, CI/CD |
+
+**Why This Matters:**
+- Human developers can keep their dev servers running while Claude Code works
+- No "port already in use" errors that break workflows
+- Clear separation of concerns
+- Parallel development possible
+
+**Commands:**
+- Human: `make frontend-dev` or `npm --prefix frontend run dev`
+- Agentic: `make frontend-agentic-dev` or `npm --prefix frontend run agentic-dev`
+
+**Frontend Quality Standards:**
+- ✅ `make frontend-check` must pass (ESLint + TypeScript)
+- ✅ `make frontend-build` must succeed
+- ✅ All React components must be type-safe
+- ✅ No `any` types except in D3/Deck.gl visualization code (acceptable for complex library types)
+
 ## Architecture & Design Principles
 
 ### Core Philosophy: Pragmatic Minimalism

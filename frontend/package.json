@@ -8,12 +8,10 @@
     "agentic-dev": "concurrently --kill-others --names \"backend,frontend\" --prefix-colors \"blue,green\" \"BACKEND_PORT=8101 uv run uvicorn mcp_fair_shake.api:app --reload --port 8101\" \"VITE_BACKEND_URL=http://localhost:8101 vite --port 5274\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "type-check": "tsc --noEmit",
     "preview": "vite preview"
   },
   "dependencies": {
-    "@deck.gl/core": "^9.0.0",
-    "@deck.gl/layers": "^9.0.0",
-    "@deck.gl/react": "^9.0.0",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",

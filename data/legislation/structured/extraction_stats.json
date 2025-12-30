@@ -1,0 +1,42 @@
+{
+  "total_acts": 3,
+  "successful": 3,
+  "failed": 0,
+  "total_nodes": 5676,
+  "acts": [
+    {
+      "code": "fwa-2009",
+      "nodes": 4157,
+      "types": {
+        "act": 1,
+        "section": 458,
+        "part": 8,
+        "division": 48,
+        "subsection": 1276,
+        "paragraph": 2366
+      }
+    },
+    {
+      "code": "ma-000005",
+      "nodes": 300,
+      "types": {
+        "act": 1,
+        "section": 112,
+        "paragraph": 185,
+        "subsection": 2
+      }
+    },
+    {
+      "code": "fwr-2009",
+      "nodes": 1219,
+      "types": {
+        "act": 1,
+        "section": 97,
+        "part": 41,
+        "division": 47,
+        "paragraph": 758,
+        "subsection": 275
+      }
+    }
+  ]
+}

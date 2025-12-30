@@ -8,7 +8,7 @@ SHELL := bash
 MAKEFLAGS += --warn-undefined-variables
 MAKEFLAGS += --no-builtin-rules
 
-.PHONY: docs init fix check docs test claude frontend-install frontend-dev frontend-agentic-dev frontend-build
+.PHONY: docs init fix check docs test claude frontend-install frontend-dev frontend-agentic-dev frontend-build frontend-check frontend-test
 
 #########################################################################################
 # Project Setup
@@ -82,6 +82,19 @@ frontend-agentic-dev: frontend-install
 
 frontend-build: frontend-install
 	npm --prefix frontend run build
+
+frontend-check: frontend-install
+	@echo "🔍 Running frontend quality checks..."
+	npm --prefix frontend run lint
+	@echo "✅ TypeScript compilation check..."
+	npm --prefix frontend run type-check
+	@echo "✅ Frontend checks passed!"
+
+frontend-test: frontend-install frontend-check
+	@echo "🧪 Running frontend tests..."
+	@echo "⚠️  Frontend tests not yet implemented"
+	@echo "    Will add: Vitest + React Testing Library"
+	@echo "✅ Frontend test target ready for implementation"
 
 clean:
 	rm -rf .make

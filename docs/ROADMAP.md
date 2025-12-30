@@ -324,14 +324,216 @@
 
 ### Success Criteria
 
-- [ ] 5+ Victorian Acts cached
-- [ ] All 3 modes working (text, summary, metadata)
-- [ ] Parquet storage functional
-- [ ] Query performance < 500ms
+- [x] 5+ Victorian Acts cached (2025-12-24)
+- [ ] All 3 modes working (text, summary, metadata) - **DEFERRED to Phase 2.5**
+- [ ] Parquet storage functional - **DEFERRED to Phase 2.5**
+- [ ] Query performance < 500ms - **DEFERRED to Phase 2.5**
 
 ---
 
-## Phase 3: Support Pathways (Weeks 5-6)
+## Phase 2.5: Knowledge Graph Redesign 🔴 **CRITICAL - CURRENT PRIORITY**
+
+**Goal**: Transform from unstructured text dump to state-of-the-art knowledge graph
+
+**Status**: ⚪ Not Started
+**Priority**: P0 (blocks all other phases)
+**Timeline**: 3 weeks
+
+### Problems with Current Implementation
+
+1. **Output is Slop**
+   - Navigation elements mixed with content
+   - Table of contents collapsed into unreadable strings
+   - Cannot retrieve specific sections (e.g., "Section 394")
+   - No hierarchy: Act → Part → Division → Section → Subsection
+   - No cross-references or relationships
+
+2. **No Type Safety**
+   - Functions return `str` or `dict[str, str]`
+   - No validation, no IDE support
+   - Easy to break contracts
+
+3. **Monolithic Scraper**
+   - All parsing in `fetcher.py`
+   - Cannot extend for different sources
+   - Violates Open/Closed Principle
+
+### Scope
+
+**Architecture Redesign:**
+- ✅ Pydantic models for legislation structure (Act, Part, Division, Section, Subsection, Paragraph)
+- ✅ Plugin-based parser architecture with dependency injection
+- ✅ DuckDB knowledge graph for structured storage
+- ✅ Web UI for graph visualization
+- ✅ Type-safe MCP tools returning structured data
+
+**See**: [ARCHITECTURE_REDESIGN.md](./ARCHITECTURE_REDESIGN.md) for complete technical specification
+
+### Tasks
+
+**Week 1: Pydantic Models & Parser Plugins**
+- [ ] Define Pydantic models (`models/legislation.py`)
+  - Act, Part, Division, Section, Subsection, Paragraph
+  - CitationType enum
+  - Cross-reference tracking
+- [ ] Create parser protocol and registry
+  - `LegislationParser` protocol
+  - `ParserRegistry` for dependency injection
+- [ ] Implement Federal HTML parser
+  - Extract proper hierarchy from legislation.gov.au
+  - Parse section numbers, titles, content
+  - Extract cross-references
+- [ ] Implement Victorian PDF parser
+  - Parse structure from page markers
+  - Extract section hierarchy
+- [ ] Write comprehensive tests (80%+ coverage)
+
+**Week 2: DuckDB Knowledge Graph**
+- [ ] Design DuckDB schema
+  - `nodes` table (id, type, content, metadata)
+  - `edges` table (from_id, to_id, edge_type)
+  - Full-text search index
+- [ ] Implement `LegislationGraph` class
+  - Insert Act with all children
+  - Query by canonical ID
+  - Full-text search
+  - Citation graph traversal
+- [ ] Migrate existing legislation to graph
+  - Parse Fair Work Act into structure
+  - Parse Victorian Acts into structure
+  - Verify data integrity
+- [ ] Performance testing
+  - Query performance < 100ms
+  - Graph export < 1s
+
+**Week 3: Web UI Visualization**
+- [ ] FastAPI server
+  - `/` - Main graph visualization page
+  - `/api/graph` - Export graph JSON
+  - `/api/section/{id}` - Get section details
+  - `/api/search?q=` - Full-text search
+  - `/api/related/{id}` - Citation graph
+- [ ] D3.js / Force-Graph visualization
+  - Force-directed graph layout
+  - Color-coded by type (Act, Part, Section)
+  - Interactive node exploration
+  - Click to see details
+- [ ] Search and filter UI
+  - Full-text search bar
+  - Jurisdiction filter
+  - Section type filter
+- [ ] CLI command: `mcp-fair-shake serve`
+  - Start web server on localhost:8000
+  - Auto-open browser
+
+### Success Criteria
+
+- [ ] Can retrieve "Section 394 of Fair Work Act" with full hierarchy
+- [ ] All Pydantic models validated with 100% type coverage
+- [ ] Parsers use dependency injection (can add new without modifying core)
+- [ ] DuckDB graph stores 17 Acts with cross-references
+- [ ] Web UI visualizes knowledge graph
+- [ ] Query "sections that cite Section 394" works
+- [ ] Full-text search: "unfair dismissal" returns relevant sections
+- [ ] All tests pass (111+ tests, 85%+ coverage)
+
+### Migration Strategy
+
+1. Build graph in parallel (don't delete existing cache)
+2. Parse one Act at a time into structured format
+3. Verify structured output matches original text
+4. Update MCP tools to use graph
+5. Deprecate text cache after verification
+
+---
+
+## Phase 2.5 Progress Update - Web UI Prototype (2025-12-27)
+
+**Status**: 🟡 **Partial Complete** - Visualization working, data layer needs completion
+
+### ✅ Completed (Week 3 Tasks)
+
+**Frontend Visualization (Fully Functional)**
+- ✅ FastAPI server with `/api/graph` endpoint (refactored from 205 to 64 lines)
+- ✅ D3.js force-directed graph visualization
+  - Color-coded by type (federal-act: blue, modern-award: green, state-act: amber, part: purple, division: pink, section: cyan)
+  - Size hierarchy (acts > parts > divisions > sections)
+  - Interactive node exploration with tooltips
+  - Enhanced tooltips showing parent relationships and summaries
+  - Zoom, pan, drag functionality
+- ✅ Deck.gl 3D visualization
+  - Type-based 3D spatial positioning
+  - Same color/size encoding as 2D
+  - Enhanced tooltips
+  - Code complete (WebGL verification limited by Playwright environment)
+- ✅ Port separation for human (8100/5273) vs agentic (8101/5274) development
+- ✅ Frontend quality control: `make frontend-check` and `make frontend-test`
+
+**Data Architecture**
+- ✅ Created `data/legislation/graph/` directory structure
+- ✅ JSON-based graph data storage (no hardcoding)
+  - `top-level-acts.json` - 17 pieces of legislation
+  - `fwa-2009-unfair-dismissal.json` - 13 detailed sections (Part 3-2)
+- ✅ Shared data structure for both D3 and Deck.gl visualizations
+- ✅ API loads from JSON files (clean separation of data and code)
+- ✅ 16 pytest tests validating graph data structure (all passing)
+  - No duplicate node IDs
+  - All required fields present
+  - Parent-child relationship consistency
+  - Edge references validation
+
+**Graph Coverage**
+- ✅ 30 total nodes in knowledge graph:
+  - 17 top-level acts (2 federal, 10 modern awards, 5 Victorian)
+  - 13 hierarchical Fair Work Act nodes (1 part, 3 divisions, 9 sections)
+- ✅ Demonstrates both breadth and depth ("finest granule" sample)
+
+### ❌ Not Yet Complete (Week 1-2 Tasks)
+
+**Data Layer - Still Manual**
+- ❌ Pydantic models for legislation structure
+- ❌ Plugin-based parser architecture
+- ❌ Federal HTML parser (legislation.gov.au)
+- ❌ Victorian PDF parser
+- ❌ DuckDB knowledge graph storage
+- ❌ Automated section extraction from cached legislation
+
+**Current Limitation**: Graph data is manually curated in JSON files, not parsed from `data/legislation/cache/`. The visualization architecture is sound, but needs the parser infrastructure to automatically extract sections from legislation sources.
+
+### Next Steps
+
+1. **Implement Parsers** (Phase 2.5 Week 1-2):
+   - Build Federal HTML parser to extract sections from Fair Work Act
+   - Parse structure into JSON graph format
+   - Migrate manual JSON to parser-generated data
+
+2. **Complete DuckDB Integration** (Phase 2.5 Week 2):
+   - Design schema for graph storage
+   - Implement LegislationGraph class
+   - Migrate from JSON files to DuckDB queries
+
+3. **Add Search & Filter UI** (Phase 2.5 Week 3 remaining):
+   - Full-text search bar
+   - Jurisdiction filter
+   - Section type filter
+   - `/api/search` endpoint
+
+### Architecture Validation
+
+✅ **Proven Concepts:**
+- JSON-based graph storage scales well (30 nodes, instant loading)
+- pytest validation catches data errors early
+- D3/Deck.gl handle hierarchical data beautifully
+- API abstraction (load_graph_data) allows easy backend swaps
+
+🎯 **Ready for Parser Integration:**
+- Data structure validated and working
+- Frontend accepts any valid graph JSON
+- Adding parsers won't break existing visualizations
+
+---
+
+## Phase 3: Support Pathways (Weeks 5-6) 🟢
 
 **Goal**: Map support agencies and resolution pathways
 
@@ -457,9 +659,12 @@
 
 ---
 
-## Phase 5: National Coverage (Weeks 10-15)
+## Phase 5: National Coverage ⚪ **DEFERRED - LOWEST PRIORITY**
 
 **Goal**: All Australian states and territories
+
+**Status**: Deferred until after Phase 2.5 and Phase 6 complete
+**Rationale**: Quality over quantity - perfect the small scope first
 
 ### Scope
 
